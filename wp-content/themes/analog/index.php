@@ -47,11 +47,11 @@ nyde en god kop kaffe og god mad.</p>
                 </picture>
             </figure>
     </section>
-    <!-- <section class="gallery">
+    <section class="gallery">
         <h2>Vi serverer god mad og lækker kaffe</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ex a obcaecati dolore recusandae officiis optio earum. Quos, sed explicabo.</p>
         <div class="gallery__images container--content">
-            <figure>
+            <!--<figure>
                 <picture>
                     <source type="image/avif" srcset="
                     wp-content\uploads\2021\11\Analog-kaffebar-galleri-kaffe-380w.avif 380w,
@@ -142,11 +142,11 @@ nyde en god kop kaffe og god mad.</p>
                     sizes="(max-width: 377px) 100vw, 500px">
                     <img src="wp-content\uploads\2021\11\Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
-            </figure>
+            </figure>-->
         </div>
         <h2>Ved du ikke hvad du bestiller endnu? Kig på vores menukort</h2>
         <a href="menu" class="btn btn--secondary">Til menukortet</a>
-    </section> -->
+    </section>
     <section class="more container">
         <h2>Mere end bare en kaffebar</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing elit, sed.</p>

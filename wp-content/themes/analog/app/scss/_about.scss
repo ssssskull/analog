@@ -8,10 +8,6 @@
       grid-column-start: 2;
       grid-column-end: span 5;
     }
-    //TODO spørg de andre om span4/5 til de store
-    @include breakpoint-up(xlarge) {
-      grid-column-end: span 4;
-    }
 
     @include breakpoint-down(small) {
       margin-bottom: 6rem;
@@ -19,9 +15,10 @@
   }
 
   figure {
+    grid-column-end: span 4;
+
     @include breakpoint-up(medium) {
       grid-column-start: 8;
-      grid-column-end: span 4;
     }
 
     img {
