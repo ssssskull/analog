@@ -1,0 +1,131 @@
+@viewport {
+  orientation: portrait;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+* {
+  font-size: 1rem;
+}
+p {
+  line-height: 24px;
+  font-size: $text-base-fallback;
+  font-size: $text-base;
+  max-width: 60ch;
+}
+
+h1 {
+  font-size: $text-5xl-fallback;
+  font-size: $text-5xl;
+  font-weight: 900;
+  letter-spacing: -2px;
+  line-height: 44px;
+  text-align: center;
+  color: $clr-heading;
+
+  @include breakpoint-up(medium) {
+    font-size: $text-6xl-fallback;
+    font-size: $text-6xl;
+    letter-spacing: -4px;
+    line-height: 84px;
+  }
+}
+
+h2 {
+  font-size: $text-3xl-fallback;
+  font-size: $text-3xl;
+  line-height: 36px;
+  max-width: 30ch;
+
+  @include breakpoint-up(medium) {
+    font-size: $text-5xl-fallback;
+    font-size: $text-5xl;
+    line-height: 60px;
+  }
+}
+h3 {
+  font-size: $text-2xl-fallback;
+  font-size: $text-2xl;
+  line-height: 28px;
+
+  @include breakpoint-up(medium) {
+    font-size: $text-4xl-fallback;
+    font-size: $text-4xl;
+    line-height: 44px;
+  }
+}
+
+h4 {
+  font-size: $text-lg-fallback;
+  font-size: $text-lg;
+  line-height: 24px;
+
+  @include breakpoint-up(medium) {
+    font-size: $text-xl-fallback;
+    font-size: $text-xl;
+  }
+}
+
+//grid-system
+.gridlayout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 24px;
+  grid-auto-flow: row;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  @include breakpoint-up(medium) {
+    grid-auto-flow: column;
+    grid-template-columns: repeat(12, 1fr);
+    // padding-left: 24px;
+    // padding-right: 24px;
+  }
+}
+// Spacing
+.container {
+  margin: 0 auto;
+  @include breakpoint-up(medium) {
+    max-width: 600px;
+  }
+  @include breakpoint-up(large) {
+    max-width: 1392px;
+  }
+
+  &--py {
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+
+    @include breakpoint-up(medium) {
+      padding-top: 13rem;
+      padding-bottom: 13rem;
+    }
+  }
+}
+
+// Buttons
+.btn {
+  text-decoration: none;
+  padding: 0.7rem 0.65rem;
+  outline: none;
+  will-change: background color;
+  transition: all 0.2s ease-in-out;
+
+  &--primary {
+    //border: 1px solid $clr-heading;
+  }
+
+  &--secondary {
+    color: #8ab4f8;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+
+    &:hover {
+      color: $clr-p;
+      background: rgba(66, 63, 63, 0.8);
+    }
+  }
+}

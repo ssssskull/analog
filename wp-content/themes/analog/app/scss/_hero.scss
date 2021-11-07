@@ -1,0 +1,47 @@
+body {
+  background: $clr-p;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("../../../../uploads/2021/11/bg-new.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &::before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: hsla(27, 12%, 14%, 0.8);
+  }
+
+  &__content {
+    display: flex;
+    color: $clr-p;
+    row-gap: 1rem;
+    flex-direction: column;
+    z-index: 1;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  &__title {
+    font-style: normal;
+    max-width: 32ch;
+  }
+
+  &__indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

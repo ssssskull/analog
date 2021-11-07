@@ -1,0 +1,26 @@
+.notfound {
+  // TODO lav om til grid
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+
+  @include breakpoint-up(large) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 1rem;
+
+    & > *:last-child {
+      margin-top: 1rem;
+    }
+
+    h1 {
+      color: $clr-p;
+    }
+  }
+}

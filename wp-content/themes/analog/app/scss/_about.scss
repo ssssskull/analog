@@ -1,0 +1,25 @@
+.about {
+  color: #000;
+  align-items: center;
+
+  &__content {
+    grid-column-end: span 4;
+    @include breakpoint-up(medium) {
+      grid-column-start: 2;
+      grid-column-end: span 5;
+    }
+  }
+
+  figure {
+    @include breakpoint-up(medium) {
+      grid-column-start: 8;
+    }
+    grid-column-end: span 4;
+
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 500px;
+    }
+  }
+}
