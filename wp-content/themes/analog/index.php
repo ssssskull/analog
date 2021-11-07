@@ -4,16 +4,19 @@
 get_header();?>
 <header class="header">
     <nav class="container gridlayout container--px">
-        <a href="#/" class="header__logo" title="Analog kaffebar"></a>
-        <a href="#/" class="header__toggle hide-for-desktop" id="btnHamburger" title="Navigation mobil">
-            <span></span>
-        </a>
-        <?php wp_nav_menu(array( 'container'=> false, 'menu_class' => 'header__links hide-for-mobile', 'menu_id' => false));?>
-        <div class="header__some hide-for-mobile">
-            <a href="https://www.facebook.com/analogkaffebar/" title="Analog kaffebar - Facebook"><img src="wp-content/uploads/2021/11/facebook-icon.svg" alt="Facebook ikon" loading="lazy"></a><a href="https://www.instagram.com/analog_kaffebar/" title="Analog kaffebar - Instagram"><img src="wp-content/uploads/2021/11/instagram-icon.svg" alt="Instagram ikon" loading="lazy"></a>
-        </div>
-    </nav>
-<?php wp_nav_menu(array( 'container'=> false, 'menu_class' => 'header__menu hide-for-desktop', 'menu_id' => false));?>
+        <div class="header__wrapper">
+            <a href="#/" class="header__logo" title="Analog kaffebar"></a>
+            <a href="#/" class="header__toggle hide-for-desktop" id="btnHamburger" title="Navigation mobil">
+                <span></span>
+            </a>
+            <?php wp_nav_menu(array( 'container'=> false, 'menu_class' => 'header__links hide-for-mobile', 'menu_id' => false));?>
+            <div class="header__some hide-for-mobile">
+                <a href="https://www.facebook.com/analogkaffebar/" title="Analog kaffebar - Facebook"><img src="wp-content/uploads/2021/11/facebook-icon.svg" alt="Facebook ikon" loading="lazy"></a><a href="https://www.instagram.com/analog_kaffebar/" title="Analog kaffebar - Instagram"><img src="wp-content/uploads/2021/11/instagram-icon.svg" alt="Instagram ikon" loading="lazy"></a>
+            </div>
+            </div>
+        </nav>
+        <?php wp_nav_menu(array( 'container'=> false, 'menu_class' => 'header__menu hide-for-desktop', 'menu_id' => false));?>
+
 </header>
 <section class="hero">
     <div class="hero__container container">

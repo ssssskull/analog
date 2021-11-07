@@ -179,16 +179,29 @@ h4 {
   }
 }
 
-.header nav {
+.header__wrapper {
   display: -ms-grid;
   display: grid;
-  grid-auto-flow: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+}
+
+@media (min-width: 40em) {
+  .header__wrapper {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 10;
+    grid-column: 2/12;
+  }
+}
+
+.header nav {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -202,23 +215,13 @@ h4 {
 
 .header__logo {
   -ms-grid-column: 1;
-      grid-column-start: 1;
   -ms-grid-column-span: 2;
-      grid-column-end: span 2;
+  grid-column: 1/3;
   display: block;
   width: 160px;
   height: 32px;
   background-repeat: no-repeat;
   background-image: url("../../../../uploads/2021/10/logo.svg");
-}
-
-@media (min-width: 40em) {
-  .header__logo {
-    -ms-grid-column: 2;
-        grid-column-start: 2;
-    -ms-grid-column-span: 2;
-        grid-column-end: span 2;
-  }
 }
 
 @media (min-width: 64em) {
@@ -233,9 +236,8 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   -ms-grid-column: 10;
-      grid-column-start: 10;
   -ms-grid-column-span: 2;
-      grid-column-end: span 2;
+  grid-column: 10/12;
   -webkit-column-gap: 1.5rem;
           column-gap: 1.5rem;
   justify-self: end;
@@ -255,7 +257,9 @@ h4 {
 }
 
 .header__toggle {
-  grid-column-end: 5;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
   display: -ms-grid;
   display: grid;
   place-content: center;
@@ -272,7 +276,9 @@ h4 {
 
 @media (min-width: 40em) {
   .header__toggle {
-    grid-column-end: 12;
+    -ms-grid-column: 10;
+    -ms-grid-column-span: 2;
+    grid-column: 10/12;
   }
 }
 
@@ -352,10 +358,9 @@ h4 {
   display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
-  -ms-grid-column: 5;
-      grid-column-start: 5;
-  -ms-grid-column-span: 5;
-      grid-column-end: span 5;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 6;
+  grid-column: 4/10;
   -ms-grid-column-align: center;
       justify-self: center;
 }
@@ -530,6 +535,7 @@ body {
 @media (max-width: 39.9375em) {
   .about__content {
     margin-bottom: 6rem;
+    text-align: center;
   }
 }
 

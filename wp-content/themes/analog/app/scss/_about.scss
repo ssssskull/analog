@@ -11,6 +11,7 @@
 
     @include breakpoint-down(small) {
       margin-bottom: 6rem;
+      text-align: center;
     }
   }
 
