@@ -38,11 +38,13 @@ h2 {
   font-size: $text-3xl;
   line-height: 36px;
   max-width: 30ch;
+  margin-bottom: 2.8rem;
 
   @include breakpoint-up(medium) {
     font-size: $text-5xl-fallback;
     font-size: $text-5xl;
     line-height: 60px;
+    margin-bottom: 1.6rem;
   }
 }
 h3 {

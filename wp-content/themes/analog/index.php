@@ -32,7 +32,7 @@ nyde en god kop kaffe og god mad.</p>
         <div class="about__content">
             <h2>Om Analog kaffebar</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptatum vitae ea amet! Numquam asperiores dolorem officia, pariatur mollitia recusandae, in similique a fugiat quam praesentium, eaque voluptate! Quia, saepe!
-            Nobis, aliquam assumenda! Beatae iure a totam vel ullam maiores in, magni officiis aspernatur rerum distinctio qui eligendi possimus. Enim iure non vero officiis deserunt ad tempora eius totam nemo!</p>
+            Nobis, aliquam assumenda!</p>
         </div>
         <figure>
                 <picture>
