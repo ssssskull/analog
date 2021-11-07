@@ -76,14 +76,10 @@ h4 {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 24px;
   grid-auto-flow: row;
-  padding-left: 24px;
-  padding-right: 24px;
 
   @include breakpoint-up(medium) {
     grid-auto-flow: column;
     grid-template-columns: repeat(12, 1fr);
-    // padding-left: 24px;
-    // padding-right: 24px;
   }
 }
 // Spacing
@@ -95,7 +91,15 @@ h4 {
   @include breakpoint-up(large) {
     max-width: 1392px;
   }
+  &--px {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
 
+    @include breakpoint-up(medium) {
+    }
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
   &--py {
     padding-bottom: 8rem;
     padding-top: 8rem;
@@ -110,10 +114,12 @@ h4 {
 // Buttons
 .btn {
   text-decoration: none;
-  padding: 0.7rem 0.65rem;
+  padding: 0.8rem 1.2rem;
   outline: none;
   will-change: background color;
   transition: all 0.2s ease-in-out;
+  font-size: $text-base-fallback;
+  font-size: $text-base;
 
   &--primary {
     //border: 1px solid $clr-heading;

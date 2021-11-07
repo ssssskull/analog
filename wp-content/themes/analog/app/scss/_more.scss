@@ -1,8 +1,15 @@
 .more {
-  padding: 7rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+
+  > * {
+    justify-self: center;
+    grid-column-end: span 4;
+
+    @include breakpoint-up(medium) {
+      grid-column-start: 2;
+      grid-column-end: span 10;
+    }
+  }
 
   > h2,
   > p {
@@ -12,7 +19,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 7rem 0;
-    //TODO fix shit for mobile, same way as in about should be fixed but it doesnt wanna compile
+    //TODO fix content and spans
 
     figure {
       grid-column-end: span 4;
