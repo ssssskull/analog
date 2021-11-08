@@ -150,7 +150,7 @@ nyde en god kop kaffe og god mad.</p>
             </div>
             <h3>Ved du ikke hvad du bestiller endnu?</h3>
             <h3>Kig på vores menukort</h3>
-            <a href="menu" class="btn btn--secondary">Til menukortet</a>
+            <a href="menu" class="btn btn--secondary">Til menukortet <span></span></a>
         </div>
     </section>
     <section class="more container container--py container--px gridlayout">

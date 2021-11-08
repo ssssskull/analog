@@ -126,10 +126,22 @@ h4 {
   }
 
   &--secondary {
+    justify-self: unset;
     color: #8ab4f8;
     background: transparent;
     border: none;
     border-radius: 4px;
+
+    span {
+      //TODO fix
+      content: "";
+      width: 13px;
+      height: 13px;
+      padding-left: 1rem;
+      background-image: url("../../../../uploads/2021/11/arrow.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
 
     &:hover {
       color: $clr-p;
