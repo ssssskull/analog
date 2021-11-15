@@ -55,7 +55,7 @@ nyde en god kop kaffe og god mad.</p>
             <h2>Vi serverer god mad og lækker kaffe</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ex a obcaecati dolore recusandae officiis optio earum. Quos, sed explicabo.</p>
             <div class="gallery__images">
-                <!--<figure>
+                <figure>
                     <picture>
                         <source type="image/avif" srcset="
                         wp-content\uploads\2021\11\Analog-kaffebar-galleri-kaffe-380w.avif 380w,
@@ -67,7 +67,7 @@ nyde en god kop kaffe og god mad.</p>
                         <img src="wp-content\uploads\2021\11\Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
-                <figure>
+                <!--<figure>
                     <picture>
                         <source type="image/avif" srcset="wp-content\uploads\2021\11\Analog-kaffebar-galleri-toast-380w.avif 380w,
                         wp-content\uploads\2021\11\Analog-kaffebar-galleri-toast-640w.avif 640w"
@@ -170,7 +170,7 @@ nyde en god kop kaffe og god mad.</p>
                 </picture>
             </figure>
             <div class="more__personalecontent">
-                <h2>Sig hej til vores personale</h2>
+                <h3>Sig hej til vores personale</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magnam amet quas ratione vitae dolorem nostrum est obcaecati deserunt sint exercitationem nulla, reiciendis hic. Dolor dicta consectetur repellendus labore harum.</p>
             </div>
         </div>
@@ -179,7 +179,7 @@ nyde en god kop kaffe og god mad.</p>
             <div class="more__sticky">
                 <h2>Nye ansigter samme kaffebar altid hygge</h2>
             </div>
-        </div>
+            <div class="more__events"></div>
         <div>
     </section>
 </main>
