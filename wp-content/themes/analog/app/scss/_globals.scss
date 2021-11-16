@@ -15,12 +15,33 @@ p {
   font-size: $text-base;
   max-width: 60ch;
 }
+h1 {
+  font-family: "Calibre", "Roboto", Helvetica, Arial, sans-serif;
 
+  @font-face {
+    font-family: "Calibre";
+    src: url("../fonts/CalibreBold.eot"),
+      url("../fonts/CalibreBold.woff2") format("woff2"),
+      url("../fonts/CalibreBold.woff") format("woff"),
+      url("../fonts/CalibreBold.ttf") format("truetype");
+  }
+}
+h2,
+h3 {
+  font-family: "Calibre", "Roboto", Helvetica, Arial, sans-serif;
+
+  @font-face {
+    font-family: "Calibre";
+    src: url("../fonts/CalibreBlack.eot"),
+      url("../fonts/CalibreBlack.woff2") format("woff2"),
+      url("../fonts/CalibreBlack.woff") format("woff"),
+      url("../fonts/CalibreBold.ttf") format("truetype");
+  }
+}
 h1 {
   font-size: $text-5xl-fallback;
   font-size: $text-5xl;
   font-weight: 900;
-  letter-spacing: -2px;
   line-height: 44px;
   text-align: center;
   color: $clr-heading;

@@ -1,0 +1,24 @@
+{
+  "name": "analog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production mix",
+    "dev": "mix",
+    "development": "mix",
+    "watch": "mix watch",
+    "production": "cross-env NODE_ENV=production mix",
+    "prod": "cross-env NODE_ENV=production mix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.39",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.1.0"
+  }
+}

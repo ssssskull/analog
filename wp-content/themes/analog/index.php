@@ -22,8 +22,7 @@ get_header();?>
     <div class="hero__container container">
             <div class="hero__content gridlayout container--px">
                 <h1 class="hero__title">Analog kaffebar</h1>
-                <p class="hero__subheading">En hyggelig café, hvor du både kan
-nyde en god kop kaffe og god mad.</p>
+                <p class="hero__subheading">Vi bager boller og laver lækre sandwiches og salater. Kom endelig forbi og nyd den afslappede stemning og atmosfære.</p>
                 <div class="hero__links">
                   <a href="#om-os">Lær os at kende <span></span></a>
                 </div>
@@ -33,9 +32,8 @@ nyde en god kop kaffe og god mad.</p>
 <main id="main">
     <section class="about container container--py container--px gridlayout">
         <div class="about__content">
-            <h2>Om Analog kaffebar</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptatum vitae ea amet! Numquam asperiores dolorem officia, pariatur mollitia recusandae, in similique a fugiat quam praesentium, eaque voluptate! Quia, saepe!
-            Nobis, aliquam assumenda!</p>
+            <h2>Om Analog</h2>
+            <p>Hos Analog tror vi på kraften af nærvær, hygge og gode samtaler – alt sammen over en lækker kop kaffe eller en hjemmebagt bolle. Derfor byder vi på kvalitetskaffe, -mad og -oplevelser i hjertet af Albanikvarteret.</p>
         </div>
         <figure>
                 <picture>
@@ -52,8 +50,8 @@ nyde en god kop kaffe og god mad.</p>
     </section>
     <section class="gallery ">
         <div class="gallery__wrapper container container--py container--px gridlayout">
-            <h2>Vi serverer god mad og lækker kaffe</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ex a obcaecati dolore recusandae officiis optio earum. Quos, sed explicabo.</p>
+            <h2>God mad og lækker kaffe</h2>
+            <p>... er kun en del af vores menukort. Vi laver også aftensmad ud af huset og hjemmebag for enhver smag – allerhelst lavet på lokale råvarer. Derfor kan du være sikker på, at din kaffe, din frokost eller din aftensmad hos os støtter fællesskabet og lokalsamfundet i Odense.</p>
             <div class="gallery__images">
                 <figure>
                     <picture>
@@ -148,14 +146,13 @@ nyde en god kop kaffe og god mad.</p>
                     </picture>
                 </figure>-->
             </div>
-            <h3>Ved du ikke hvad du bestiller endnu?</h3>
-            <h3>Kig på vores menukort</h3>
+            <h3>Noget der kunne friste?</h3>
             <a href="menu" class="btn btn--secondary">Til menukortet <span></span></a>
         </div>
     </section>
     <section class="more container container--py container--px gridlayout">
-        <h2>Mere end bare en kaffebar</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing elit, sed.</p>
+        <h2>Mere end en kaffebar</h2>
+        <p>På trods af navnet tilbyder vi mere end blot kaffe hos Analog. Vi tilbyder også historie, hygge og forskellige events i samarbejde med lokale kunstnere.</p>
         <div class="more__personale gridlayout">
             <figure>
                 <picture>
@@ -170,14 +167,14 @@ nyde en god kop kaffe og god mad.</p>
                 </picture>
             </figure>
             <div class="more__personalecontent">
-                <h3>Sig hej til vores personale</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magnam amet quas ratione vitae dolorem nostrum est obcaecati deserunt sint exercitationem nulla, reiciendis hic. Dolor dicta consectetur repellendus labore harum.</p>
+                <h3>Vores historie</h3>
+                <p>Fra håndværker og gymnasielærer til ejere af en kaffebar – sådan startede to mænd, som elsker mad og kaffe. Det blev til Analog kaffebar, og hos os er der plads til alle – hvad end du kommer fra lidt længere nede af gaden eller det fjerneste verdenshjørne.</p>
             </div>
         </div>
         <!-- TODO Kevin Powell video -->
         <div class="gridlayout">
             <div class="more__sticky">
-                <h2>Nye ansigter samme kaffebar altid hygge</h2>
+                <h2>Vær med til vores events og opdag lokale kunstnere</h2>
             </div>
             <div class="more__events"></div>
         <div>
