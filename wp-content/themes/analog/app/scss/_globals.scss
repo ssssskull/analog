@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Calibre";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; /* Read next point */
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+  src: local("Calibre", "Roboto", Helvetica, Arial, sans-serif),
+    url("../fonts/CalibreBold.woff2") format("woff2"),
+    url("../fonts/CalibreBold.woff") format("woff");
+}
 @viewport {
   orientation: portrait;
 }
@@ -15,33 +25,14 @@ p {
   font-size: $text-base;
   max-width: 60ch;
 }
-h1 {
-  font-family: "Calibre", "Roboto", Helvetica, Arial, sans-serif;
-
-  @font-face {
-    font-family: "Calibre";
-    src: url("../fonts/CalibreBold.eot"),
-      url("../fonts/CalibreBold.woff2") format("woff2"),
-      url("../fonts/CalibreBold.woff") format("woff"),
-      url("../fonts/CalibreBold.ttf") format("truetype");
-  }
-}
+h1,
 h2,
 h3 {
   font-family: "Calibre", "Roboto", Helvetica, Arial, sans-serif;
-
-  @font-face {
-    font-family: "Calibre";
-    src: url("../fonts/CalibreBlack.eot"),
-      url("../fonts/CalibreBlack.woff2") format("woff2"),
-      url("../fonts/CalibreBlack.woff") format("woff"),
-      url("../fonts/CalibreBold.ttf") format("truetype");
-  }
 }
 h1 {
   font-size: $text-5xl-fallback;
   font-size: $text-5xl;
-  font-weight: 900;
   line-height: 44px;
   text-align: center;
   color: $clr-heading;
@@ -49,7 +40,6 @@ h1 {
   @include breakpoint-up(medium) {
     font-size: $text-6xl-fallback;
     font-size: $text-6xl;
-    letter-spacing: -4px;
     line-height: 84px;
   }
 }
@@ -142,10 +132,6 @@ h4 {
   font-size: $text-base-fallback;
   font-size: $text-base;
 
-  &--primary {
-    //border: 1px solid $clr-heading;
-  }
-
   &--secondary {
     justify-self: unset;
     color: #8ab4f8;
@@ -159,7 +145,7 @@ h4 {
       width: 13px;
       height: 13px;
       padding-left: 1rem;
-      background-image: url("../../../../uploads/2021/11/arrow.svg");
+      //background-image: url("../../../../uploads/2021/11/arrow.svg");
       background-repeat: no-repeat;
       background-size: 100%;
     }

@@ -34,7 +34,7 @@
     width: 160px;
     height: 32px;
     background-repeat: no-repeat;
-    background-image: url("../../../../uploads/2021/10/logo.svg");
+    background-image: url("../images/svg/logo.svg");
 
     @include breakpoint-up(large) {
       width: 142px;
