@@ -44,7 +44,6 @@ h1 {
   @include breakpoint-up(large) {
     font-size: $text-6xl-fallback;
     font-size: $text-6xl;
-    line-height: 84px;
     margin-bottom: 2rem;
   }
 }

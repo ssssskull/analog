@@ -27,20 +27,21 @@
       grid-template-rows: auto auto;
     }
     //TODO fix content and spans
-  }
 
-  figure {
-    grid-column: 1/5;
-    @include breakpoint-up(medium) {
-      grid-column: 1/-1;
-    }
-    @include breakpoint-up(large) {
-      grid-column: 1/7;
-    }
+    figure {
+      grid-column: 1/5;
 
-    img {
-      width: 100%;
-      height: auto;
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      @include breakpoint-up(medium) {
+        grid-column: 1/-1;
+      }
+      @include breakpoint-up(large) {
+        grid-column: 1/7;
+      }
     }
   }
 

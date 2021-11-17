@@ -5,21 +5,25 @@
     text-align: center;
     color: $clr-p;
     display: grid;
+    @include breakpoint-down(medium) {
+      > h3 {
+        max-width: 20ch;
+      }
+    }
 
     > * {
       justify-self: center;
-      grid-column-end: span 4;
+      grid-column: 1/5;
 
       @include breakpoint-up(medium) {
-        grid-column-start: 4;
-        grid-column-end: span 6;
+        grid-column: 2/12;
       }
 
       &.btn {
-        margin-top: 2.4rem;
+        margin-top: 1.6rem;
 
         @include breakpoint-up(medium) {
-          margin-top: 3.8rem;
+          margin-top: 2rem;
         }
       }
     }

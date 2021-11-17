@@ -50,7 +50,7 @@ get_header();?>
     </section>
     <section class="gallery ">
         <div class="gallery__wrapper container container--py container--px gridlayout">
-            <h2>Vi serverer god mad og lækker kaffe</h2>
+            <h2>God mad og lækker kaffe</h2>
             <p>... som både kan nydes hos os på kaffebaren eller tages med hjem.</p>
             <div class="gallery__images">
                 <figure>
@@ -146,7 +146,7 @@ get_header();?>
                     </picture>
                 </figure>-->
             </div>
-            <h3>Noget der kunne friste?</h3>
+            <h3>Se hvad vi sælger i hus eller take-away</h3>
             <a href="menu" class="btn btn--secondary">Til menukortet <span></span></a>
         </div>
     </section>
@@ -165,6 +165,9 @@ get_header();?>
                     sizes="(max-width: 377px) 100vw, 500px">
                     <img src="wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
+            </figure>
+            <figure class="divider">
+                <span></span>
             </figure>
             <div class="more__personalecontent">
                 <h3>Vores historie</h3>

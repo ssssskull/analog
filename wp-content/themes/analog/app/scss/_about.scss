@@ -4,6 +4,7 @@
 
   &__content {
     grid-column-end: span 4;
+
     @include breakpoint-up(medium) {
       grid-column-start: 2;
       grid-column-end: 12;
@@ -14,6 +15,9 @@
 
     @include breakpoint-down(medium) {
       margin-bottom: 4rem;
+      h2 {
+        text-align: center;
+      }
     }
     @include breakpoint-down(small) {
       margin-bottom: 3rem;
