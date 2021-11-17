@@ -50,8 +50,8 @@ get_header();?>
     </section>
     <section class="gallery ">
         <div class="gallery__wrapper container container--py container--px gridlayout">
-            <h2>God mad og lækker kaffe</h2>
-            <p>... er kun en del af vores menukort. Vi laver også aftensmad ud af huset og hjemmebag for enhver smag – allerhelst lavet på lokale råvarer. Derfor kan du være sikker på, at din kaffe, din frokost eller din aftensmad hos os støtter fællesskabet og lokalsamfundet i Odense.</p>
+            <h2>Vi serverer god mad og lækker kaffe</h2>
+            <p>... som både kan nydes hos os på kaffebaren eller tages med hjem.</p>
             <div class="gallery__images">
                 <figure>
                     <picture>
@@ -174,7 +174,7 @@ get_header();?>
         <!-- TODO Kevin Powell video -->
         <div class="gridlayout">
             <div class="more__sticky">
-                <h2>Vær med til vores events og opdag lokale kunstnere</h2>
+                <h3>Vær med til vores events og opdag lokale kunstnere</h3>
             </div>
             <div class="more__events"></div>
         <div>

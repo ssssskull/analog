@@ -6,20 +6,30 @@
     grid-column-end: span 4;
     @include breakpoint-up(medium) {
       grid-column-start: 2;
-      grid-column-end: span 5;
+      grid-column-end: 12;
+    }
+    @include breakpoint-up(large) {
+      grid-column-end: 7;
     }
 
+    @include breakpoint-down(medium) {
+      margin-bottom: 4rem;
+    }
     @include breakpoint-down(small) {
-      margin-bottom: 6rem;
-      text-align: center;
+      margin-bottom: 3rem;
     }
   }
 
   figure {
-    grid-column-end: span 4;
+    grid-column: 1/-1;
 
     @include breakpoint-up(medium) {
-      grid-column-start: 8;
+      grid-column: 2/12;
+    }
+    @include breakpoint-up(large) {
+      grid-column: 8/12;
+      max-height: 550px;
+      overflow: hidden;
     }
 
     img {

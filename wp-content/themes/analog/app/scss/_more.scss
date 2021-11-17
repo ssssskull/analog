@@ -70,8 +70,11 @@
   }
 
   &__sticky {
-    grid-column-end: span 3;
-    grid-column-start: 2;
+    grid-column: 1/-1;
+    @include breakpoint-up(large) {
+      grid-column-start: 2;
+      grid-column-end: span 3;
+    }
 
     h2 {
       position: sticky;
