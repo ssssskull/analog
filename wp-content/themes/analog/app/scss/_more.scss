@@ -71,13 +71,13 @@
   }
 
   &__sticky {
-    grid-column: 1/-1;
-    @include breakpoint-up(large) {
-      grid-column-start: 2;
-      grid-column-end: span 3;
+    grid-column: 1/5;
+    @include breakpoint-down(medium) {
+      grid-column: 1/-1;
+      text-align: center;
     }
 
-    h2 {
+    h3 {
       position: sticky;
       top: 40vh;
     }
@@ -86,5 +86,14 @@
   &__events {
     background: grey;
     height: 3000px;
+    grid-column: 1/-1;
+
+    @include breakpoint-up(large) {
+      grid-column: 5/12;
+    }
   }
+
+  /* &__eventscol1 {
+    background-color: ;
+  }*/
 }

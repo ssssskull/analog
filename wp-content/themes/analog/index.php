@@ -179,7 +179,10 @@ get_header();?>
             <div class="more__sticky">
                 <h3>Vær med til vores events og opdag lokale kunstnere</h3>
             </div>
-            <div class="more__events"></div>
+            <div class="more__events">
+                <!-- <div class="more__eventscol1"></div>
+                <div class="more__eventscol2"></div> -->
+            </div>
         <div>
     </section>
 </main>

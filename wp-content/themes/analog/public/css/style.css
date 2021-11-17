@@ -556,6 +556,9 @@ body {
 
 .more {
   display: grid;
+  /* &__eventscol1 {
+    background-color: ;
+  }*/
 }
 .more > * {
   justify-self: center;
@@ -628,15 +631,15 @@ body {
   }
 }
 .more__sticky {
-  grid-column: 1/-1;
+  grid-column: 1/5;
 }
-@media (min-width: 64em) {
+@media (max-width: 63.9375em) {
   .more__sticky {
-    grid-column-start: 2;
-    grid-column-end: span 3;
+    grid-column: 1/-1;
+    text-align: center;
   }
 }
-.more__sticky h2 {
+.more__sticky h3 {
   position: -webkit-sticky;
   position: sticky;
   top: 40vh;
@@ -644,6 +647,12 @@ body {
 .more__events {
   background: grey;
   height: 3000px;
+  grid-column: 1/-1;
+}
+@media (min-width: 64em) {
+  .more__events {
+    grid-column: 5/12;
+  }
 }
 
 .notfound {
