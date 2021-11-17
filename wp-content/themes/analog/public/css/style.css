@@ -579,11 +579,12 @@ body {
 .more__personale {
   align-items: center;
   justify-content: space-between;
-  margin: 7rem 0;
+  margin: 8rem 0;
 }
-@media (max-width: 63.9375em) {
+@media (max-width: 39.9375em) {
   .more__personale {
     grid-template-rows: auto auto;
+    margin: 6rem 0;
   }
 }
 .more__personale figure {
@@ -653,6 +654,11 @@ body {
   .more__events {
     grid-column: 5/12;
   }
+}
+.more__divider {
+  height: 30px;
+  width: 100%;
+  background-image: url("../images/divider.svg");
 }
 
 .notfound {

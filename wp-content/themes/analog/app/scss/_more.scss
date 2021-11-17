@@ -20,11 +20,11 @@
   &__personale {
     align-items: center;
     justify-content: space-between;
-    margin: 7rem 0;
-    //TODO kig på h3
+    margin: 8rem 0;
 
-    @include breakpoint-down(medium) {
+    @include breakpoint-down(small) {
       grid-template-rows: auto auto;
+      margin: 6rem 0;
     }
     //TODO fix content and spans
 
@@ -91,6 +91,12 @@
     @include breakpoint-up(large) {
       grid-column: 5/12;
     }
+  }
+
+  &__divider {
+    height: 30px;
+    width: 100%;
+    //background-image: url("../images/divider.svg");
   }
 
   /* &__eventscol1 {

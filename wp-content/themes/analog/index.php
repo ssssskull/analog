@@ -153,6 +153,9 @@ get_header();?>
     <section class="more container container--py container--px gridlayout">
         <h2>Mere end en kaffebar</h2>
         <p>På trods af navnet tilbyder vi mere end blot kaffe hos Analog. Vi tilbyder også historie, hygge og forskellige events i samarbejde med lokale kunstnere.</p>
+        <div class="more__divider hide-for-desktop">
+            <figure></figure>
+        </div>
         <div class="more__personale gridlayout">
             <figure>
                 <picture>
@@ -165,9 +168,6 @@ get_header();?>
                     sizes="(max-width: 377px) 100vw, 500px">
                     <img src="wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
-            </figure>
-            <figure class="divider">
-                <span></span>
             </figure>
             <div class="more__personalecontent">
                 <h3>Vores historie</h3>
