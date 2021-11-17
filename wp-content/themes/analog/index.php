@@ -38,13 +38,13 @@ get_header();?>
         <figure>
                 <picture>
                     <source type="image/avif" srcset="
-                    wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                    wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <source type="image/webp" srcset="wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                    wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                    <source type="image/webp" srcset="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 500px">
-                    <img src="wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
     </section>
@@ -56,13 +56,13 @@ get_header();?>
                 <figure>
                     <picture>
                         <source type="image/avif" srcset="
-                        wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                        wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                        wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                        wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                        wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                        <source type="image/webp" srcset="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                        wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 500px">
-                        <img src="wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <!--<figure>
@@ -160,13 +160,13 @@ get_header();?>
             <figure>
                 <picture>
                     <source type="image/avif" srcset="
-                    wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                    wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <source type="image/webp" srcset="wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                    wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                    <source type="image/webp" srcset="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 500px">
-                    <img src="wp-content/themes/analog/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
             <div class="more__personalecontent">

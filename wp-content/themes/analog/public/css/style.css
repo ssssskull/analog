@@ -6,7 +6,7 @@
   /* Read next point */
   unicode-range: U+000-5FF;
   /* Download only latin glyphs */
-  src: local("Calibre", "Roboto", Helvetica, Arial, sans-serif), url("../fonts/CalibreBold.woff2") format("woff2"), url("../fonts/CalibreBold.woff") format("woff");
+  src: local("Calibre", "Roboto", Helvetica, Arial, sans-serif), url(../fonts/CalibreBold.woff2?737fcaccf0c2fadb8f7b75d52304d4fb) format("woff2"), url(../fonts/CalibreBold.woff?1ff2e8461fe767ef7552b41a151a985c) format("woff");
 }
 @-ms-viewport {
   orientation: portrait;
@@ -223,7 +223,7 @@ h4 {
   width: 160px;
   height: 32px;
   background-repeat: no-repeat;
-  background-image: url("../images/svg/logo.svg");
+  background-image: url(../images/logo.svg?13ecfcb8d9797497cba0f5a6dd46546f);
 }
 @media (min-width: 64em) {
   .header__logo {
@@ -383,7 +383,7 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-image: url("../images/bg-new.png");
+  background-image: url(../images/bg-new.png?cfe76e7a674a1adbc4e989bc1bade540);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -658,7 +658,7 @@ body {
 .more__divider {
   height: 30px;
   width: 100%;
-  background-image: url("../images/divider.svg");
+  background-image: url(../images/divider.svg?30b361c47369924a4e20c9f45d585500);
 }
 
 .notfound {
