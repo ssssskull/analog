@@ -24,6 +24,9 @@
 
     @include breakpoint-down(small) {
       grid-template-rows: auto auto;
+      margin: 4rem 0 6rem 0;
+    }
+    @include breakpoint-down(medium) {
       margin: 6rem 0;
     }
     //TODO fix content and spans
@@ -97,6 +100,12 @@
     height: 30px;
     width: 100%;
     background-image: url("../images/svg/divider.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 4rem;
+    @include breakpoint-up(medium) {
+      margin-top: 6rem;
+    }
   }
 
   /* &__eventscol1 {

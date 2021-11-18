@@ -584,6 +584,11 @@ body {
 @media (max-width: 39.9375em) {
   .more__personale {
     grid-template-rows: auto auto;
+    margin: 4rem 0 6rem 0;
+  }
+}
+@media (max-width: 63.9375em) {
+  .more__personale {
     margin: 6rem 0;
   }
 }
@@ -659,6 +664,14 @@ body {
   height: 30px;
   width: 100%;
   background-image: url(../images/divider.svg?30b361c47369924a4e20c9f45d585500);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 4rem;
+}
+@media (min-width: 40em) {
+  .more__divider {
+    margin-top: 6rem;
+  }
 }
 
 .notfound {
