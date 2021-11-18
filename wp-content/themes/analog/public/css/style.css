@@ -31,7 +31,6 @@ p {
   line-height: 24px;
   font-size: 16px;
   font-size: 1.6rem;
-  max-width: 60ch;
 }
 
 h1,
@@ -65,7 +64,6 @@ h2 {
   font-size: 30px;
   font-size: 3rem;
   line-height: 36px;
-  max-width: 30ch;
   margin-bottom: 1.6rem;
 }
 @media (min-width: 40em) {
@@ -554,21 +552,8 @@ body {
   }
 }
 
-.more {
-  display: grid;
-  /* &__eventscol1 {
-    background-color: ;
-  }*/
-}
 .more > * {
-  justify-self: center;
-  grid-column-end: span 4;
-}
-@media (min-width: 40em) {
-  .more > * {
-    grid-column-start: 2;
-    grid-column-end: span 10;
-  }
+  display: none;
 }
 @media (min-width: 40em) {
   .more > h2,
@@ -657,7 +642,7 @@ body {
 }
 @media (min-width: 64em) {
   .more__events {
-    grid-column: 5/12;
+    grid-column: 5/13;
   }
 }
 .more__divider {
@@ -671,6 +656,18 @@ body {
 @media (min-width: 40em) {
   .more__divider {
     margin-top: 6rem;
+  }
+}
+@media (min-width: 64em) {
+  .more__eventscol1 {
+    grid-column: 5/8;
+    background-color: red;
+  }
+}
+@media (min-width: 64em) {
+  .more__eventscol2 {
+    grid-column: 5/8;
+    background-color: red;
   }
 }
 

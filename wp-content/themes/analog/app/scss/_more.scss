@@ -1,14 +1,7 @@
 .more {
-  display: grid;
-
   > * {
-    justify-self: center;
-    grid-column-end: span 4;
-
-    @include breakpoint-up(medium) {
-      grid-column-start: 2;
-      grid-column-end: span 10;
-    }
+    display: none;
+    // TODO fix grid system, care that elems don't seem to stretch how much they should
   }
 
   > h2,
@@ -92,7 +85,7 @@
     grid-column: 1/-1;
 
     @include breakpoint-up(large) {
-      grid-column: 5/12;
+      grid-column: 5/13;
     }
   }
 
@@ -108,7 +101,16 @@
     }
   }
 
-  /* &__eventscol1 {
-    background-color: ;
-  }*/
+  &__eventscol1 {
+    @include breakpoint-up(large) {
+      grid-column: 5/8;
+      background-color: red;
+    }
+  }
+  &__eventscol2 {
+    @include breakpoint-up(large) {
+      grid-column: 5/8;
+      background-color: red;
+    }
+  }
 }

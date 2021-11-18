@@ -23,7 +23,8 @@ p {
   line-height: 24px;
   font-size: $text-base-fallback;
   font-size: $text-base;
-  max-width: 60ch;
+  //max-width: 60ch;
+  //TODO max width on text might be the thing fucking shit up
 }
 h1,
 h2,
@@ -52,7 +53,7 @@ h2 {
   font-size: $text-3xl-fallback;
   font-size: $text-3xl;
   line-height: 36px;
-  max-width: 30ch;
+  //max-width: 30ch;
   margin-bottom: 1.6rem;
 
   @include breakpoint-up(medium) {

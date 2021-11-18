@@ -156,7 +156,7 @@ get_header();?>
         <div class="more__divider hide-for-desktop">
             <figure></figure>
         </div>
-        <div class="more__personale gridlayout">
+        <div class="more__personale">
             <figure>
                 <picture>
                     <source type="image/avif" srcset="
@@ -174,17 +174,15 @@ get_header();?>
                 <p>Fra håndværker og gymnasielærer til ejere af en kaffebar – sådan startede to mænd, som elsker mad og kaffe. Det blev til Analog kaffebar, og hos os er der plads til alle – hvad end du kommer fra lidt længere nede af gaden eller det fjerneste verdenshjørne.</p>
             </div>
         </div>
-        <!-- TODO Kevin Powell video -->
         <div class="gridlayout">
             <div class="more__sticky">
                 <h3>Vær med til vores events og opdag lokale kunstnere</h3>
             </div>
             <div class="more__events">
-                <!-- <div class="more__eventscol1"></div>
-                <div class="more__eventscol2"></div> -->
+                <div class="more__eventscol1"></div>
+                <div class="more__eventscol2"></div>
             </div>
-        <div>
+        </div>
     </section>
 </main>
-
 </body>
