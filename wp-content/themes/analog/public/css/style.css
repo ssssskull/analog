@@ -175,8 +175,11 @@ h4 {
   width: 13px;
   height: 13px;
   padding-left: 1rem;
+  background-image: url(../images/arrow.svg?aabf025c447e8363167969608fc66cde);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 50%;
+  display: inline-block;
+  background-position: center right;
 }
 .btn--secondary:hover {
   color: #f7f7f7;
@@ -661,7 +664,7 @@ body {
 }
 @media (min-width: 40em) {
   .events__sticky {
-    grid-column: 2/12;
+    grid-column: 4/10;
     margin-bottom: 8rem;
   }
 }
@@ -670,6 +673,7 @@ body {
     text-align: start;
     grid-column: 2/5;
     margin-bottom: unset;
+    padding-top: 3rem;
   }
 }
 .events__sticky h3 {
@@ -698,6 +702,11 @@ body {
     row-gap: 8rem;
   }
 }
+@media (max-width: 63.9375em) {
+  .events__col1 {
+    margin-bottom: 6rem;
+  }
+}
 .events__col2 {
   background-color: red;
   align-self: center;
@@ -712,6 +721,23 @@ body {
 }
 .events__elem2 {
   background-color: yellow;
+}
+.events figure {
+  max-height: 500px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+.events figure img {
+  width: 100%;
+  height: auto;
+}
+.events h4 {
+  margin-bottom: 1.4rem;
+}
+@media (min-width: 64em) {
+  .events h4 {
+    margin-bottom: 1.6rem;
+  }
 }
 
 footer {

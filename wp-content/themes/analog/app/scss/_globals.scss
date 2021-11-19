@@ -152,14 +152,18 @@ h4 {
     border-radius: 4px;
 
     span {
-      //TODO fix
+      //TODO undersøg bedre svar
       content: "";
       width: 13px;
       height: 13px;
+      //TODO fix -- padding har indflydelse på størrelsen
       padding-left: 1rem;
-      //background-image: url("../../../../uploads/2021/11/arrow.svg");
+      background-image: url("../images/svg/arrow.svg");
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: 50%;
+      display: inline-block;
+      //TODO right align for at padding matcher med hover
+      background-position: center right;
     }
 
     &:hover {

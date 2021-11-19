@@ -174,22 +174,58 @@ get_header();?>
             </figure>
     </section>
     <section class="events container container--py container--px gridlayout">
-            <div class="events__sticky">
-                <h3>Vær med til vores events og opdag lokale kunstnere</h3>
+        <div class="events__sticky">
+            <h3>Vær med til vores events og opdag lokale kunstnere</h3>
+        </div>
+        <div class="events__col1">
+            <div class="events__elem1">
+                <figure>
+                    <picture>
+                    <source type="image/avif" srcset="
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                    sizes="(max-width: 377px) 100vw, 640px">
+                    <source type="image/webp" srcset="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                    sizes="(max-width: 377px) 100vw, 500px">
+                    <img src="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                </picture>
+            </figure>
+            <h4>Fællesyoga</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
-                <div class="events__col1">
-                    <div class="events__elem1">
-                        <h4>Fællesyoga</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    </div>
                     <div class="events__elem2">
+                    <figure>
+                <picture>
+                    <source type="image/avif" srcset="
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                    sizes="(max-width: 377px) 100vw, 640px">
+                    <source type="image/webp" srcset="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                    sizes="(max-width: 377px) 100vw, 500px">
+                    <img src="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                </picture>
+            </figure>
                         <h4>Koncerter</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="events__col2">
+                <figure>
+                    <picture>
+                    <source type="image/avif" srcset="
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                    sizes="(max-width: 377px) 100vw, 640px">
+                    <source type="image/webp" srcset="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                    wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                    sizes="(max-width: 377px) 100vw, 500px">
+                    <img src="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                </picture>
+            </figure>
                          <h4>Fællesspisning</h4>
-                         <p>Lorem, ipsum dolor sit amet consectetur </p>
+                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, suscipit</p>
                 </div>
         </section>
 </main>

@@ -7,19 +7,21 @@
   @include breakpoint-up(large) {
     padding-top: 13rem;
   }
+
   &__sticky {
     grid-column: 1/5;
     text-align: center;
     margin-bottom: 6rem;
 
     @include breakpoint-up(medium) {
-      grid-column: 2/12;
+      grid-column: 4/10;
       margin-bottom: 8rem;
     }
     @include breakpoint-up(large) {
       text-align: start;
       grid-column: 2/5;
       margin-bottom: unset;
+      padding-top: 3rem;
     }
 
     h3 {
@@ -44,6 +46,10 @@
       grid-column: 5/8;
       row-gap: 8rem;
     }
+
+    @include breakpoint-down(medium) {
+      margin-bottom: 6rem;
+    }
   }
   &__col2 {
     background-color: red;
@@ -57,5 +63,23 @@
   }
   &__elem2 {
     background-color: yellow;
+  }
+
+  figure {
+    max-height: 500px;
+    overflow: hidden;
+    margin-bottom: 3rem;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  h4 {
+    margin-bottom: 1.4rem;
+    @include breakpoint-up(large) {
+      margin-bottom: 1.6rem;
+    }
   }
 }
