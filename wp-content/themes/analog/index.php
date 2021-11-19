@@ -245,9 +245,17 @@ get_header();?>
         </div>
         <div class="footer__col3">
             <h3>Genveje</h3>
-            <a href="/#">Forside</a>
-            <a href="/#">Menu</a>
-            <a href="/#">Find os</a>
+            <ul class="footer__links">
+                <li>
+                     <a href="/#">Forside</a>
+                </li>
+                <li>
+                     <a href="/#">Menu</a>
+                </li>
+                <li>
+                     <a href="/#">Find os</a>
+                </li>
+            </ul>
         </div>
         <div class="footer__long">
             <p>Analog kaffebar © 2019 – 2021 • Albanigade 54c, 5000 Odense C, Danmark • Tlf: +45 51 51 48 40 • CVR: xxxxxxxxx</p>
