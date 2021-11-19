@@ -61,8 +61,8 @@
     }
     @include breakpoint-up(large) {
       grid-column: 8/12;
-      margin-bottom: 6rem;
       align-self: center;
+      margin-bottom: unset;
     }
   }
 

@@ -623,8 +623,8 @@ body {
 @media (min-width: 64em) {
   .more__content {
     grid-column: 8/12;
-    margin-bottom: 6rem;
     align-self: center;
+    margin-bottom: unset;
   }
 }
 .more__divider {
