@@ -1,6 +1,15 @@
 .more {
   > * {
     display: none;
+  }
+  > h2,
+  > p {
+    display: block;
+
+    grid-column: 1/5;
+    @include breakpoint-up(medium) {
+      grid-column: 2/12;
+    }
     // TODO fix grid system, care that elems don't seem to stretch how much they should
   }
 

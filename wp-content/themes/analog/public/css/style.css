@@ -555,6 +555,17 @@ body {
 .more > * {
   display: none;
 }
+.more > h2,
+.more > p {
+  display: block;
+  grid-column: 1/5;
+}
+@media (min-width: 40em) {
+  .more > h2,
+.more > p {
+    grid-column: 2/12;
+  }
+}
 @media (min-width: 40em) {
   .more > h2,
 .more > p {

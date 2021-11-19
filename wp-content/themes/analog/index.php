@@ -20,7 +20,7 @@ get_header();?>
 </header>
 <section class="hero">
     <div class="hero__container container">
-            <div class="hero__content gridlayout container--px">
+            <div class="hero__content container--px">
                 <h1 class="hero__title">Analog kaffebar</h1>
                 <p class="hero__subheading">Vi bager boller og laver lækre sandwiches og salater. Kom endelig forbi og nyd den afslappede stemning og atmosfære.</p>
                 <div class="hero__links">
