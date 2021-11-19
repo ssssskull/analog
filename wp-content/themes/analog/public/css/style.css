@@ -678,8 +678,8 @@ body {
   top: 35vh;
 }
 .events__col1, .events__col2 {
+  text-align: center;
   grid-column: 1/5;
-  height: 500px;
 }
 @media (min-width: 40em) {
   .events__col1, .events__col2 {
@@ -700,8 +700,7 @@ body {
 }
 .events__col2 {
   background-color: red;
-  display: flex;
-  align-items: center;
+  align-self: center;
 }
 @media (min-width: 64em) {
   .events__col2 {
@@ -713,10 +712,6 @@ body {
 }
 .events__elem2 {
   background-color: yellow;
-}
-.events__elem3 {
-  width: 100%;
-  background-color: forestgreen;
 }
 
 footer {

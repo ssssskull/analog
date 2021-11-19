@@ -29,8 +29,8 @@
   }
   &__col1,
   &__col2 {
+    text-align: center;
     grid-column: 1/5;
-    height: 500px;
     @include breakpoint-up(medium) {
       grid-column: 2/12;
     }
@@ -47,8 +47,7 @@
   }
   &__col2 {
     background-color: red;
-    display: flex;
-    align-items: center;
+    align-self: center;
     @include breakpoint-up(large) {
       grid-column: 9/12;
     }
@@ -58,9 +57,5 @@
   }
   &__elem2 {
     background-color: yellow;
-  }
-  &__elem3 {
-    width: 100%;
-    background-color: forestgreen;
   }
 }

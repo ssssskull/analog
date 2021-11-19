@@ -188,10 +188,8 @@ get_header();?>
                     </div>
                 </div>
                 <div class="events__col2">
-                     <div class="events__elem3">
                          <h4>Fællesspisning</h4>
                          <p>Lorem, ipsum dolor sit amet consectetur </p>
-                     </div>
                 </div>
         </section>
 </main>
