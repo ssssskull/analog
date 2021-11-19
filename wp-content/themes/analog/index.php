@@ -229,6 +229,28 @@ get_header();?>
                 </div>
         </section>
 </main>
-<footer>
+<footer class="footer container--py container--px ">
+    <div class="footer__wrapper container gridlayout">
+        <div class="footer__col1">
+            <h3>Åbningstider</h3>
+            <p>Mandag-fredag:</p>
+            <p>Lørdag:</p>
+            <p>Søndag:</p>
+            <p>Albanigade 54c, 5000 Odense C</p>
+        </div>
+        <div class="footer__col2">
+            <h3>Kontakt</h3>
+            <p>+45 51 51 48 40</p>
+            <p>analogkaffebar@gmail.com</p>
+        </div>
+        <div class="footer__col3">
+            <h3>Genveje</h3>
+            <a href="/#">Forside</a>
+            <a href="/#">Menu</a>
+            <a href="/#">Find os</a>
+        </div>
+        <div class="footer__long">
+            <p>Analog kaffebar © 2019 – 2021 • Albanigade 54c, 5000 Odense C, Danmark • Tlf: +45 51 51 48 40 • CVR: xxxxxxxxx</p>
+        </div>
 </footer>
 </body>

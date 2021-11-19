@@ -74,7 +74,7 @@ h3 {
   @include breakpoint-up(medium) {
     font-size: $text-4xl-fallback;
     font-size: $text-4xl;
-    line-height: 44px;
+    line-height: 40px;
   }
 }
 

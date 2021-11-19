@@ -28,7 +28,7 @@
 
   > figure {
     grid-column: 1/5;
-    max-height: 450px;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
 
     img {
@@ -45,14 +45,7 @@
 
   &__content {
     grid-column: 1/5;
-
-    @include breakpoint-up(medium) {
-      grid-column: 2/12;
-    }
-    @include breakpoint-up(large) {
-      grid-column: 8/12;
-      align-self: center;
-    }
+    margin-bottom: 3rem;
 
     h3 {
       margin-bottom: 2.4rem;
@@ -62,8 +55,14 @@
       }
     }
 
-    @include breakpoint-down(large) {
+    @include breakpoint-up(medium) {
+      grid-column: 2/12;
+      margin-bottom: 4rem;
+    }
+    @include breakpoint-up(large) {
+      grid-column: 8/12;
       margin-bottom: 6rem;
+      align-self: center;
     }
   }
 
