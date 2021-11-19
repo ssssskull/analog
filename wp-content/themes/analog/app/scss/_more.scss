@@ -1,4 +1,6 @@
 .more {
+  padding-bottom: unset;
+
   &__heading,
   &__description {
     grid-column: 1/5;
@@ -26,6 +28,8 @@
 
   > figure {
     grid-column: 1/5;
+    max-height: 450px;
+    overflow: hidden;
 
     img {
       width: 100%;
@@ -39,7 +43,7 @@
     }
   }
 
-  &__personalecontent {
+  &__content {
     grid-column: 1/5;
 
     @include breakpoint-up(medium) {
@@ -47,6 +51,7 @@
     }
     @include breakpoint-up(large) {
       grid-column: 8/12;
+      align-self: center;
     }
 
     h3 {

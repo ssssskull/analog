@@ -156,7 +156,7 @@ get_header();?>
         <div class="more__divider hide-for-desktop">
             <figure></figure>
         </div>
-            <div class="more__personalecontent">
+            <div class="more__content">
                 <h3>Vores historie</h3>
                 <p>Fra håndværker og gymnasielærer til ejere af en kaffebar – sådan startede to mænd, som elsker mad og kaffe. Det blev til Analog kaffebar, og hos os er der plads til alle – hvad end du kommer fra lidt længere nede af gaden eller det fjerneste verdenshjørne.</p>
             </div>
@@ -177,10 +177,24 @@ get_header();?>
             <div class="events__sticky">
                 <h3>Vær med til vores events og opdag lokale kunstnere</h3>
             </div>
-            <div class="events__content">
-                <div class="events__eventscol1"></div>
-                <div class="events__eventscol2"></div>
-            </div>
+                <div class="events__col1">
+                    <div class="events__elem1">
+                        <h4>Fællesyoga</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                    <div class="events__elem2">
+                        <h4>Koncerter</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="events__col2">
+                     <div class="events__elem3">
+                         <h4>Fællesspisning</h4>
+                         <p>Lorem, ipsum dolor sit amet consectetur </p>
+                     </div>
+                </div>
         </section>
 </main>
+<footer>
+</footer>
 </body>
