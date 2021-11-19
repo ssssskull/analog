@@ -1,16 +1,18 @@
 .more {
-  > * {
-    display: none;
-  }
-  > h2,
-  > p {
-    display: block;
-
+  &__heading,
+  &__description {
     grid-column: 1/5;
     @include breakpoint-up(medium) {
       grid-column: 2/12;
     }
-    // TODO fix grid system, care that elems don't seem to stretch how much they should
+    @include breakpoint-up(large) {
+      grid-column: 4/11;
+    }
+  }
+  &__description {
+    @include breakpoint-up(large) {
+      margin-bottom: 6rem;
+    }
   }
 
   > h2,
@@ -19,47 +21,32 @@
       text-align: center;
     }
   }
-  &__personale {
-    align-items: center;
-    justify-content: space-between;
-    margin: 8rem 0;
 
-    @include breakpoint-down(small) {
-      grid-template-rows: auto auto;
-      margin: 4rem 0 6rem 0;
+  //TODO fix content and spans
+
+  > figure {
+    grid-column: 1/5;
+
+    img {
+      width: 100%;
+      height: auto;
     }
-    @include breakpoint-down(medium) {
-      margin: 6rem 0;
+    @include breakpoint-up(medium) {
+      grid-column: 2/12;
     }
-    //TODO fix content and spans
-
-    figure {
-      grid-column: 1/5;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      @include breakpoint-up(medium) {
-        grid-column: 1/-1;
-      }
-      @include breakpoint-up(large) {
-        grid-column: 1/7;
-      }
+    @include breakpoint-up(large) {
+      grid-column: 2/7;
     }
   }
 
   &__personalecontent {
     grid-column: 1/5;
-    grid-row: 1/2;
 
     @include breakpoint-up(medium) {
-      grid-column: 1/-1;
+      grid-column: 2/12;
     }
-
     @include breakpoint-up(large) {
-      grid-column: 8/13;
+      grid-column: 8/12;
     }
 
     h3 {
@@ -75,51 +62,17 @@
     }
   }
 
-  &__sticky {
-    grid-column: 1/5;
-    @include breakpoint-down(medium) {
-      grid-column: 1/-1;
-      text-align: center;
-    }
-
-    h3 {
-      position: sticky;
-      top: 40vh;
-    }
-  }
-
-  &__events {
-    background: grey;
-    height: 3000px;
-    grid-column: 1/-1;
-
-    @include breakpoint-up(large) {
-      grid-column: 5/13;
-    }
-  }
-
   &__divider {
     height: 30px;
     width: 100%;
     background-image: url("../images/svg/divider.svg");
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 4rem;
+    margin: 4rem 0;
+    grid-column: 1/5;
     @include breakpoint-up(medium) {
-      margin-top: 6rem;
-    }
-  }
-
-  &__eventscol1 {
-    @include breakpoint-up(large) {
-      grid-column: 5/8;
-      background-color: red;
-    }
-  }
-  &__eventscol2 {
-    @include breakpoint-up(large) {
-      grid-column: 5/8;
-      background-color: red;
+      margin: 6rem 0;
+      grid-column: 2/12;
     }
   }
 }

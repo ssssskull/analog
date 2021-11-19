@@ -1,0 +1,35 @@
+.events {
+  &__sticky {
+    grid-column: 2/5;
+    @include breakpoint-down(medium) {
+      text-align: center;
+    }
+
+    h3 {
+      position: sticky;
+      top: 40vh;
+    }
+  }
+  &__content {
+    background: grey;
+    height: 3000px;
+    grid-column: 1/-1;
+
+    @include breakpoint-up(large) {
+      grid-column: 5/12;
+    }
+  }
+
+  &__col1 {
+    @include breakpoint-up(large) {
+      grid-column: 5/8;
+      background-color: red;
+    }
+  }
+  &__col2 {
+    @include breakpoint-up(large) {
+      grid-column: 5/8;
+      background-color: red;
+    }
+  }
+}

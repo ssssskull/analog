@@ -48,7 +48,7 @@ get_header();?>
                 </picture>
             </figure>
     </section>
-    <section class="gallery ">
+    <section class="gallery">
         <div class="gallery__wrapper container container--py container--px gridlayout">
             <h2>God mad og lækker kaffe</h2>
             <p>... som både kan nydes hos os på kaffebaren eller tages med hjem.</p>
@@ -151,13 +151,16 @@ get_header();?>
         </div>
     </section>
     <section class="more container container--py container--px gridlayout">
-        <h2>Mere end en kaffebar</h2>
-        <p>På trods af navnet tilbyder vi mere end blot kaffe hos Analog. Vi tilbyder også historie, hygge og forskellige events i samarbejde med lokale kunstnere.</p>
+        <h2 class="more__heading">Mere end en kaffebar</h2>
+        <p class="more__description">På trods af navnet tilbyder vi mere end blot kaffe hos Analog. Vi tilbyder også historie, hygge og forskellige events i samarbejde med lokale kunstnere.</p>
         <div class="more__divider hide-for-desktop">
             <figure></figure>
         </div>
-        <div class="more__personale">
-            <figure>
+            <div class="more__personalecontent">
+                <h3>Vores historie</h3>
+                <p>Fra håndværker og gymnasielærer til ejere af en kaffebar – sådan startede to mænd, som elsker mad og kaffe. Det blev til Analog kaffebar, og hos os er der plads til alle – hvad end du kommer fra lidt længere nede af gaden eller det fjerneste verdenshjørne.</p>
+            </div>
+        <figure>
                 <picture>
                     <source type="image/avif" srcset="
                     wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
@@ -169,20 +172,15 @@ get_header();?>
                     <img src="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
-            <div class="more__personalecontent">
-                <h3>Vores historie</h3>
-                <p>Fra håndværker og gymnasielærer til ejere af en kaffebar – sådan startede to mænd, som elsker mad og kaffe. Det blev til Analog kaffebar, og hos os er der plads til alle – hvad end du kommer fra lidt længere nede af gaden eller det fjerneste verdenshjørne.</p>
-            </div>
-        </div>
-        <div class="gridlayout">
-            <div class="more__sticky">
+    </section>
+    <section class="events container container--py container--px gridlayout">
+            <div class="events__sticky">
                 <h3>Vær med til vores events og opdag lokale kunstnere</h3>
             </div>
-            <div class="more__events">
-                <div class="more__eventscol1"></div>
-                <div class="more__eventscol2"></div>
+            <div class="events__content">
+                <div class="events__eventscol1"></div>
+                <div class="events__eventscol2"></div>
             </div>
-        </div>
-    </section>
+        </section>
 </main>
 </body>
