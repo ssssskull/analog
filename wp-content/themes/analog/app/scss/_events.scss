@@ -1,6 +1,9 @@
 .events {
   padding-top: 6rem;
 
+  p {
+    //TODO max width på ch
+  }
   @include breakpoint-up(medium) {
     padding-top: 8rem;
   }
@@ -9,7 +12,7 @@
   }
 
   &__sticky {
-    grid-column: 1/5;
+    grid-column: 2/4;
     text-align: center;
     margin-bottom: 6rem;
 
@@ -19,7 +22,7 @@
     }
     @include breakpoint-up(large) {
       text-align: start;
-      grid-column: 2/5;
+      grid-column: 2/4;
       margin-bottom: unset;
       padding-top: 3rem;
     }
@@ -27,6 +30,10 @@
     h3 {
       position: sticky;
       top: 35vh;
+      margin-bottom: unset;
+      @include breakpoint-up(large) {
+        max-width: 16ch;
+      }
     }
   }
   &__col1,
@@ -41,11 +48,15 @@
     display: flex;
     flex-direction: column;
     background-color: blue;
-    row-gap: 6rem;
+    row-gap: 8rem;
 
     @include breakpoint-down(medium) {
       margin-bottom: 8rem;
       row-gap: 8rem;
+    }
+    @include breakpoint-down(small) {
+      margin-bottom: 6rem;
+      row-gap: 6rem;
     }
 
     @include breakpoint-up(large) {

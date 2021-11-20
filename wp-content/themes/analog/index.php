@@ -151,7 +151,7 @@ get_header();?>
         </div>
     </section>
     <section class="more container container--py container--px gridlayout">
-        <h2 class="more__heading">Mere end en kaffebar</h2>
+        <h2 class="more__heading">Mere end en almindelig kaffebar</h2>
         <p class="more__description">På trods af navnet tilbyder vi mere end blot kaffe hos Analog. Vi tilbyder også historie, hygge og forskellige events i samarbejde med lokale kunstnere.</p>
         <div class="more__divider hide-for-desktop">
             <figure></figure>
@@ -175,7 +175,7 @@ get_header();?>
     </section>
     <section class="events container container--py container--px gridlayout">
         <div class="events__sticky">
-            <h3>Vær med til vores events og opdag lokale kunstnere</h3>
+            <h3>Vær med til events og opdag lokale kunstnere</h3>
         </div>
         <div class="events__col1">
             <div class="events__elem1">

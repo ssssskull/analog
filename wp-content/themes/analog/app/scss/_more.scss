@@ -1,6 +1,9 @@
 .more {
   padding-bottom: unset;
 
+  &__heading {
+    text-align: center;
+  }
   &__heading,
   &__description {
     grid-column: 1/5;

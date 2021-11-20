@@ -45,8 +45,11 @@
   }
 
   &__long {
-    grid-column: 2/12;
+    grid-column: 1/5;
 
+    @include breakpoint-up(medium) {
+      grid-column: 2/12;
+    }
     @include breakpoint-up(large) {
       margin-top: 6rem;
     }

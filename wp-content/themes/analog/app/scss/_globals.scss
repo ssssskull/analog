@@ -38,15 +38,14 @@ h1 {
   line-height: 44px;
   text-align: center;
   color: $clr-heading;
+  margin-bottom: 1.6rem;
 
   @include breakpoint-up(medium) {
     line-height: 60px;
-    margin-bottom: 1.6rem;
   }
   @include breakpoint-up(large) {
     font-size: $text-6xl-fallback;
     font-size: $text-6xl;
-    margin-bottom: 2rem;
   }
 }
 
@@ -60,7 +59,7 @@ h2 {
   @include breakpoint-up(medium) {
     font-size: $text-5xl-fallback;
     font-size: $text-5xl;
-    line-height: 40px;
+    line-height: 52px;
   }
 
   @include breakpoint-up(large) {
@@ -70,12 +69,13 @@ h2 {
 h3 {
   font-size: $text-2xl-fallback;
   font-size: $text-2xl;
-  line-height: 36px;
+  line-height: 28px;
+  margin-bottom: 1.2rem;
 
-  @include breakpoint-up(medium) {
+  @include breakpoint-up(large) {
     font-size: $text-4xl-fallback;
     font-size: $text-4xl;
-    line-height: 40px;
+    line-height: 44px;
   }
 }
 
@@ -83,14 +83,12 @@ h4 {
   font-size: $text-xl-fallback;
   font-size: $text-xl;
   line-height: 24px;
+  margin-bottom: 1.6rem;
 
-  @include breakpoint-up(medium) {
+  @include breakpoint-up(large) {
     font-size: $text-2xl-fallback;
     font-size: $text-2xl;
-  }
-  @include breakpoint-up(large) {
-    font-size: $text-3xl-fallback;
-    font-size: $text-3xl;
+    line-height: 28px;
   }
 }
 
