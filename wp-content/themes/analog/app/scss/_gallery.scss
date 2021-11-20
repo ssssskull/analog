@@ -25,34 +25,55 @@
     margin: 6rem 0;
     grid-column-end: span 4;
     background: rgb(71, 70, 70);
-    //TODO replace content with images
-    height: 600px;
     width: 100%;
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(14, 5vw);
+
+    .large {
+      grid-row: span 4;
+      @include breakpoint-down(medium) {
+        grid-row: span 5;
+
+        &:nth-of-type(2) {
+          grid-row: 3/8;
+        }
+        &:nth-of-type(3) {
+          grid-column: 2/3;
+        }
+      }
+    }
+    .thin {
+      grid-row: span 2;
+      @include breakpoint-down(medium) {
+        &:nth-of-type(3) {
+          grid-column: 2/3;
+          grid-row-start: 6;
+          grid-row-end: 8;
+        }
+        &:nth-of-type(7) {
+          grid-column: 1/2;
+          grid-row-start: 8;
+          grid-row-end: 10;
+        }
+      }
+    }
 
     @include breakpoint-up(medium) {
       grid-column-start: 2;
       grid-column-end: span 10;
     }
-    /*  grid-template-columns: repeat(2, 1fr);
 
-    @include breakpoint-up(medium) {
-      column-count: 3;
-    }
     @include breakpoint-up(large) {
-      column-count: 4;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(6, 5vw);
     }
-  }
 
-  figure {
-    display: inline-block;
-    margin-bottom: 16px;
-    width: 100%;
-  }
-
-  figure img {
-    width: 100%;
-    object-fit: cover;
-    vertical-align: middle;
-    display: inline-block;*/
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
 }
