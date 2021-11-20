@@ -1,6 +1,4 @@
 .gallery {
-  background-color: $clr-background;
-
   &__wrapper {
     text-align: center;
     color: $clr-p;
@@ -23,7 +21,6 @@
   &__images {
     margin: 6rem 0;
     grid-column-end: span 4;
-    background: rgb(71, 70, 70);
     width: 100%;
     display: grid;
     grid-gap: 18px;

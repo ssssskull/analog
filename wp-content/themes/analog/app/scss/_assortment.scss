@@ -1,0 +1,27 @@
+.assortment {
+  > * {
+    grid-column: 1/5;
+    @include breakpoint-up(medium) {
+      grid-column: 2/12;
+    }
+  }
+  &__content {
+    align-self: center;
+    margin-bottom: 3rem;
+    @include breakpoint-up(medium) {
+      margin-bottom: 4rem;
+    }
+    @include breakpoint-up(large) {
+      grid-column: 2/7;
+      margin-bottom: unset;
+    }
+  }
+
+  &__illustration {
+    background: lightsalmon;
+    height: 400px;
+    @include breakpoint-up(large) {
+      grid-column: 9/12;
+    }
+  }
+}

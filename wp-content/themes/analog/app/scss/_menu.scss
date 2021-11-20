@@ -1,0 +1,56 @@
+.menu {
+  color: $clr-p;
+  > * {
+    grid-column: 1/5;
+
+    @include breakpoint-up(medium) {
+      grid-column: 2/12;
+    }
+  }
+
+  h2 {
+    margin-bottom: 3rem;
+    @include breakpoint-up(medium) {
+      margin-bottom: 4rem;
+    }
+    @include breakpoint-down(medium) {
+      text-align: center;
+    }
+  }
+
+  &__titlerow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
+
+    figure {
+      display: block;
+      background: lightskyblue;
+      width: 50px;
+      height: auto;
+    }
+  }
+
+  &__section {
+    @include breakpoint-up(medium) {
+      grid-column: 2/9;
+    }
+    @include breakpoint-up(large) {
+      grid-column: 2/6;
+      &:nth-of-type(3) {
+        grid-column: 8/12;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 6rem;
+      @include breakpoint-up(large) {
+        margin-bottom: 8rem;
+      }
+    }
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+}

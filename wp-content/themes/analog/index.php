@@ -33,7 +33,7 @@ get_header();?>
             </div>
     </div>
 </section>
-<main id="main">
+<main>
     <section class="about container container--py container--px gridlayout">
         <div class="about__content">
             <h2>Om Analog</h2>
@@ -52,7 +52,7 @@ get_header();?>
                 </picture>
             </figure>
     </section>
-    <section class="gallery">
+    <section class="gallery dark-section">
         <div class="gallery__wrapper container container--py container--px gridlayout">
             <h2>God mad og lækker kaffe</h2>
             <p>... som både kan nydes hos os på kaffebaren eller tages med hjem.</p>
@@ -200,7 +200,7 @@ get_header();?>
                 </picture>
             </figure>
             <h4>Fællesyoga</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>Styrk både krop og sind ved den fælles yoga i samarbejde med Yogistii.</p>
             </div>
                     <div class="events__elem2">
                     <figure>
@@ -215,8 +215,8 @@ get_header();?>
                     <img src="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
-                        <h4>Koncerter</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <h4>Fællesspisning</h4>
+                    <p>Spis med venner, du ikke kender endnu. Menuen byder på noget nyt hver gang, men er altid hjemmelavet.</p>
                     </div>
                 </div>
                 <div class="events__col2">
@@ -232,8 +232,8 @@ get_header();?>
                     <img src="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
-                         <h4>Fællesspisning</h4>
-                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, suscipit</p>
+                         <h4>Koncerter</h4>
+                         <p>Oplev intimkoncerter i vores omrokerede kaffebar med lokale kunstnere.</p>
                 </div>
         </section>
 </main>

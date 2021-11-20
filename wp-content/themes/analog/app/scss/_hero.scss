@@ -20,6 +20,9 @@ body {
     background: hsla(27, 12%, 14%, 0.8);
   }
 
+  &--menu {
+    height: 70vh;
+  }
   &__content {
     color: $clr-p;
     z-index: 0;
