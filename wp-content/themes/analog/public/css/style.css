@@ -28,7 +28,8 @@ html {
 }
 
 p,
-.footer__links a {
+.footer__links a,
+.footer__col2 a {
   line-height: 24px;
   font-size: 16px;
   font-size: 1.6rem;
@@ -824,6 +825,11 @@ body {
 .footer {
   background: moccasin;
 }
+.footer a {
+  display: block;
+  color: #1d1816;
+  text-decoration: none;
+}
 .footer h3 {
   margin-bottom: 1.6rem;
 }
@@ -853,14 +859,13 @@ body {
     grid-column: 6/8;
   }
 }
+.footer__col2 a {
+  margin-top: 1.6rem;
+}
 @media (min-width: 64em) {
   .footer__col3 {
     grid-column: 9/11;
   }
-}
-.footer__links li a {
-  color: #1d1816;
-  text-decoration: none;
 }
 .footer__long {
   grid-column: 1/5;

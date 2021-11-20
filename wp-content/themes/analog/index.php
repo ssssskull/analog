@@ -251,6 +251,8 @@ og laver lækre kaffe, Sandwiches og salater</h1>
             <h3>Kontakt</h3>
             <p>+45 51 51 48 40</p>
             <p>analogkaffebar@gmail.com</p>
+            <a href="https://www.facebook.com/analogkaffebar">analogkaffebar</a>
+            <a href="https://www.instagram.com/analog_kaffebar">analog_kaffebar</a>
         </div>
         <div class="footer__col3">
             <h3>Genveje</h3>
