@@ -63,7 +63,6 @@ h2 {
   @include breakpoint-up(large) {
     font-size: $text-5xl-fallback;
     font-size: $text-5xl;
-    line-height: 60px;
   }
 }
 h3 {

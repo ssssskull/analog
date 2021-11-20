@@ -3,13 +3,13 @@
 // The post loop
 get_header();?>
 <header class="header">
-    <nav class="container gridlayout container--px">
-        <div class="header__wrapper">
+    <nav>
+        <div class="header__wrapper gridlayout container container--px">
             <a href="#/" class="header__logo" title="Analog kaffebar"></a>
             <a href="#/" class="header__toggle hide-for-desktop" id="btnHamburger" title="Navigation mobil">
                 <span></span>
             </a>
-            <?php wp_nav_menu(array( 'container'=> false, 'menu_class' => 'header__links hide-for-mobile', 'menu_id' => false));?>
+            <?php wp_nav_menu(array( 'container'=> false, 'menu_class' => 'header__links hide-for-mobile','menu_id' => false));?>
             <div class="header__some hide-for-mobile">
                 <a href="https://www.facebook.com/analogkaffebar/" title="Analog kaffebar - Facebook"><img src="wp-content/themes/analog/public/images/svg/facebook-icon.svg" alt="Facebook ikon" loading="lazy"></a><a href="https://www.instagram.com/analog_kaffebar/" title="Analog kaffebar - Instagram"><img src="wp-content/themes/analog/public/images/svg/instagram-icon.svg" alt="Instagram ikon" loading="lazy"></a>
             </div>
