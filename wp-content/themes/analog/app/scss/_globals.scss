@@ -57,12 +57,12 @@ h2 {
   margin-bottom: 1.6rem;
 
   @include breakpoint-up(medium) {
-    font-size: $text-5xl-fallback;
-    font-size: $text-5xl;
     line-height: 52px;
   }
 
   @include breakpoint-up(large) {
+    font-size: $text-5xl-fallback;
+    font-size: $text-5xl;
     line-height: 60px;
   }
 }
@@ -155,14 +155,13 @@ h4 {
       content: "";
       width: 13px;
       height: 13px;
-      //TODO fix -- padding har indflydelse på størrelsen
-      padding-left: 1rem;
       background-image: url("../images/svg/arrow.svg");
       background-repeat: no-repeat;
-      background-size: 50%;
+      background-size: 95%;
       display: inline-block;
-      //TODO right align for at padding matcher med hover
       background-position: center right;
+      display: inline-block;
+      vertical-align: middle;
     }
 
     &:hover {
