@@ -25,8 +25,9 @@ get_header();?>
 <section class="hero">
     <div class="hero__container container">
             <div class="hero__content container--px">
-                <h1 class="hero__title">Analog kaffebar</h1>
-                <p class="hero__subheading">Vi bager boller og laver lækre sandwiches og salater. Kom endelig forbi og nyd den afslappede stemning og atmosfære.</p>
+                <h1 class="hero__title">Vi bager boller
+og laver lækre kaffe, Sandwiches og salater</h1>
+                <p class="hero__subheading">Kom endelig forbi og nyd den afslappede stemning og atmosfære.</p>
                 <div class="hero__links">
                   <a href="#om-os">Lær os at kende <span></span></a>
                 </div>

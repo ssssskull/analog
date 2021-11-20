@@ -43,14 +43,15 @@ h3 {
 h1 {
   font-size: 42px;
   font-size: 4.2rem;
+  text-transform: uppercase;
   line-height: 44px;
   text-align: center;
-  color: #ecd4c0;
+  color: whitesmoke;
   margin-bottom: 1.6rem;
 }
 @media (min-width: 40em) {
   h1 {
-    line-height: 60px;
+    line-height: 68px;
   }
 }
 @media (min-width: 64em) {
@@ -184,7 +185,7 @@ h4 {
 }
 
 .dark-section {
-  background-color: #1d1816;
+  background-color: #110e0d;
 }
 
 .header {
@@ -420,10 +421,19 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-image: url(../images/bg-new.png?cfe76e7a674a1adbc4e989bc1bade540);
+  background-image: url(../images/Analog-background-image-680w.jpeg?46f40379e072e31d579a0785636893d1);
+  background-image: -webkit-image-set(url(../images/Analog-background-image-680w.avif?af0c6ec0dc6bb2ac2f47c8c35c513635) 1x, url(../images/Analog-background-image-680w.webp?11575467f638fd901237b7d21d91570d) 1x, url(../images/Analog-background-image-680w.jpeg?46f40379e072e31d579a0785636893d1) 1x);
+  background-image: image-set(url(../images/Analog-background-image-680w.avif?af0c6ec0dc6bb2ac2f47c8c35c513635) 1x, url(../images/Analog-background-image-680w.webp?11575467f638fd901237b7d21d91570d) 1x, url(../images/Analog-background-image-680w.jpeg?46f40379e072e31d579a0785636893d1) 1x);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media (min-width: 64em) {
+  .hero {
+    background-image: url(../images/Analog-background-image-1920w.jpeg?d0df6b9d021948edbf15fabbca3a8114);
+    background-image: -webkit-image-set(url(../images/Analog-background-image-1920w.avif?10b1ae5f188187a18e54531cadc86065) 1x, url(../images/Analog-background-image-1920w.webp?958f09ae33a3b33f9c9a1fa5b0a4fa7d) 1x, url(../images/Analog-background-image-1920w.jpeg?d0df6b9d021948edbf15fabbca3a8114) 1x);
+    background-image: image-set(url(../images/Analog-background-image-1920w.avif?10b1ae5f188187a18e54531cadc86065) 1x, url(../images/Analog-background-image-1920w.webp?958f09ae33a3b33f9c9a1fa5b0a4fa7d) 1x, url(../images/Analog-background-image-1920w.jpeg?d0df6b9d021948edbf15fabbca3a8114) 1x);
+  }
 }
 .hero::before {
   display: block;
@@ -431,7 +441,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(40, 35, 31, 0.8);
+  background: rgba(37, 22, 14, 0.74);
 }
 .hero--menu {
   height: 70vh;
@@ -456,7 +466,7 @@ body {
   height: 100%;
 }
 .hero__title {
-  max-width: 32ch;
+  max-width: 21ch;
 }
 .hero__indicator {
   display: flex;

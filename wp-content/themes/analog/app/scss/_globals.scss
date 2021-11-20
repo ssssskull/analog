@@ -35,13 +35,15 @@ h3 {
 h1 {
   font-size: $text-5xl-fallback;
   font-size: $text-5xl;
+  text-transform: uppercase;
   line-height: 44px;
   text-align: center;
-  color: $clr-heading;
+  color: $clr-p;
   margin-bottom: 1.6rem;
 
   @include breakpoint-up(medium) {
-    line-height: 60px;
+    line-height: 68px;
+    //TODO undersøg linebreak
   }
   @include breakpoint-up(large) {
     font-size: $text-6xl-fallback;
@@ -171,5 +173,5 @@ h4 {
 }
 // Sections
 .dark-section {
-  background-color: hsl(20, 12%, 10%);
+  background-color: $clr-section-dark;
 }
