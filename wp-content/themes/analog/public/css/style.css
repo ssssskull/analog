@@ -293,11 +293,9 @@ h4 {
 .header__toggle span::after {
   top: 8px;
 }
-.header__menu {
-  display: grid;
-  align-content: start;
+.header__menuwrapper {
   height: calc(100vh - 80px);
-  background: -moz-linear-gradient(top, rgba(41, 36, 32, 0.95), #0a0908);
+  background: -moz-linear-gradient(top, rgba(41, 36, 32, 0.98), #0a0908);
   position: absolute;
   width: 100%;
   will-change: opacity;
@@ -307,10 +305,14 @@ h4 {
   padding-top: 4rem;
 }
 @media (min-width: 40em) {
-  .header__menu {
+  .header__menuwrapper {
     height: calc(100vh - 116px);
     padding-top: 8rem;
   }
+}
+.header__menu {
+  display: grid;
+  align-content: start;
 }
 .header__menu li {
   text-align: center;
@@ -321,7 +323,8 @@ h4 {
   font-size: 18px;
   font-size: 1.8rem;
   text-decoration: none;
-  padding: 2rem 0;
+  margin: 1rem 0;
+  padding: 1rem;
   position: relative;
 }
 .header__links {
@@ -353,9 +356,9 @@ h4 {
   }
 }
 .header.open nav {
-  background: rgba(41, 36, 32, 0.95);
+  background: rgba(41, 36, 32, 0.98);
 }
-.header.open .header__menu {
+.header.open .header__menuwrapper {
   pointer-events: all;
 }
 .header.open .header__toggle > span {

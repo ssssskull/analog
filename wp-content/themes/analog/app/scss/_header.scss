@@ -110,13 +110,11 @@
     }
   }
 
-  &__menu {
-    display: grid;
-    align-content: start;
+  &__menuwrapper {
     height: calc(100vh - 80px);
     background: -moz-linear-gradient(
       top,
-      rgba(41, 36, 32, 0.95),
+      rgba(41, 36, 32, 0.98),
       rgb(10, 9, 8)
     );
     position: absolute;
@@ -131,6 +129,15 @@
       height: calc(100vh - 116px);
       padding-top: 8rem;
     }
+  }
+
+  &__somemenu {
+    //TODO fix placing
+  }
+
+  &__menu {
+    display: grid;
+    align-content: start;
 
     li {
       text-align: center;
@@ -141,7 +148,8 @@
         font-size: $text-lg-fallback;
         font-size: $text-lg;
         text-decoration: none;
-        padding: 2rem 0;
+        margin: 1rem 0;
+        padding: 1rem;
         position: relative;
       }
     }
@@ -185,10 +193,10 @@
   // Hamburger Open Styles
   &.open {
     nav {
-      background: rgba(41, 36, 32, 0.95);
+      background: rgba(41, 36, 32, 0.98);
       //TODO transition difference between menu and nav
     }
-    .header__menu {
+    .header__menuwrapper {
       pointer-events: all;
     }
     .header__toggle {

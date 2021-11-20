@@ -4,7 +4,7 @@ console.log("yo");
 const header = document.querySelector("header");
 const body = document.querySelector("body");
 const btnHamburger = document.querySelector("#btnHamburger");
-const headerMenu = document.querySelector(".header__menu");
+const headerMenu = document.querySelector(".header__menuwrapper");
 
 btnHamburger.addEventListener("click", function () {
   if (header.classList.contains("open")) {

@@ -14,7 +14,7 @@ console.log("yo");
 var header = document.querySelector("header");
 var body = document.querySelector("body");
 var btnHamburger = document.querySelector("#btnHamburger");
-var headerMenu = document.querySelector(".header__menu");
+var headerMenu = document.querySelector(".header__menuwrapper");
 btnHamburger.addEventListener("click", function () {
   if (header.classList.contains("open")) {
     /* Luk hamburger menu
