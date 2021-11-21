@@ -26,7 +26,24 @@
             </div>
     </div>
 </section>
-<p>Kontakt!</p>
+<main>
+    <section class="find-us gridlayout container container--px container--py">
+        <div class="find-us__content">
+            <h2>Vi er altid glade for en snak</h2>
+            <p>Ligesom vores dør er åben for en god kop kaffe, står vores telefon, mail og Facebook også til rådighed for dine spørgsmål. Vi er klar til at svare på spørgsmål om både allergener, events og udlejning af lokaler – sådan noget gør vi nemlig også (både med og uden mad og drikke).</p>
+        </div>
+        <div class="find-us__contact">
+            <a href="/#">Albanigade 54c, 5000 Odense C</a>
+            <a href="/#">+45 51 51 48 40</a>
+            <a href="/#">analogkaffebar@gmail.com</a>
+        </div>
+    </section>
+    <section class="dark-section">
+        <div class="location gridlayout container container--px container--py">
+            <h2>Mød os i virkeligheden</h2>
+            <p>Vil du hellere snakke ansigt til ansigt? Du finder os på Albanigade 54c, Odense C. Uanset om du kommer for en længere snak eller bare for at sige hej, glæder vi os til at se dig!</p>
+        </div>
+    </section>
 </main>
 <footer class="footer container--py container--px ">
     <div class="footer__wrapper container gridlayout">

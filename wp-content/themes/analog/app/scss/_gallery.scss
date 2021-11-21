@@ -1,7 +1,6 @@
 .gallery {
   &__wrapper {
     text-align: center;
-    color: $clr-p;
     @include breakpoint-down(medium) {
       > h3 {
         max-width: 20ch;

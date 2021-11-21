@@ -21,7 +21,8 @@ html {
 }
 p,
 .footer__links a,
-.footer__col2 a {
+.footer__col2 a,
+.find-us__contact a {
   line-height: 24px;
   font-size: $text-base-fallback;
   font-size: $text-base;
@@ -175,4 +176,5 @@ h4 {
 // Sections
 .dark-section {
   background-color: $clr-section-dark;
+  color: $clr-p;
 }

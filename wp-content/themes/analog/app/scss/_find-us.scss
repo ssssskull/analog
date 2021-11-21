@@ -1,0 +1,76 @@
+.find-us {
+  align-items: center;
+  > * {
+    grid-column: 1/5;
+
+    @include breakpoint-up(medium) {
+      grid-column: 2/12;
+    }
+  }
+
+  &__content {
+    @include breakpoint-up(large) {
+      grid-column: 2/7;
+    }
+
+    @include breakpoint-down(medium) {
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    @include breakpoint-up(medium) {
+      justify-self: center;
+      margin-top: 6rem;
+    }
+    @include breakpoint-up(large) {
+      grid-column: 9/12;
+      margin-top: unset;
+    }
+
+    a {
+      display: block;
+      color: $clr-p-dark;
+      text-decoration: none;
+      padding: 1rem;
+      width: max-content;
+      &:not(:last-of-type) {
+        margin-bottom: 1rem;
+      }
+      &::before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        background-size: 28px 28px;
+        background-position: center;
+        height: 28px;
+        width: 28px;
+        margin-right: 2rem;
+
+        @include breakpoint-down(small) {
+          background-position: center left;
+        }
+      }
+      &:first-of-type {
+        &::before {
+          background-image: url("../images/svg/pin.svg");
+        }
+      }
+      &:nth-of-type(2) {
+        &::before {
+          background-image: url("../images/svg/phone.svg");
+        }
+      }
+      &:last-of-type {
+        &::before {
+          background-image: url("../images/svg/mail.svg");
+        }
+      }
+    }
+  }
+}
