@@ -886,6 +886,22 @@ h4 {
   width: -moz-max-content;
   width: max-content;
 }
+.footer__col2 a::before {
+  display: inline-block;
+  vertical-align: middle;
+  content: " ";
+  background-size: 28px 28px;
+  background-position: center;
+  height: 28px;
+  width: 28px;
+  margin-right: 2rem;
+}
+.footer__col2 a:first-of-type::before {
+  background-image: url(../images/facebook-dark.svg?98aa70376eaf18b2af8d225e0a1e3552);
+}
+.footer__col2 a:last-of-type::before {
+  background-image: url(../images/instagram-dark.svg?a0a4ee36d661d67aeeedf00adfdd6bf2);
+}
 @media (min-width: 64em) {
   .footer__col3 {
     grid-column: 9/11;
@@ -1025,7 +1041,7 @@ h4 {
 }
 @media (max-width: 39.9375em) {
   .find-us__contact a::before {
-    background-position: center left;
+    background-position: left center;
   }
 }
 .find-us__contact a:first-of-type::before {

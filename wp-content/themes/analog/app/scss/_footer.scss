@@ -67,6 +67,27 @@
       margin-top: 1.6rem;
       width: max-content;
       //TODO before-image some icons
+      &::before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        background-size: 28px 28px;
+        background-position: center;
+        height: 28px;
+        width: 28px;
+        margin-right: 2rem;
+      }
+
+      &:first-of-type {
+        &::before {
+          background-image: url("../images/svg/facebook-dark.svg");
+        }
+      }
+      &:last-of-type {
+        &::before {
+          background-image: url("../images/svg/instagram-dark.svg");
+        }
+      }
     }
   }
   &__col3 {
