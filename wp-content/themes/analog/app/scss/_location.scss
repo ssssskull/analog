@@ -1,0 +1,32 @@
+.location {
+  > * {
+    grid-column: 1/5;
+    @include breakpoint-up(medium) {
+      grid-column: 2/12;
+    }
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    @include breakpoint-up(medium) {
+      text-align: center;
+    }
+    @include breakpoint-up(large) {
+      grid-column: 4/10;
+    }
+  }
+
+  &__container {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background-color: aquamarine;
+    margin: 6rem 0;
+
+    @include breakpoint-up(large) {
+      aspect-ratio: 21/9;
+    }
+  }
+}

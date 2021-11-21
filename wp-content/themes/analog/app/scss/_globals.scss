@@ -145,9 +145,9 @@ h4 {
   transition: all 0.2s ease-in-out;
   font-size: $text-base-fallback;
   font-size: $text-base;
+  justify-self: center;
   //TODO arrow color change on hover
   &--secondary {
-    justify-self: unset;
     color: #8ab4f8;
     background: transparent;
     border: none;

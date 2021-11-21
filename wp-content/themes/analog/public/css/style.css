@@ -161,9 +161,9 @@ h4 {
   transition: all 0.2s ease-in-out;
   font-size: 16px;
   font-size: 1.6rem;
+  justify-self: center;
 }
 .btn--secondary {
-  justify-self: unset;
   color: #8ab4f8;
   background: transparent;
   border: none;
@@ -282,7 +282,7 @@ h4 {
   display: block;
   width: 26px;
   height: 3px;
-  background-color: white;
+  background-color: whitesmoke;
   transition: all 0.2 ease-in-out;
 }
 .header__toggle span {
@@ -356,18 +356,11 @@ h4 {
   justify-self: center;
 }
 .header__links li a {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 400;
   text-decoration: none;
-  color: white;
-  border-bottom: 2px solid transparent;
   padding-bottom: 1rem;
   transition: border-bottom 0.1s ease-in-out;
   font-size: 16px;
   font-size: 1.6rem;
-}
-.header__links li a.active, .header__links li a:hover, .header__links li a:focus {
-  border-bottom: 2px solid black;
 }
 .header__links li:not(:last-of-type) {
   margin-right: 7rem;
@@ -412,6 +405,24 @@ h4 {
 }
 
 .current-menu-item a {
+  color: #ecd4c0;
+  font-weight: bold;
+}
+
+@media (min-width: 64em) {
+  .menu-item a {
+    border-bottom: 2px solid transparent;
+  }
+  .menu-item a .active, .menu-item a:hover, .menu-item a:focus {
+    border-bottom: 2px solid #ecd4c0;
+    color: #ecd4c0;
+  }
+
+  .current_page_item a {
+    border-bottom: 2px solid #ecd4c0;
+  }
+}
+.current_page_item a {
   color: #ecd4c0;
   font-weight: bold;
 }
@@ -1052,6 +1063,39 @@ h4 {
 }
 .find-us__contact a:last-of-type::before {
   background-image: url(../images/mail.svg?5c1d3bb019f332cda0759b592eb7cfea);
+}
+
+.location > * {
+  grid-column: 1/5;
+}
+@media (min-width: 40em) {
+  .location > * {
+    grid-column: 2/12;
+  }
+}
+.location h2 {
+  text-align: center;
+}
+@media (min-width: 40em) {
+  .location p {
+    text-align: center;
+  }
+}
+@media (min-width: 64em) {
+  .location p {
+    grid-column: 4/10;
+  }
+}
+.location__container {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background-color: aquamarine;
+  margin: 6rem 0;
+}
+@media (min-width: 64em) {
+  .location__container {
+    aspect-ratio: 21/9;
+  }
 }
 
 .notfound {

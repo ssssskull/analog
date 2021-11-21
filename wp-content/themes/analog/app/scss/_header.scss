@@ -87,7 +87,7 @@
       display: block;
       width: 26px;
       height: 3px;
-      background-color: white;
+      background-color: $clr-p;
       transition: all 0.2 ease-in-out;
     }
     span {
@@ -174,21 +174,11 @@
 
     li {
       a {
-        font-family: "Fira Sans", sans-serif;
-        font-weight: 400;
         text-decoration: none;
-        color: white;
-        border-bottom: 2px solid transparent;
         padding-bottom: 1rem;
         transition: border-bottom 0.1s ease-in-out;
         font-size: $text-base-fallback;
         font-size: $text-base;
-
-        &.active,
-        &:hover,
-        &:focus {
-          border-bottom: 2px solid black;
-        }
       }
 
       &:not(:last-of-type) {
@@ -244,6 +234,33 @@
   }
 }
 .current-menu-item {
+  a {
+    color: $clr-heading;
+    font-weight: bold;
+  }
+}
+@include breakpoint-up(large) {
+  .menu-item {
+    a {
+      border-bottom: 2px solid transparent;
+
+      .active,
+      &:hover,
+      &:focus {
+        border-bottom: 2px solid $clr-heading;
+        color: $clr-heading;
+      }
+    }
+  }
+
+  .current_page_item {
+    a {
+      border-bottom: 2px solid $clr-heading;
+    }
+  }
+}
+
+.current_page_item {
   a {
     color: $clr-heading;
     font-weight: bold;
