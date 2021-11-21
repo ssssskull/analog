@@ -1,5 +1,31 @@
+@supports (
+  background-image:
+    image-set(
+      url("../images/Analog-footer-backgroundjpg-680w.avif") 1x,
+      url("../images/Analog-footer-backgroundjpg-680w.webp") 1x
+    )
+) {
+  .footer {
+    background-image: image-set(
+      url("../images/Analog-footer-backgroundjpg-680w.avif") 1x,
+      url("../images/Analog-footer-backgroundjpg-680w.webp") 1x
+    );
+  }
+}
+@supports not (
+  background-image:
+    image-set(
+      url("../images/Analog-footer-backgroundjpg-680w.avif") 1x,
+      url("../images/Analog-footer-backgroundjpg-680w.webp") 1x
+    )
+) {
+  .footer {
+    background-image: url("../images/Analog-background-image-680w.jpeg");
+  }
+}
 .footer {
-  background: moccasin;
+  background-size: contain;
+  background-repeat: repeat;
 
   a {
     display: block;
