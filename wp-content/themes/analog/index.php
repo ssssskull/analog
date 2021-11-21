@@ -28,14 +28,17 @@ get_header();?>
                 <h1 class="hero__title">Vi bager boller
 og laver lækre kaffe, Sandwiches og salater</h1>
                 <p class="hero__subheading">Kom endelig forbi og nyd den afslappede stemning og atmosfære.</p>
-                <div class="hero__links">
-                  <a href="#om-os">Lær os at kende <span></span></a>
-                </div>
             </div>
+            <a href="#about" class="hero__indicator">
+                <svg width="32" height="59" viewBox="0 0 32 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="1" y="1.01929" width="30" height="56" rx="15" stroke="#D3A075" stroke-width="2"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.32812 19.3937L16.2031 26.2687H17.1752L24.0503 19.3937L23.0781 18.4216L17.376 24.1223V9.76868H16.001V24.1237L10.3003 18.4202L9.32812 19.3937Z" fill="#D3A075"/>
+                </svg>
+            </a>
     </div>
 </section>
 <main>
-    <section class="about container container--py container--px gridlayout">
+    <section id="about" class="about container container--py container--px gridlayout">
         <div class="about__content">
             <h2>Om Analog</h2>
             <p>Hos Analog tror vi på kraften af nærvær, hygge og gode samtaler – alt sammen over en lækker kop kaffe eller en hjemmebagt bolle. Derfor byder vi på kvalitetskaffe, -mad og -oplevelser i hjertet af Albanikvarteret.</p>
@@ -258,13 +261,13 @@ og laver lækre kaffe, Sandwiches og salater</h1>
             <h3>Genveje</h3>
             <ul class="footer__links">
                 <li>
-                     <a href="/#">Forside</a>
+                     <a href="#">Forside</a>
                 </li>
                 <li>
-                     <a href="/#">Menu</a>
+                     <a href="menu">Menu</a>
                 </li>
                 <li>
-                     <a href="/#">Find os</a>
+                     <a href="find-os">Find os</a>
                 </li>
             </ul>
         </div>

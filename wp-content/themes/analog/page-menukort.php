@@ -51,9 +51,16 @@
                 <?php while ( $loop->have_posts() ) : $loop->the_post();?>
                     <div class="menu__row">
                         <p><?php echo get_the_title();?></p>
-                        <p><?php the_field('pris'); ?>,-<?php if( get_field('pris-stor') ) {
+                        <p><?php
+                        echo get_field('pris') . ',-';
+                        if(get_field('pris_mellemstor')){
+                            echo ' /'. get_field('pris_mellemstor') . ',-' ;
+                        }
+                        if( get_field('pris-stor') ) {
                             echo ' /'. get_field('pris-stor') . ',-' ;
-                        } ?></p>
+                        }
+                        ?>
+                        </p>
                     </div>
                 <?php endwhile; wp_reset_query(); ?>
             </div>
@@ -117,13 +124,13 @@
             <h3>Genveje</h3>
             <ul class="footer__links">
                 <li>
-                     <a href="/#">Forside</a>
+                     <a href="<?php echo home_url(); ?>">Forside</a>
                 </li>
                 <li>
-                     <a href="/#">Menu</a>
+                     <a href="#">Menu</a>
                 </li>
                 <li>
-                     <a href="/#">Find os</a>
+                     <a href="find-os">Find os</a>
                 </li>
             </ul>
         </div>

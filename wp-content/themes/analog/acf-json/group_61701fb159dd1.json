@@ -6,8 +6,8 @@
             "key": "field_61702022e9a55",
             "label": "Pris",
             "name": "pris",
-            "type": "text",
-            "instructions": "Hvor meget koster det?",
+            "type": "number",
+            "instructions": "Hvor meget koster varen?",
             "required": 1,
             "conditional_logic": 0,
             "wrapper": {
@@ -15,11 +15,13 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": 100,
-            "placeholder": "Pris i kr.",
+            "default_value": "",
+            "placeholder": "Hvad koster varen?",
             "prepend": "",
             "append": "",
-            "maxlength": ""
+            "min": 1,
+            "max": "",
+            "step": ""
         }
     ],
     "location": [
@@ -60,6 +62,6 @@
         "send-trackbacks"
     ],
     "active": true,
-    "description": "Hvad koster det?",
-    "modified": 1637447292
+    "description": "Hvad koster varen?",
+    "modified": 1637515932
 }

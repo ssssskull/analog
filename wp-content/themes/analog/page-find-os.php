@@ -33,9 +33,9 @@
             <p>Ligesom vores dør er åben for en god kop kaffe, står vores telefon, mail og Facebook også til rådighed for dine spørgsmål. Vi er klar til at svare på spørgsmål om både allergener, events og udlejning af lokaler – sådan noget gør vi nemlig også (både med og uden mad og drikke).</p>
         </div>
         <div class="find-us__contact">
-            <a href="/#">Albanigade 54c, 5000 Odense C</a>
-            <a href="/#">+45 51 51 48 40</a>
-            <a href="/#">analogkaffebar@gmail.com</a>
+            <a href="https://www.google.com/maps/place/Albanigade+54C,+5000+Odense/@55.3930631,10.3943626,17z/data=!3m1!4b1!4m5!3m4!1s0x464d2008ad0f63f3:0x8e29df9c585257c1!8m2!3d55.3930631!4d10.3965513" target="_blank">Albanigade 54c, 5000 Odense C</a>
+            <a href="tel:+4551514840">+45 51 51 48 40</a>
+            <a href="mailto:analogkaffebar@gmail.com?subject=Spørgsmål til Analog&body=Kære Analog," target="_blank">analogkaffebar@gmail.com</a>
         </div>
     </section>
     <section class="dark-section">
@@ -67,13 +67,13 @@
             <h3>Genveje</h3>
             <ul class="footer__links">
                 <li>
-                     <a href="/#">Forside</a>
+                     <a href="<?php echo home_url(); ?>">Forside</a>
                 </li>
                 <li>
-                     <a href="/#">Menu</a>
+                     <a href="menu">Menu</a>
                 </li>
                 <li>
-                     <a href="/#">Find os</a>
+                     <a href="#">Find os</a>
                 </li>
             </ul>
         </div>

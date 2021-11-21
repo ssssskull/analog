@@ -94,6 +94,9 @@
     @include breakpoint-up(large) {
       grid-column: 9/11;
     }
+    a {
+      width: max-content;
+    }
   }
 
   &__long {

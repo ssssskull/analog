@@ -22,16 +22,26 @@ btnHamburger.addEventListener("click", function () {
   }
 });
 
-var map = L.map("map").setView([55.3930661, 10.3943626], 16);
+let path = window.location.pathname;
+if (path.includes("find-os")) {
+  const map = L.map("map").setView([55.3930661, 10.3943626], 16);
 
-L.tileLayer(
-  "https://maps.geoapify.com/v1/tile/osm-bright/{z}/{x}/{y}.png?apiKey=1ae607e81bdf4511aa65fdb2c807ab07",
-  {
-    attribution: "© OpenStreetMap contributors",
-  }
-).addTo(map);
+  L.tileLayer(
+    "https://maps.geoapify.com/v1/tile/osm-bright/{z}/{x}/{y}.png?apiKey=1ae607e81bdf4511aa65fdb2c807ab07"
+  ).addTo(map);
 
-L.marker([55.3930661, 10.3943626])
-  .addTo(map)
-  .bindPopup("Find os her! :)")
-  .openPopup();
+  L.marker([55.3930661, 10.3943626])
+    .addTo(map)
+    .bindPopup(`Find os ved <br> Albanigade 54c ☕`)
+    .openPopup();
+}
+
+document
+  .querySelector(".hero__indicator")
+  .addEventListener("click", function (e) {
+    e.preventDefault();
+    const targetScroll = document.querySelector("#about");
+
+    targetScroll.scrollIntoView({ behavior: "smooth" });
+  });
+//TODO intersectionobserver

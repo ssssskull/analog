@@ -1,13 +1,13 @@
 {
-    "key": "group_6199fd1d09277",
-    "title": "Pris stor",
+    "key": "group_619a7ffbd228f",
+    "title": "Pris mellem",
     "fields": [
         {
-            "key": "field_6199fe2c24b6f",
-            "label": "Pris for stor",
-            "name": "pris-stor",
+            "key": "field_619a802da96e9",
+            "label": "Pris mellemstor",
+            "name": "pris_mellemstor",
             "type": "number",
-            "instructions": "Hvor meget koster den stor variant?",
+            "instructions": "Hvor meget koster den mellemstor variant?",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -33,7 +33,7 @@
             }
         ]
     ],
-    "menu_order": 3,
+    "menu_order": 1,
     "position": "side",
     "style": "default",
     "label_placement": "top",
@@ -55,6 +55,6 @@
         "send-trackbacks"
     ],
     "active": true,
-    "description": "Hvad koster den stor variant?",
-    "modified": 1637515874
+    "description": "Hvad koster den mellemstor variant?",
+    "modified": 1637515897
 }
