@@ -86,7 +86,7 @@ add_action( 'init', 'cptui_register_my_cpts_kaffe' );
 
 function my_scripts() {
     wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/public/css/style.css', false, '1.0', 'all' );
-	wp_enqueue_script("script", get_template_directory_uri() . '/app/js/script.js');
+	wp_enqueue_script("script", get_template_directory_uri() . '/public/js/script.js');
 }
 function allow_modern_images( $mime_types ) {
   $mime_types['webp'] = 'image/webp';
