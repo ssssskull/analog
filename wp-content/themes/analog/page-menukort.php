@@ -42,23 +42,24 @@
                     <h4>Kaffe og varme drikke</h4>
                     <figure></figure>
                 </div>
-                <?php
+                 <?php
                 $loop = new WP_Query( array(
-                    'post_type' => 'madvare',
+                    'post_type' => 'kaffe',
                     'posts_per_page' => -1
                 )
                 );?>
-                <!-- TODO add row for each item -->
                 <?php while ( $loop->have_posts() ) : $loop->the_post();?>
                     <div class="menu__row">
                         <p><?php echo get_the_title();?></p>
-                        <p><?php the_field('pris'); ?>,-</p>
+                        <p><?php the_field('pris'); ?>,-<?php if( get_field('pris-stor') ) {
+                            echo ' /'. get_field('pris-stor') . ',-' ;
+                        } ?></p>
                     </div>
                 <?php endwhile; wp_reset_query(); ?>
             </div>
             <div class="menu__section">
                 <div class="menu__titlerow">
-                    <h4>Kaffe og varme drikke</h4>
+                    <h4>Varme retter</h4>
                     <figure></figure>
                 </div>
                 <?php
@@ -67,7 +68,6 @@
                     'posts_per_page' => -1
                 )
                 );?>
-                <!-- TODO add row for each item -->
                 <?php while ( $loop->have_posts() ) : $loop->the_post();?>
                     <div class="menu__row">
                         <p><?php echo get_the_title();?></p>
@@ -77,7 +77,7 @@
             </div>
             <div class="menu__section">
                 <div class="menu__titlerow">
-                    <h4>Kaffe og varme drikke</h4>
+                    <h4>Søde sager</h4>
                     <figure></figure>
                 </div>
                 <?php

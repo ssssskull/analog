@@ -1,35 +1,28 @@
 {
-    "key": "group_61701fb159dd1",
-    "title": "Pris",
+    "key": "group_6199fd1d09277",
+    "title": "Pris stor",
     "fields": [
         {
-            "key": "field_61702022e9a55",
-            "label": "Pris",
-            "name": "pris",
+            "key": "field_6199fe2c24b6f",
+            "label": "Pris for stor",
+            "name": "pris-stor",
             "type": "text",
-            "instructions": "Hvor meget koster det?",
-            "required": 1,
+            "instructions": "Hvad koster stor varianten?",
+            "required": 0,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
                 "class": "",
                 "id": ""
             },
-            "default_value": 100,
-            "placeholder": "Pris i kr.",
+            "default_value": 50,
+            "placeholder": "Skriv prisen her for stor varianten",
             "prepend": "",
             "append": "",
             "maxlength": ""
         }
     ],
     "location": [
-        [
-            {
-                "param": "post_type",
-                "operator": "==",
-                "value": "madvare"
-            }
-        ],
         [
             {
                 "param": "post_type",
@@ -60,6 +53,6 @@
         "send-trackbacks"
     ],
     "active": true,
-    "description": "Hvad koster det?",
-    "modified": 1637447292
+    "description": "",
+    "modified": 1637482198
 }

@@ -41,6 +41,49 @@ function cptui_register_my_cpts_madvare() {
 
 add_action( 'init', 'cptui_register_my_cpts_madvare' );
 
+
+function cptui_register_my_cpts_kaffe() {
+
+	/**
+	 * Post Type: Kaffe.
+	 */
+
+	$labels = [
+		"name" => __( "Kaffe og varme drikke", "custom-post-type-ui" ),
+		"singular_name" => __( "kaffe", "custom-post-type-ui" ),
+		"menu_name" => __( "Kaffe og varme drikke", "custom-post-type-ui" ),
+	];
+
+	$args = [
+		"label" => __( "kaffe", "custom-post-type-ui" ),
+		"labels" => $labels,
+		"description" => "Kaffe",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => true,
+		"rest_base" => "",
+		"rest_controller_class" => "WP_REST_Posts_Controller",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => false,
+		"delete_with_user" => false,
+		"exclude_from_search" => true,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => [ "slug" => "kaffe", "with_front" => true ],
+		"query_var" => true,
+		"menu_icon" => "dashicons-coffee",
+		"supports" => [ "title", "editor", "thumbnail" ],
+		"show_in_graphql" => false,
+	];
+
+	register_post_type( "kaffe", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_kaffe' );
+
 function my_scripts() {
     wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/public/css/style.css', false, '1.0', 'all' );
 	wp_enqueue_script("script", get_template_directory_uri() . '/app/js/script.js');

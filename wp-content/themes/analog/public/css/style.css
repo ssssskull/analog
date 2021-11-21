@@ -414,27 +414,35 @@ h4 {
   font-weight: bold;
 }
 
-body {
-  background: whitesmoke;
+@supports ((background-image: -webkit-image-set(url("../images/Analog-background-image-680w.avif") 1x, url("../images/Analog-background-image-680w.webp") 1x)) or (background-image: image-set(url("../images/Analog-background-image-680w.avif") 1x, url("../images/Analog-background-image-680w.webp") 1x))) {
+  .hero {
+    background-image: -webkit-image-set(url(../images/Analog-background-image-680w.avif?af0c6ec0dc6bb2ac2f47c8c35c513635) 1x, url(../images/Analog-background-image-680w.webp?11575467f638fd901237b7d21d91570d) 1x);
+    background-image: image-set(url(../images/Analog-background-image-680w.avif?af0c6ec0dc6bb2ac2f47c8c35c513635) 1x, url(../images/Analog-background-image-680w.webp?11575467f638fd901237b7d21d91570d) 1x);
+  }
+  @media (min-width: 64em) {
+    .hero {
+      background-image: -webkit-image-set(url(../images/Analog-background-image-1920w.avif?10b1ae5f188187a18e54531cadc86065) 1x, url(../images/Analog-background-image-1920w.webp?958f09ae33a3b33f9c9a1fa5b0a4fa7d) 1x);
+      background-image: image-set(url(../images/Analog-background-image-1920w.avif?10b1ae5f188187a18e54531cadc86065) 1x, url(../images/Analog-background-image-1920w.webp?958f09ae33a3b33f9c9a1fa5b0a4fa7d) 1x);
+    }
+  }
 }
-
+@supports not ((background-image: -webkit-image-set(url("../images/Analog-background-image-680w.avif") 1x, url("../images/Analog-background-image-680w.webp") 1x)) or (background-image: image-set(url("../images/Analog-background-image-680w.avif") 1x, url("../images/Analog-background-image-680w.webp") 1x))) {
+  .hero {
+    background-image: url(../images/Analog-background-image-680w.jpeg?46f40379e072e31d579a0785636893d1);
+  }
+  @media (min-width: 64em) {
+    .hero {
+      background-image: url(../images/Analog-background-image-1920w.jpeg?d0df6b9d021948edbf15fabbca3a8114);
+    }
+  }
+}
 .hero {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-image: url(../images/Analog-background-image-680w.jpeg?46f40379e072e31d579a0785636893d1);
-  background-image: -webkit-image-set(url(../images/Analog-background-image-680w.avif?af0c6ec0dc6bb2ac2f47c8c35c513635) 1x, url(../images/Analog-background-image-680w.webp?11575467f638fd901237b7d21d91570d) 1x, url(../images/Analog-background-image-680w.jpeg?46f40379e072e31d579a0785636893d1) 1x);
-  background-image: image-set(url(../images/Analog-background-image-680w.avif?af0c6ec0dc6bb2ac2f47c8c35c513635) 1x, url(../images/Analog-background-image-680w.webp?11575467f638fd901237b7d21d91570d) 1x, url(../images/Analog-background-image-680w.jpeg?46f40379e072e31d579a0785636893d1) 1x);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-@media (min-width: 64em) {
-  .hero {
-    background-image: url(../images/Analog-background-image-1920w.jpeg?d0df6b9d021948edbf15fabbca3a8114);
-    background-image: -webkit-image-set(url(../images/Analog-background-image-1920w.avif?10b1ae5f188187a18e54531cadc86065) 1x, url(../images/Analog-background-image-1920w.webp?958f09ae33a3b33f9c9a1fa5b0a4fa7d) 1x, url(../images/Analog-background-image-1920w.jpeg?d0df6b9d021948edbf15fabbca3a8114) 1x);
-    background-image: image-set(url(../images/Analog-background-image-1920w.avif?10b1ae5f188187a18e54531cadc86065) 1x, url(../images/Analog-background-image-1920w.webp?958f09ae33a3b33f9c9a1fa5b0a4fa7d) 1x, url(../images/Analog-background-image-1920w.jpeg?d0df6b9d021948edbf15fabbca3a8114) 1x);
-  }
 }
 .hero::before {
   display: block;
