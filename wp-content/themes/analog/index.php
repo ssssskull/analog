@@ -190,7 +190,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
     </section>
     <section class="events container container--py container--px gridlayout">
         <div class="events__sticky">
-            <h3>Vær med til events og opdag lokale kunstnere</h3>
+            <h3>Vær med til <span>events</span> og opdag lokale <span>kunstnere</span></h3>
         </div>
         <div class="events__col1">
             <div class="events__elem1">

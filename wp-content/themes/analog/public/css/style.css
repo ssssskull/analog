@@ -52,15 +52,11 @@ h1 {
   color: whitesmoke;
   margin-bottom: 1.6rem;
 }
-@media (min-width: 40em) {
-  h1 {
-    line-height: 68px;
-  }
-}
 @media (min-width: 64em) {
   h1 {
     font-size: 80px;
     font-size: 8rem;
+    line-height: 68px;
   }
 }
 
@@ -108,6 +104,10 @@ h4 {
     font-size: 2.4rem;
     line-height: 28px;
   }
+}
+
+span {
+  color: #d3a075;
 }
 
 .gridlayout {
@@ -261,7 +261,7 @@ h4 {
   width: 160px;
   height: 32px;
   background-repeat: no-repeat;
-  background-image: url(../images/logo.svg?13ecfcb8d9797497cba0f5a6dd46546f);
+  background-image: url(../images/analog-icon.svg?6077bdeed4fa8bf393e7d371dcbab85f);
 }
 @media (min-width: 40em) {
   .header__logo {
@@ -277,16 +277,29 @@ h4 {
 .header__some {
   display: flex;
   grid-column: 10/12;
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
   justify-self: end;
+}
+@media (min-width: 87.5em) {
+  .header__some {
+    grid-column: 11/12;
+    -moz-column-gap: unset;
+         column-gap: unset;
+    justify-content: space-between;
+    justify-self: unset;
+  }
 }
 .header__some a {
   display: block;
   width: 30px;
   height: 30px;
   opacity: 0.9;
-  padding: 1rem;
+}
+@media (min-width: 87.5em) {
+  .header__some a {
+    padding: unset;
+  }
 }
 .header__some img {
   width: 100%;
@@ -294,13 +307,13 @@ h4 {
   display: block;
 }
 .header__some .some-icon {
-  will-change: fill;
-  transition: all 0.2s ease-in-out;
   width: 100%;
   height: auto;
 }
 .header__some .some-icon path {
+  will-change: fill;
   fill: whitesmoke;
+  transition: all 0.1s ease-in-out;
 }
 .header__some .some-icon:hover path {
   fill: #d3a075;
@@ -1144,13 +1157,13 @@ h4 {
   }
 }
 .find-us__contact a:first-of-type::before {
-  background-image: url(../images/pin-icon.svg?dd7f937b82bec3c27ed2165b1be25605);
+  background-image: url(../images/pin-icon.svg?5c0273b16c181ae7277b6ca8e43bb4f2);
 }
 .find-us__contact a:nth-of-type(2)::before {
-  background-image: url(../images/phone-icon.svg?4ef498f47288031a85998a4bf0671725);
+  background-image: url(../images/phone-icon.svg?512eda21246d2acd1a9b7de5bea31445);
 }
 .find-us__contact a:last-of-type::before {
-  background-image: url(../images/mail-icon.svg?a1e0e9cbb4c1a1dad6cb422fafd37c0c);
+  background-image: url(../images/mail-icon.svg?4bf3e56d9cdd6e3a9c2583fac4a328f9);
 }
 
 .location > * {

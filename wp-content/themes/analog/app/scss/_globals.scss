@@ -45,12 +45,12 @@ h1 {
   margin-bottom: 1.6rem;
 
   @include breakpoint-up(medium) {
-    line-height: 68px;
     //TODO undersøg linebreak
   }
   @include breakpoint-up(large) {
     font-size: $text-6xl-fallback;
     font-size: $text-6xl;
+    line-height: 68px;
   }
 }
 
@@ -95,7 +95,9 @@ h4 {
     line-height: 28px;
   }
 }
-
+span {
+  color: $clr-heading;
+}
 //grid-system
 .gridlayout {
   display: grid;

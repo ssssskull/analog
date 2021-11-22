@@ -36,7 +36,7 @@
     width: 160px;
     height: 32px;
     background-repeat: no-repeat;
-    background-image: url("../images/svg/logo.svg");
+    background-image: url("../images/svg/analog-icon.svg");
     //TODO opdater logo til den nye
 
     @include breakpoint-up(medium) {
@@ -51,15 +51,23 @@
   &__some {
     display: flex;
     grid-column: 10/12;
-    column-gap: 1rem;
+    column-gap: 3rem;
     justify-self: end;
 
+    @include breakpoint-up(xlarge) {
+      grid-column: 11/12;
+      column-gap: unset;
+      justify-content: space-between;
+      justify-self: unset;
+    }
     a {
       display: block;
       width: 30px;
       height: 30px;
       opacity: 0.9;
-      padding: 1rem;
+      @include breakpoint-up(xlarge) {
+        padding: unset;
+      }
     }
 
     //TODO remove after you set svg in
@@ -71,7 +79,9 @@
 
     .some-icon {
       path {
+        will-change: fill;
         fill: $clr-p;
+        transition: all 0.1s ease-in-out;
       }
 
       &:hover {
@@ -80,8 +90,6 @@
         }
       }
 
-      will-change: fill;
-      transition: all 0.2s ease-in-out;
       width: 100%;
       height: auto;
     }
