@@ -43,7 +43,7 @@
             <h2>Mød os i virkeligheden</h2>
             <p>Vil du hellere snakke ansigt til ansigt? Du finder os på Albanigade 54c, Odense C. Uanset om du kommer for en længere snak eller bare for at sige hej, glæder vi os til at se dig!</p>
             <div class="location__container" id="map"></div>
-            <a href="https://www.google.com/maps/place/Albanigade+54C,+5000+Odense/@55.3930631,10.3943626,17z/data=!3m1!4b1!4m5!3m4!1s0x464d2008ad0f63f3:0x8e29df9c585257c1!8m2!3d55.3930631!4d10.3965513" target="_blank" class="btn btn--secondary">Se på Google Maps<span></span></a>
+            <a href="https://www.google.com/maps/place/Albanigade+54C,+5000+Odense/@55.3930631,10.3943626,17z/data=!3m1!4b1!4m5!3m4!1s0x464d2008ad0f63f3:0x8e29df9c585257c1!8m2!3d55.3930631!4d10.3965513" target="_blank" class="btn btn--secondary">Find os på Google Maps<span></span></a>
         </div>
     </section>
 </main>

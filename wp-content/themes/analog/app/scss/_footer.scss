@@ -51,7 +51,7 @@
   }
   &__col1 {
     @include breakpoint-up(large) {
-      grid-column: 2/5;
+      grid-column: 2/4;
     }
 
     p:last-of-type {
@@ -71,10 +71,10 @@
         display: inline-block;
         vertical-align: middle;
         content: " ";
-        background-size: 28px 28px;
+        background-size: 30px 30px;
         background-position: center;
-        height: 28px;
-        width: 28px;
+        height: 30px;
+        width: 30px;
         margin-right: 2rem;
       }
 
@@ -85,7 +85,7 @@
       }
       &:last-of-type {
         &::before {
-          background-image: url("../images/svg/instagram-dark.svg");
+          background-image: url("../images/svg/instagram-icon-dark.svg");
         }
       }
     }
