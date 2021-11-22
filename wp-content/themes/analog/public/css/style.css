@@ -277,8 +277,8 @@ h4 {
 .header__some {
   display: flex;
   grid-column: 10/12;
-  -moz-column-gap: 3rem;
-       column-gap: 3rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
   justify-self: end;
 }
 .header__some a {
@@ -286,6 +286,7 @@ h4 {
   width: 30px;
   height: 30px;
   opacity: 0.9;
+  padding: 1rem;
 }
 .header__some img {
   width: 100%;
@@ -293,13 +294,15 @@ h4 {
   display: block;
 }
 .header__some .some-icon {
-  fill: whitesmoke;
   will-change: fill;
   transition: all 0.2s ease-in-out;
   width: 100%;
   height: auto;
 }
-.header__some .some-icon:hover {
+.header__some .some-icon path {
+  fill: whitesmoke;
+}
+.header__some .some-icon:hover path {
   fill: #d3a075;
 }
 .header__toggle {
@@ -936,12 +939,28 @@ h4 {
     margin-bottom: 6rem;
   }
 }
-@media (min-width: 64em) {
+.footer__col1 {
+  grid-column: 1/5;
+}
+.footer__col1 div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__col1 div p:last-child {
+  padding-right: 2.8rem;
+}
+@media (min-width: 40em) {
   .footer__col1 {
-    grid-column: 2/4;
+    grid-column: 2/8;
   }
 }
-.footer__col1 p:last-of-type {
+@media (min-width: 64em) {
+  .footer__col1 {
+    grid-column: 2/5;
+  }
+}
+.footer__col1 p:nth-child(5) {
   margin-top: 1.6rem;
 }
 @media (min-width: 64em) {

@@ -50,11 +50,25 @@
     }
   }
   &__col1 {
+    grid-column: 1/5;
+    // TODO mere padding på mobil
+    div {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      p:last-child {
+        padding-right: 2.8rem;
+      }
+    }
+    @include breakpoint-up(medium) {
+      grid-column: 2/8;
+    }
     @include breakpoint-up(large) {
-      grid-column: 2/4;
+      grid-column: 2/5;
     }
 
-    p:last-of-type {
+    p:nth-child(5) {
       margin-top: 1.6rem;
     }
   }

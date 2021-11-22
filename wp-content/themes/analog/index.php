@@ -248,9 +248,15 @@ og laver lækre kaffe, Sandwiches og salater</h1>
     <div class="footer__wrapper container gridlayout">
         <div class="footer__col1">
             <h3>Åbningstider</h3>
-            <p>Mandag-fredag:</p>
-            <p>Lørdag:</p>
-            <p>Søndag:</p>
+            <div>
+                <p>Mandag-fredag:</p><p>8.00-17.30</p>
+            </div>
+            <div>
+                <p>Lørdag:</p><p>9.00-15.00</p>
+            </div>
+            <div>
+                <p>Søndag:</p><p>Lukket</p>
+            </div>
             <p>Albanigade 54c, 5000 Odense C</p>
         </div>
         <div class="footer__col2">

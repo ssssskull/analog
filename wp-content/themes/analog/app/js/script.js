@@ -32,7 +32,7 @@ if (path.includes("find-os")) {
 
   L.marker([55.3930661, 10.3943626])
     .addTo(map)
-    .bindPopup(`Find os ved <br> Albanigade 54c ☕`)
+    .bindPopup(`Analog kaffebar <br> Albanigade 54c ☕`)
     .openPopup();
 }
 
