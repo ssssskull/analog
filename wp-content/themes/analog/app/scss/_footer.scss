@@ -1,26 +1,26 @@
 @supports (
   background-image:
     image-set(
-      url("../images/Analog-footer-backgroundjpg-680w.avif") 1x,
-      url("../images/Analog-footer-backgroundjpg-680w.webp") 1x
+      url("../images/bg-680w.avif") 1x,
+      url("../images/bg-680w.webp") 1x
     )
 ) {
   .footer {
     background-image: image-set(
-      url("../images/Analog-footer-backgroundjpg-680w.avif") 1x,
-      url("../images/Analog-footer-backgroundjpg-680w.webp") 1x
+      url("../images/bg-680w.avif") 1x,
+      url("../images/bg-680w.webp") 1x
     );
   }
 }
 @supports not (
   background-image:
     image-set(
-      url("../images/Analog-footer-backgroundjpg-680w.avif") 1x,
-      url("../images/Analog-footer-backgroundjpg-680w.webp") 1x
+      url("../images/bg-680w.avif") 1x,
+      url("../images/bg-680w.webp") 1x
     )
 ) {
   .footer {
-    background-image: url("../images/Analog-background-image-680w.jpeg");
+    background-image: url("../images/bg-680w.jpg");
   }
 }
 .footer {
@@ -102,6 +102,10 @@
           background-image: url("../images/svg/instagram-icon-dark.svg");
         }
       }
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
   &__col3 {
@@ -110,6 +114,10 @@
     }
     a {
       width: max-content;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 

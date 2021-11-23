@@ -10,13 +10,11 @@
     @include breakpoint-up(medium) {
       grid-column: 2/12;
     }
-    @include breakpoint-up(large) {
-      grid-column: 4/11;
-    }
   }
   &__description {
     @include breakpoint-up(large) {
       margin-bottom: 6rem;
+      grid-column: 4/10;
     }
   }
 
@@ -30,10 +28,38 @@
   //TODO fix content and spans
 
   > figure {
+    position: relative;
     grid-column: 1/5;
     aspect-ratio: 16 / 9;
     overflow: hidden;
 
+    &::before {
+      width: 80px;
+      height: 80px;
+      content: "";
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: $clr-p;
+      clip-path: polygon(0 0, 100% 50%, 0 100%);
+
+      @include breakpoint-down(medium) {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    picture {
+      &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: hsla(0, 0%, 0%, 0.333);
+      }
+    }
     img {
       width: 100%;
       height: auto;
