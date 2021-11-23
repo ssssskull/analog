@@ -773,6 +773,7 @@ span {
   background-color: whitesmoke;
   -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
           clip-path: polygon(0 0, 100% 50%, 0 100%);
+  cursor: pointer;
 }
 @media (max-width: 63.9375em) {
   .more > figure::before {
@@ -786,6 +787,7 @@ span {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.333);
+  cursor: pointer;
 }
 .more > figure img {
   width: 100%;
@@ -1188,13 +1190,13 @@ span {
   }
 }
 .find-us__contact a:first-of-type::before {
-  background-image: url(../images/pin-icon.svg?dd7f937b82bec3c27ed2165b1be25605);
+  background-image: url(../images/pin-icon.svg?5c0273b16c181ae7277b6ca8e43bb4f2);
 }
 .find-us__contact a:nth-of-type(2)::before {
-  background-image: url(../images/phone-icon.svg?4ef498f47288031a85998a4bf0671725);
+  background-image: url(../images/phone-icon.svg?512eda21246d2acd1a9b7de5bea31445);
 }
 .find-us__contact a:last-of-type::before {
-  background-image: url(../images/mail-icon.svg?a1e0e9cbb4c1a1dad6cb422fafd37c0c);
+  background-image: url(../images/mail-icon.svg?4bf3e56d9cdd6e3a9c2583fac4a328f9);
 }
 
 .location > * {

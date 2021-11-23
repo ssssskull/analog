@@ -44,6 +44,7 @@
       transform: translate(-50%, -50%);
       background-color: $clr-p;
       clip-path: polygon(0 0, 100% 50%, 0 100%);
+      cursor: pointer;
 
       @include breakpoint-down(medium) {
         width: 50px;
@@ -58,6 +59,7 @@
         height: 100%;
         width: 100%;
         background-color: hsla(0, 0%, 0%, 0.333);
+        cursor: pointer;
       }
     }
     img {
