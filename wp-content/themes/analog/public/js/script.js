@@ -12,6 +12,7 @@
 
 console.log("yo");
 var header = document.querySelector("header");
+var nav = document.querySelector("nav");
 var body = document.querySelector("body");
 var btnHamburger = document.querySelector("#btnHamburger");
 var headerMenu = document.querySelector(".header__menuwrapper");
@@ -20,12 +21,14 @@ btnHamburger.addEventListener("click", function () {
     /* Luk hamburger menu
     ============================*/
     header.classList.remove("open");
+    nav.classList.remove("nav-open");
     body.style.overflow = "auto";
     headerMenu.style.opacity = 0;
   } else {
     /* Åben hamburger menu
     ============================*/
     header.classList.add("open");
+    nav.classList.add("nav-open");
     body.style.overflow = "hidden";
     headerMenu.style.opacity = 1;
   }
@@ -45,6 +48,24 @@ document.querySelector(".hero__indicator").addEventListener("click", function (e
     behavior: "smooth"
   });
 }); //TODO intersectionobserver
+
+var section = document.querySelector(".hero__content");
+var options = {
+  root: null,
+  // It is in the viewport
+  threshold: 0,
+  rootMargin: "-200px"
+};
+var observer = new IntersectionObserver(function (entries, observer) {
+  entries.forEach(function (entry) {
+    if (!entry.isIntersecting) {
+      nav.classList.add("nav-open-observe");
+    } else {
+      nav.classList.remove("nav-open-observe");
+    }
+  });
+}, options);
+observer.observe(section);
 
 /***/ }),
 

@@ -2,6 +2,7 @@
 console.log("yo");
 
 const header = document.querySelector("header");
+const nav = document.querySelector("nav");
 const body = document.querySelector("body");
 const btnHamburger = document.querySelector("#btnHamburger");
 const headerMenu = document.querySelector(".header__menuwrapper");
@@ -11,12 +12,14 @@ btnHamburger.addEventListener("click", function () {
     /* Luk hamburger menu
     ============================*/
     header.classList.remove("open");
+    nav.classList.remove("nav-open");
     body.style.overflow = "auto";
     headerMenu.style.opacity = 0;
   } else {
     /* Åben hamburger menu
     ============================*/
     header.classList.add("open");
+    nav.classList.add("nav-open");
     body.style.overflow = "hidden";
     headerMenu.style.opacity = 1;
   }
@@ -44,4 +47,25 @@ document
 
     targetScroll.scrollIntoView({ behavior: "smooth" });
   });
+
 //TODO intersectionobserver
+
+const section = document.querySelector(".hero__content");
+
+const options = {
+  root: null, // It is in the viewport
+  threshold: 0,
+  rootMargin: "-200px",
+};
+
+const observer = new IntersectionObserver(function (entries, observer) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      nav.classList.add("nav-open-observe");
+    } else {
+      nav.classList.remove("nav-open-observe");
+    }
+  });
+}, options);
+
+observer.observe(section);

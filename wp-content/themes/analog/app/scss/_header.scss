@@ -221,10 +221,6 @@
 
   // Hamburger Open Styles
   &.open {
-    nav {
-      background: rgba(41, 36, 32, 0.98);
-      //TODO transition difference between menu and nav
-    }
     .header__menuwrapper {
       pointer-events: all;
     }

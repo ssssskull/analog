@@ -221,6 +221,11 @@ span {
     opacity: 0;
   }
 }
+.nav-open,
+.nav-open-observe {
+  background: rgba(41, 36, 32, 0.98);
+}
+
 .header {
   position: fixed;
   z-index: 1;
@@ -427,9 +432,6 @@ span {
   .header__links li:not(:last-of-type) {
     margin-right: 9rem;
   }
-}
-.header.open nav {
-  background: rgba(41, 36, 32, 0.98);
 }
 .header.open .header__menuwrapper {
   pointer-events: all;
