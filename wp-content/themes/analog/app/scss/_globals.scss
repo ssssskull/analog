@@ -196,34 +196,105 @@ span {
     opacity: 0;
   }
 }
+@keyframes closeVideo {
+  0% {
+    height: 500px;
+  }
+
+  50% {
+    height: 5px;
+    width: 900px;
+  }
+
+  60% {
+    height: 5px;
+    width: 900px;
+  }
+
+  to {
+    width: 0;
+    height: 5px;
+  }
+}
+@keyframes closeVideoTablet {
+  0% {
+    height: 400px;
+  }
+
+  50% {
+    height: 5px;
+    width: 90%;
+  }
+
+  60% {
+    height: 5px;
+    width: 90%;
+  }
+
+  to {
+    width: 0;
+    height: 5px;
+  }
+}
+@keyframes closeVideoTlf {
+  0% {
+    height: 300px;
+  }
+
+  50% {
+    height: 5px;
+    width: 90%;
+  }
+
+  60% {
+    height: 5px;
+    width: 90%;
+  }
+
+  to {
+    width: 0;
+    height: 5px;
+  }
+}
 
 .nav-open,
-.nav-open-observe {
+.nav-open-observer {
   background: rgba(41, 36, 32, 0.98);
 }
 
 // Video
 
 .video-modal {
-  width: 90%;
-  height: 500px;
+  position: fixed;
+  width: 0;
+  height: 300px;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   top: 50%;
-  position: fixed;
-  background: #000;
-  border-radius: 5px;
-  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.16);
   z-index: 20;
   transition: all 0.2s ease;
-
-  @include breakpoint-up(large) {
-    width: 900px;
+  visibility: hidden;
+  overflow: hidden;
+  @include breakpoint-up(medium) {
+    height: 400px;
   }
+  @include breakpoint-up(medium) {
+    height: 500px;
+  }
+
   iframe {
     width: 100%;
     height: 100%;
     transition: all 0.2s ease;
+  }
+}
+
+.modal-visible {
+  visibility: visible;
+  width: 90%;
+
+  @include breakpoint-up(large) {
+    width: 900px;
   }
 }
 
@@ -237,8 +308,22 @@ span {
   background: rgba(0, 0, 0, 0.8);
   transition: all 0.2s ease;
   cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
 }
-.video-visible {
+
+.overlay-visible {
   visibility: visible;
   opacity: 1;
+}
+
+.video-close {
+  background: $clr-p;
+  animation: closeVideoTlf 0.5s forwards;
+  @include breakpoint-up(medium) {
+    animation: closeVideoTablet 0.5s forwards;
+  }
+  @include breakpoint-up(large) {
+    animation: closeVideo 0.5s forwards;
+  }
 }

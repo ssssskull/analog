@@ -48,19 +48,18 @@ document.querySelector(".hero__indicator").addEventListener("click", function (e
     behavior: "smooth"
   });
 }); //TODO intersectionobserver
-//TODO fix
 
-var section = document.querySelector(".hero__content");
+var section = document.querySelector(".hero__container");
 var options = {
   root: null,
   // It is in the viewport
-  threshold: 0,
-  rootMargin: "-200px"
+  threshold: 0.85
 };
 var observer = new IntersectionObserver(function (entries, observer) {
   entries.forEach(function (entry) {
     if (!entry.isIntersecting) {
-      nav.classList.add("nav-open-observe");
+      nav.classList.add("nav-open-observer");
+      console.log("herewego");
     } else {
       nav.classList.remove("nav-open-observer");
     }
@@ -78,14 +77,19 @@ document.querySelector("#video-listener").addEventListener("click", function (e)
   console.log("video afspiller nu");
   body.insertAdjacentElement("beforeend", videoModal);
   body.insertAdjacentElement("beforeend", videoOverlay);
-  videoModal.classList.add("video-visible");
-  videoOverlay.classList.add("video-visible");
+  videoOverlay.classList.add("overlay-visible");
+  setTimeout(function () {
+    videoModal.classList.add("modal-visible"); //TODO check if this timeout works
+  }, 100);
 });
 videoOverlay.addEventListener("click", function (e) {
-  videoModal.remove();
   setTimeout(function () {
+    videoModal.remove();
     videoOverlay.remove();
-  }, 1000);
+    videoModal.classList.remove("video-close");
+    videoModal.classList.remove("modal-visible");
+  }, 700);
+  videoModal.classList.add("video-close");
 });
 
 /***/ }),

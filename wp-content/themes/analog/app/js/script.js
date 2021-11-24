@@ -49,20 +49,18 @@ document
   });
 
 //TODO intersectionobserver
-//TODO fix
-
-const section = document.querySelector(".hero__content");
+const section = document.querySelector(".hero__container");
 
 const options = {
   root: null, // It is in the viewport
-  threshold: 0,
-  rootMargin: "-200px",
+  threshold: 0.85,
 };
 
 const observer = new IntersectionObserver(function (entries, observer) {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
-      nav.classList.add("nav-open-observe");
+      nav.classList.add("nav-open-observer");
+      console.log("herewego");
     } else {
       nav.classList.remove("nav-open-observer");
     }
@@ -89,13 +87,19 @@ document
     body.insertAdjacentElement("beforeend", videoModal);
     body.insertAdjacentElement("beforeend", videoOverlay);
 
-    videoModal.classList.add("video-visible");
-    videoOverlay.classList.add("video-visible");
+    videoOverlay.classList.add("overlay-visible");
+    setTimeout(function () {
+      videoModal.classList.add("modal-visible");
+      //TODO check if this timeout works
+    }, 100);
   });
 
 videoOverlay.addEventListener("click", function (e) {
-  videoModal.remove();
   setTimeout(function () {
+    videoModal.remove();
     videoOverlay.remove();
-  }, 1000);
+    videoModal.classList.remove("video-close");
+    videoModal.classList.remove("modal-visible");
+  }, 700);
+  videoModal.classList.add("video-close");
 });
