@@ -1,26 +1,26 @@
 @supports (
   background-image:
     image-set(
-      url("../images/bg-680w.avif") 1x,
-      url("../images/bg-680w.webp") 1x
+      url("../images/Analog-footer-background-680w.avif") 1x,
+      url("../images/Analog-footer-background-680w.webp") 1x
     )
 ) {
   .footer {
     background-image: image-set(
-      url("../images/bg-680w.avif") 1x,
-      url("../images/bg-680w.webp") 1x
+      url("../images/Analog-footer-background-680w.avif") 1x,
+      url("../images/Analog-footer-background-680w.webp") 1x
     );
   }
 }
 @supports not (
   background-image:
     image-set(
-      url("../images/bg-680w.avif") 1x,
-      url("../images/bg-680w.webp") 1x
+      url("../images/Analog-footer-background-680w.avif") 1x,
+      url("../images/Analog-footer-background-680w.webp") 1x
     )
 ) {
   .footer {
-    background-image: url("../images/bg-680w.jpg");
+    background-image: url("../images/Analog-footer-background-680w.jpeg");
   }
 }
 .footer {
