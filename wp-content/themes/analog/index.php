@@ -175,7 +175,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                 <h3>Vores historie</h3>
                 <p>Fra håndværker og gymnasielærer til ejere af en kaffebar – sådan startede to mænd, som elsker mad og kaffe. Det blev til Analog kaffebar, og hos os er der plads til alle – hvad end du kommer fra lidt længere nede af gaden eller det fjerneste verdenshjørne.</p>
             </div>
-        <figure>
+        <figure id="video-listener">
                 <picture>
                     <source type="image/avif" srcset="
                     wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
@@ -186,7 +186,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                     sizes="(max-width: 377px) 100vw, 500px">
                     <img src="wp-content/themes/analog/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
-            </figure>
+        </figure>
     </section>
     <section class="events container container--py container--px gridlayout">
         <div class="events__sticky">

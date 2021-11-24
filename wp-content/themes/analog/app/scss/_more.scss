@@ -1,4 +1,5 @@
 .more {
+  position: relative;
   padding-bottom: unset;
 
   &__heading {
@@ -66,6 +67,7 @@
       width: 100%;
       height: auto;
     }
+
     @include breakpoint-up(medium) {
       grid-column: 2/12;
     }

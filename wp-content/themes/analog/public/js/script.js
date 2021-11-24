@@ -48,6 +48,7 @@ document.querySelector(".hero__indicator").addEventListener("click", function (e
     behavior: "smooth"
   });
 }); //TODO intersectionobserver
+//TODO fix
 
 var section = document.querySelector(".hero__content");
 var options = {
@@ -61,11 +62,31 @@ var observer = new IntersectionObserver(function (entries, observer) {
     if (!entry.isIntersecting) {
       nav.classList.add("nav-open-observe");
     } else {
-      nav.classList.remove("nav-open-observe");
+      nav.classList.remove("nav-open-observer");
     }
   });
 }, options);
-observer.observe(section);
+observer.observe(section); // Video modal
+
+var videoModal = document.createElement("div");
+videoModal.className = "video-modal";
+var videoOverlay = document.createElement("div");
+videoOverlay.className = "video-overlay";
+videoModal.insertAdjacentHTML("beforeend", '<iframe src="https://www.youtube.com/embed/qwvxtBlzbO4?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3" width="560" height="315" frameborder="0"></iframe>');
+document.querySelector("#video-listener").addEventListener("click", function (e) {
+  e.preventDefault();
+  console.log("video afspiller nu");
+  body.insertAdjacentElement("beforeend", videoModal);
+  body.insertAdjacentElement("beforeend", videoOverlay);
+  videoModal.classList.add("video-visible");
+  videoOverlay.classList.add("video-visible");
+});
+videoOverlay.addEventListener("click", function (e) {
+  videoModal.remove();
+  setTimeout(function () {
+    videoOverlay.remove();
+  }, 1000);
+});
 
 /***/ }),
 
