@@ -12,12 +12,25 @@ get_header();?>
         <div class="find-us__content">
             <h2>Vi er altid glade for en snak</h2>
             <p>Ligesom vores dør er åben for en god kop kaffe, står vores telefon, mail og Facebook også til rådighed for dine spørgsmål. Vi er klar til at svare på spørgsmål om både allergener, events og udlejning af lokaler – sådan noget gør vi nemlig også (både med og uden mad og drikke).</p>
+
         </div>
         <div class="find-us__contact">
             <a href="https://www.google.com/maps/place/Albanigade+54C,+5000+Odense/@55.3930631,10.3943626,17z/data=!3m1!4b1!4m5!3m4!1s0x464d2008ad0f63f3:0x8e29df9c585257c1!8m2!3d55.3930631!4d10.3965513" target="_blank">Albanigade 54c, 5000 Odense C</a>
             <a href="tel:+4551514840">+45 51 51 48 40</a>
             <a href="mailto:analogkaffebar@gmail.com?subject=Spørgsmål til Analog&body=Kære Analog," target="_blank">analogkaffebar@gmail.com</a>
         </div>
+        <figure class="find-us__image">
+            <picture>
+                <source type="image/avif" srcset="
+                <?php echo get_template_directory_uri();?>/public/images/Analog-personale-380w.avif 380w,
+                <?php echo get_template_directory_uri();?>/public/images/Analog-personale-680w.avif 680w"
+                sizes="(max-width: 377px) 100vw, 680px">
+                <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-personale-380w.webp 380w,
+                <?php echo get_template_directory_uri();?>/public/images/Analog-personale-680w.webp 680w"
+                sizes="(max-width: 377px) 100vw, 500px">
+                <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-personale-680.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+            </picture>
+        </figure>
     </section>
     <section class="dark-section">
         <div class="location gridlayout container container--px container--py">

@@ -44,6 +44,7 @@ h1 {
   text-align: center;
   color: $clr-p;
   margin-bottom: 1.6rem;
+  font-weight: 900;
 
   @include breakpoint-up(medium) {
     //TODO undersøg linebreak
