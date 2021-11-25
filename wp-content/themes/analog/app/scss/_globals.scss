@@ -1,11 +1,13 @@
 @font-face {
   font-family: "Calibre";
-  font-weight: 600;
   font-style: normal;
   font-display: swap; /* Read next point */
   unicode-range: U+000-5FF; /* Download only latin glyphs */
   src: local("Calibre", "Roboto", Helvetica, Arial, sans-serif),
-    url("../fonts/CalibreBold.woff") format("woff");
+    url("../fonts/CalibreBold.woff") format("woff"),
+    url("../fonts/CalibreBold.woff2") format("woff2"),
+    url("../fonts/CalibreBlack.woff") format("woff"),
+    url("../fonts/CalibreBlack.woff2") format("woff2");
 }
 @viewport {
   orientation: portrait;

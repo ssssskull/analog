@@ -25,13 +25,13 @@ og laver lækre kaffe, Sandwiches og salater</h1>
         <figure>
                 <picture>
                     <source type="image/avif" srcset="
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 500px">
-                    <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
     </section>
@@ -43,97 +43,97 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                 <figure class="thin">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 500px">
-                        <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 500px">
-                        <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="thin">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 500px">
-                        <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 500px">
-                        <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 500px">
-                        <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 500px">
-                        <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="thin">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 500px">
-                        <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                                 <figure class="thin">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 500px">
-                        <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
             </div>
@@ -154,13 +154,13 @@ og laver lækre kaffe, Sandwiches og salater</h1>
         <figure id="video-listener">
                 <picture>
                     <source type="image/avif" srcset="
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 500px">
-                    <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
         </figure>
     </section>
@@ -173,13 +173,13 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                 <figure>
                     <picture>
                     <source type="image/avif" srcset="
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 500px">
-                    <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
             <h4>Fællesyoga</h4>
@@ -189,13 +189,13 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                     <figure>
                 <picture>
                     <source type="image/avif" srcset="
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 500px">
-                    <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
                         <h4>Fællesspisning</h4>
@@ -206,13 +206,13 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                 <figure>
                     <picture>
                     <source type="image/avif" srcset="
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.avif 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.avif 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
-                    <?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
+                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 500px">
-                    <img src="<?php echo get_template_directory_uri();?>/app/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
                          <h4>Koncerter</h4>
