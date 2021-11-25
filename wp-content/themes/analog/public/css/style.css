@@ -1,3 +1,133 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 @font-face {
   font-family: "Calibre";
   font-weight: 600;
@@ -408,7 +538,7 @@ span {
   z-index: 1;
   width: 100%;
   will-change: background;
-  z-index: 1;
+  z-index: 10;
 }
 @media (min-width: 64em) {
   .header {
@@ -1203,7 +1333,7 @@ span {
   margin-right: 2rem;
 }
 .footer__col2 a:first-of-type::before {
-  background-image: url(../images/facebook-dark.svg?98aa70376eaf18b2af8d225e0a1e3552);
+  background-image: url(../images/facebook-dark.svg?4c8b09668f485753ac9fb19f995a1ac3);
 }
 .footer__col2 a:last-of-type::before {
   background-image: url(../images/instagram-icon-dark.svg?6afd5fae6f69af208c43df8961fc4716);
@@ -1368,13 +1498,13 @@ span {
   }
 }
 .find-us__contact a:first-of-type::before {
-  background-image: url(../images/pin-icon.svg?5c0273b16c181ae7277b6ca8e43bb4f2);
+  background-image: url(../images/pin-icon.svg?dd7f937b82bec3c27ed2165b1be25605);
 }
 .find-us__contact a:nth-of-type(2)::before {
-  background-image: url(../images/phone-icon.svg?512eda21246d2acd1a9b7de5bea31445);
+  background-image: url(../images/phone-icon.svg?4ef498f47288031a85998a4bf0671725);
 }
 .find-us__contact a:last-of-type::before {
-  background-image: url(../images/mail-icon.svg?4bf3e56d9cdd6e3a9c2583fac4a328f9);
+  background-image: url(../images/mail-icon.svg?a1e0e9cbb4c1a1dad6cb422fafd37c0c);
 }
 
 .location > * {

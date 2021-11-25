@@ -1,6 +1,5 @@
 
 <?php
-// The post loop
 get_header();?>
 <header class="header">
     <nav>

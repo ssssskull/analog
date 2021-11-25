@@ -49,25 +49,30 @@ document
   });
 
 //TODO intersectionobserver
-const section = document.querySelector(".hero__container");
 
-const options = {
-  root: null, // It is in the viewport
-  threshold: 0.85,
-};
+if (
+  window.getComputedStyle(btnHamburger).getPropertyValue("display") === "grid"
+) {
+  const section = document.querySelector(".hero__container");
 
-const observer = new IntersectionObserver(function (entries, observer) {
-  entries.forEach((entry) => {
-    if (!entry.isIntersecting) {
-      nav.classList.add("nav-open-observer");
-      console.log("herewego");
-    } else {
-      nav.classList.remove("nav-open-observer");
-    }
-  });
-}, options);
+  const options = {
+    root: null, // It is in the viewport
+    threshold: 0.85,
+  };
 
-observer.observe(section);
+  const observer = new IntersectionObserver(function (entries, observer) {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) {
+        nav.classList.add("nav-open-observer");
+        console.log("herewego");
+      } else {
+        nav.classList.remove("nav-open-observer");
+      }
+    });
+  }, options);
+
+  observer.observe(section);
+}
 
 // Video modal
 const videoModal = document.createElement("div");

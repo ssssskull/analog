@@ -49,23 +49,26 @@ document.querySelector(".hero__indicator").addEventListener("click", function (e
   });
 }); //TODO intersectionobserver
 
-var section = document.querySelector(".hero__container");
-var options = {
-  root: null,
-  // It is in the viewport
-  threshold: 0.85
-};
-var observer = new IntersectionObserver(function (entries, observer) {
-  entries.forEach(function (entry) {
-    if (!entry.isIntersecting) {
-      nav.classList.add("nav-open-observer");
-      console.log("herewego");
-    } else {
-      nav.classList.remove("nav-open-observer");
-    }
-  });
-}, options);
-observer.observe(section); // Video modal
+if (window.getComputedStyle(btnHamburger).getPropertyValue("display") === "grid") {
+  var section = document.querySelector(".hero__container");
+  var options = {
+    root: null,
+    // It is in the viewport
+    threshold: 0.85
+  };
+  var observer = new IntersectionObserver(function (entries, observer) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) {
+        nav.classList.add("nav-open-observer");
+        console.log("herewego");
+      } else {
+        nav.classList.remove("nav-open-observer");
+      }
+    });
+  }, options);
+  observer.observe(section);
+} // Video modal
+
 
 var videoModal = document.createElement("div");
 videoModal.className = "video-modal";

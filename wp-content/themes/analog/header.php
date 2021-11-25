@@ -14,7 +14,6 @@
    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
-  <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/styles/reset.css">
   <title><?php echo get_bloginfo('name'); ?></title>
 <?php wp_head();
 ?>
