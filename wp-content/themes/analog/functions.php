@@ -87,6 +87,13 @@ add_action( 'init', 'cptui_register_my_cpts_kaffe' );
 function my_scripts() {
     wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/public/css/style.css', false, '1.0', 'all' );
 	wp_enqueue_script("script", get_template_directory_uri() . '/public/js/script.js');
+	if (is_page('find-os')) {
+		wp_enqueue_style(
+			'leaflet-style', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
+		wp_style_add_data('leaflet-style', ['integrity', 'crossorigin'] , ['sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==', '']);
+		wp_enqueue_script('leaflet', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.js', [], false, false);
+		wp_script_add_data('leaflet', ['integrity', 'crossorigin'] , ['sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==', '']);
+	}
 }
 function allow_modern_images( $mime_types ) {
   $mime_types['webp'] = 'image/webp';

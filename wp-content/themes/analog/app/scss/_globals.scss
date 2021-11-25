@@ -5,7 +5,6 @@
   font-display: swap; /* Read next point */
   unicode-range: U+000-5FF; /* Download only latin glyphs */
   src: local("Calibre", "Roboto", Helvetica, Arial, sans-serif),
-    url("../fonts/CalibreBold.woff2") format("woff2"),
     url("../fonts/CalibreBold.woff") format("woff");
 }
 @viewport {
