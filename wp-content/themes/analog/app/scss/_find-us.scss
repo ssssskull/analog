@@ -1,5 +1,9 @@
 .find-us {
   align-items: center;
+
+  @include breakpoint-down(medium) {
+    justify-items: center;
+  }
   > * {
     grid-column: 1/5;
 

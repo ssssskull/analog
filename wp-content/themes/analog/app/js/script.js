@@ -1,11 +1,12 @@
 "use strict";
-console.log("yo");
+console.log("Hej smukke!");
 
 const header = document.querySelector("header");
 const nav = document.querySelector("nav");
 const body = document.querySelector("body");
 const btnHamburger = document.querySelector("#btnHamburger");
 const headerMenu = document.querySelector(".header__menuwrapper");
+const scrollIndicator = document.querySelector(".hero__indicator");
 
 btnHamburger.addEventListener("click", function () {
   if (header.classList.contains("open")) {
@@ -39,16 +40,14 @@ if (path.includes("find-os")) {
     .openPopup();
 }
 
-document
-  .querySelector(".hero__indicator")
-  .addEventListener("click", function (e) {
+if (document.body.contains(scrollIndicator)) {
+  scrollIndicator.addEventListener("click", function (e) {
     e.preventDefault();
     const targetScroll = document.querySelector("#about");
 
     targetScroll.scrollIntoView({ behavior: "smooth" });
   });
-
-//TODO intersectionobserver
+}
 
 if (
   window.getComputedStyle(btnHamburger).getPropertyValue("display") === "grid"
@@ -75,36 +74,40 @@ if (
 }
 
 // Video modal
-const videoModal = document.createElement("div");
-videoModal.className = "video-modal";
-const videoOverlay = document.createElement("div");
-videoOverlay.className = "video-overlay";
-videoModal.insertAdjacentHTML(
-  "beforeend",
-  '<iframe src="https://www.youtube.com/embed/qwvxtBlzbO4?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3" width="560" height="315" frameborder="0"></iframe>'
-);
 
-document
-  .querySelector("#video-listener")
-  .addEventListener("click", function (e) {
-    e.preventDefault();
-    console.log("video afspiller nu");
-    body.insertAdjacentElement("beforeend", videoModal);
-    body.insertAdjacentElement("beforeend", videoOverlay);
+if (
+  !path.includes("find-os") &&
+  !path.includes("404") &&
+  !path.includes("menukort")
+) {
+  const videoModal = document.createElement("div");
+  videoModal.className = "video-modal";
+  const videoOverlay = document.createElement("div");
+  videoOverlay.className = "video-overlay";
+  videoModal.insertAdjacentHTML(
+    "beforeend",
+    '<iframe src="https://www.youtube.com/embed/qwvxtBlzbO4?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3" width="560" height="315" frameborder="0"></iframe>'
+  );
 
-    videoOverlay.classList.add("overlay-visible");
+  document
+    .querySelector("#video-listener")
+    .addEventListener("click", function () {
+      body.insertAdjacentElement("beforeend", videoModal);
+      body.insertAdjacentElement("beforeend", videoOverlay);
+
+      videoOverlay.classList.add("overlay-visible");
+      setTimeout(function () {
+        videoModal.classList.add("modal-visible");
+      }, 100);
+    });
+
+  videoOverlay.addEventListener("click", function () {
     setTimeout(function () {
-      videoModal.classList.add("modal-visible");
-      //TODO check if this timeout works
-    }, 100);
+      videoModal.remove();
+      videoOverlay.remove();
+      videoModal.classList.remove("video-close");
+      videoModal.classList.remove("modal-visible");
+    }, 700);
+    videoModal.classList.add("video-close");
   });
-
-videoOverlay.addEventListener("click", function (e) {
-  setTimeout(function () {
-    videoModal.remove();
-    videoOverlay.remove();
-    videoModal.classList.remove("video-close");
-    videoModal.classList.remove("modal-visible");
-  }, 700);
-  videoModal.classList.add("video-close");
-});
+}

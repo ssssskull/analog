@@ -455,7 +455,7 @@ span {
 }
 .nav-open,
 .nav-open-observer {
-  background: rgba(41, 36, 32, 0.98);
+  background: rgba(29, 25, 23, 0.98);
 }
 
 .video-modal {
@@ -670,7 +670,7 @@ span {
 }
 .header__menuwrapper {
   height: calc(100vh - 80px);
-  background: -moz-linear-gradient(top, rgba(41, 36, 32, 0.98), #0a0908);
+  background: -moz-linear-gradient(top, rgba(29, 25, 23, 0.98), #1d1917);
   position: absolute;
   width: 100%;
   will-change: opacity;
@@ -1333,7 +1333,7 @@ span {
   margin-right: 2rem;
 }
 .footer__col2 a:first-of-type::before {
-  background-image: url(../images/facebook-dark.svg?4c8b09668f485753ac9fb19f995a1ac3);
+  background-image: url(../images/facebook-dark.svg?2ffcab1a89d326e11c9275e455fd9cab);
 }
 .footer__col2 a:last-of-type::before {
   background-image: url(../images/instagram-icon-dark.svg?6afd5fae6f69af208c43df8961fc4716);
@@ -1429,6 +1429,11 @@ span {
 .find-us {
   align-items: center;
 }
+@media (max-width: 63.9375em) {
+  .find-us {
+    justify-items: center;
+  }
+}
 .find-us > * {
   grid-column: 1/5;
 }
@@ -1514,13 +1519,13 @@ span {
   }
 }
 .find-us__contact a:first-of-type::before {
-  background-image: url(../images/pin-icon.svg?dd7f937b82bec3c27ed2165b1be25605);
+  background-image: url(../images/pin-icon.svg?5c0273b16c181ae7277b6ca8e43bb4f2);
 }
 .find-us__contact a:nth-of-type(2)::before {
-  background-image: url(../images/phone-icon.svg?4ef498f47288031a85998a4bf0671725);
+  background-image: url(../images/phone-icon.svg?512eda21246d2acd1a9b7de5bea31445);
 }
 .find-us__contact a:last-of-type::before {
-  background-image: url(../images/mail-icon.svg?a1e0e9cbb4c1a1dad6cb422fafd37c0c);
+  background-image: url(../images/mail-icon.svg?4bf3e56d9cdd6e3a9c2583fac4a328f9);
 }
 
 .location > * {
