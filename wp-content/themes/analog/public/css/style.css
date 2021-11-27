@@ -300,22 +300,18 @@ span {
   border: none;
   border-radius: 4px;
 }
-.btn--secondary span {
-  content: "";
-  width: 13px;
-  height: 13px;
-  background-image: url(../images/arrow.svg?aabf025c447e8363167969608fc66cde);
-  background-repeat: no-repeat;
-  background-size: 95%;
-  display: inline-block;
-  background-position: center right;
-  display: inline-block;
+.btn--secondary svg {
+  width: 17px;
+  height: 17px;
   vertical-align: middle;
   margin-left: 0.5rem;
 }
 .btn--secondary:hover {
   color: whitesmoke;
   background: rgba(66, 63, 63, 0.8);
+}
+.btn--secondary:hover svg {
+  fill: whitesmoke;
 }
 
 .dark-section {

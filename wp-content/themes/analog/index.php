@@ -138,7 +138,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                 </figure>
             </div>
             <h3>To stay, to go eller som take-away?</h3>
-            <a href="menu" class="btn btn--secondary">Se vores menukort<span></span></a>
+            <a href="menu" class="btn btn--secondary">Se vores menukort<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#8ab4f8"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></a>
         </div>
     </section>
     <section class="more container container--py container--px gridlayout">

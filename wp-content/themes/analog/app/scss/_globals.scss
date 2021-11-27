@@ -151,24 +151,16 @@ span {
   font-size: $text-base-fallback;
   font-size: $text-base;
   justify-self: center;
-  //TODO arrow color change on hover
+
   &--secondary {
     color: #8ab4f8;
     background: transparent;
     border: none;
     border-radius: 4px;
 
-    span {
-      //TODO undersøg bedre svar
-      content: "";
-      width: 13px;
-      height: 13px;
-      background-image: url("../images/svg/arrow.svg");
-      background-repeat: no-repeat;
-      background-size: 95%;
-      display: inline-block;
-      background-position: center right;
-      display: inline-block;
+    svg {
+      width: 17px;
+      height: 17px;
       vertical-align: middle;
       margin-left: 0.5rem;
     }
@@ -176,6 +168,10 @@ span {
     &:hover {
       color: $clr-p;
       background: rgba(66, 63, 63, 0.8);
+
+      svg {
+        fill: $clr-p;
+      }
     }
   }
 }
