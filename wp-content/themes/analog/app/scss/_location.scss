@@ -23,7 +23,11 @@
     width: 100%;
     aspect-ratio: 4/3;
     background-color: aquamarine;
-    margin: 6rem 0;
+    margin: 3rem 0;
+
+    @include breakpoint-up(medium) {
+      margin: 6rem 0;
+    }
 
     @include breakpoint-up(large) {
       aspect-ratio: 21/9;

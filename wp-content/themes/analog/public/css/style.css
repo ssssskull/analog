@@ -951,14 +951,14 @@ span {
 }
 @media (max-width: 63.9375em) {
   .about__row1 {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 }
 .about__row2 {
   align-self: start;
 }
 .about__row2 p {
-  margin: 4rem 0 2rem 0;
+  margin: 3rem 0 2rem 0;
 }
 @media (max-width: 39.9375em) {
   .about__row2 a {
@@ -1011,7 +1011,7 @@ span {
   }
 }
 .gallery__images {
-  margin: 6rem 0;
+  margin: 4rem 0;
   grid-column-end: span 4;
   width: 100%;
   display: grid;
@@ -1064,6 +1064,7 @@ span {
   .gallery__images {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 5vw);
+    margin: 6rem 0;
   }
 }
 
@@ -1147,9 +1148,6 @@ span {
   margin-bottom: 3rem;
 }
 @media (max-width: 63.9375em) {
-  .more__content {
-    margin-bottom: 2.4rem;
-  }
   .more__content h3 {
     text-align: center;
   }
@@ -1560,7 +1558,7 @@ span {
   }
 }
 .takeaway__menu p:last-of-type {
-  margin-top: 2.4rem;
+  margin-top: 3rem;
 }
 @media (min-width: 64em) {
   .takeaway__waste {
@@ -1697,7 +1695,12 @@ span {
   width: 100%;
   aspect-ratio: 4/3;
   background-color: aquamarine;
-  margin: 6rem 0;
+  margin: 3rem 0;
+}
+@media (min-width: 40em) {
+  .location__container {
+    margin: 6rem 0;
+  }
 }
 @media (min-width: 64em) {
   .location__container {

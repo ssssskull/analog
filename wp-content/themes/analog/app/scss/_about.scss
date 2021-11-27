@@ -20,7 +20,7 @@
   &__row1 {
     align-self: end;
     @include breakpoint-down(medium) {
-      margin-bottom: 4rem;
+      margin-bottom: 3rem;
     }
   }
 
@@ -28,7 +28,7 @@
     align-self: start;
 
     p {
-      margin: 4rem 0 2rem 0;
+      margin: 3rem 0 2rem 0;
     }
 
     @include breakpoint-down(small) {

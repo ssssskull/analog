@@ -18,7 +18,7 @@
   }
 
   &__images {
-    margin: 6rem 0;
+    margin: 4rem 0;
     grid-column-end: span 4;
     width: 100%;
     display: grid;
@@ -69,6 +69,7 @@
     @include breakpoint-up(large) {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(6, 5vw);
+      margin: 6rem 0;
     }
   }
 }
