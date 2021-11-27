@@ -27,7 +27,7 @@ get_header();?>
                 sizes="(max-width: 377px) 100vw, 680px">
                 <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-personale-380w.webp 380w,
                 <?php echo get_template_directory_uri();?>/public/images/Analog-personale-680w.webp 680w"
-                sizes="(max-width: 377px) 100vw, 500px">
+                sizes="(max-width: 377px) 100vw, 680px">
                 <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-personale-680.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
             </picture>
         </figure>

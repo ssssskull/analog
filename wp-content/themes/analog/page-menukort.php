@@ -84,6 +84,40 @@ get_header();?>
             </div>
         </div>
     </section>
+    <section class="takeaway container container--px container--py ">
+        <div class="takeaway__intro gridlayout">
+            <h2>Take away med god samvittighed</h2>
+            <p>Udover vores faste menukort laver vi også hjemmelavet mad hver uge som kan tages med hjem.</p>
+        </div>
+        <div class="takeaway__content gridlayout">
+            <figure class="takeaway__image">
+                        <picture>
+                            <source type="image/avif" srcset="
+                            <?php echo get_template_directory_uri();?>/public/images/Analog-personale-380w.avif 380w,
+                            <?php echo get_template_directory_uri();?>/public/images/Analog-personale-680w.avif 680w"
+                            sizes="(max-width: 377px) 100vw, 680px">
+                            <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-personale-380w.webp 380w,
+                            <?php echo get_template_directory_uri();?>/public/images/Analog-personale-680w.webp 680w"
+                            sizes="(max-width: 377px) 100vw, 680px">
+                            <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-personale-680.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        </picture>
+                    </figure>
+                    <div class="takeaway__menu">
+                        <h3>Take away menu</h3>
+                        <p>Mørbradgryde 75,-</p>
+                        <p>Boller i karry 65,-</p>
+                        <p>Thaikylling 75,-</p>
+                        <p>Kødsovs 65,-</p>
+                        <p>Dhal 60,-</p>
+                        <p>Diverse supper 50,-</p>
+                        <p>Til hver ret medfølger renten ris, pasta eller en bolle. Sæsonvariation og kokkens humør afgør, hvilke retter vi har på lager ud over de ovenstående retter. Retterne købes på frost, så du kan tage dem direkte med hjem og varme op.</p>
+                    </div>
+                    <div class="takeaway__waste">
+                        <h3>Så tæt som muligt på 0% madspild</h3>
+                        <p>Det er i hvert fald noget, vi forsøger, og vi er ret tæt på. Vi køber nemlig kun råvarer, der kan holde sig i længere tid, og det er også grunden til, at take awayen købes på frost – så kan du nemlig både varme maden op og fryse den ned igen. Det er næsten 0% madspild, og det gør os glade.</p>
+                    </div>
+        </div>
+    </section>
 </main>
 <footer class="footer container--py container--px ">
     <div class="footer__wrapper container gridlayout">

@@ -1,0 +1,68 @@
+.takeaway {
+  &__intro {
+    text-align: center;
+    margin-bottom: 4rem;
+
+    p {
+      @include breakpoint-down(medium) {
+        text-align: start;
+      }
+    }
+    > * {
+      grid-column: 1/5;
+      @include breakpoint-up(medium) {
+        grid-column: 2/12;
+      }
+    }
+
+    @include breakpoint-up(large) {
+      margin-bottom: 6rem;
+    }
+  }
+
+  figure {
+    overflow: hidden;
+    max-height: 580px;
+    margin: 4rem 0;
+    @include breakpoint-up(large) {
+      margin: unset;
+      grid-column: 2/6;
+      grid-row: 1/3;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__content {
+    > * {
+      grid-column: 1/5;
+      @include breakpoint-up(medium) {
+        grid-column: 2/12;
+      }
+    }
+    @include breakpoint-up(large) {
+      align-items: center;
+    }
+  }
+  &__menu {
+    grid-row: 1/2;
+    @include breakpoint-up(large) {
+      grid-column: 7/12;
+      align-self: end;
+    }
+
+    p:last-of-type {
+      margin-top: 1.6rem;
+    }
+  }
+
+  &__waste {
+    @include breakpoint-up(large) {
+      margin-top: 4rem;
+      grid-column: 7/12;
+      align-self: start;
+    }
+  }
+}

@@ -81,7 +81,9 @@
     margin-bottom: 3rem;
 
     @include breakpoint-down(medium) {
-      text-align: center;
+      h3 {
+        text-align: center;
+      }
       margin-bottom: 2.4rem;
     }
     @include breakpoint-up(medium) {
