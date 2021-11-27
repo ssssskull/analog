@@ -63,7 +63,6 @@ if (
     entries.forEach((entry) => {
       if (!entry.isIntersecting) {
         nav.classList.add("nav-open-observer");
-        console.log("herewego");
       } else {
         nav.classList.remove("nav-open-observer");
       }

@@ -63,7 +63,6 @@ if (window.getComputedStyle(btnHamburger).getPropertyValue("display") === "grid"
     entries.forEach(function (entry) {
       if (!entry.isIntersecting) {
         nav.classList.add("nav-open-observer");
-        console.log("herewego");
       } else {
         nav.classList.remove("nav-open-observer");
       }

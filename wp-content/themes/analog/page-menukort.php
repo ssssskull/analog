@@ -103,7 +103,7 @@ get_header();?>
             </div>
             <div class="menu__section">
                 <div class="menu__titlerow">
-                    <h4>Mad og kage</h4>
+                    <h4>Søde sager</h4>
                     <figure></figure>
                 </div>
                 <?php

@@ -1433,16 +1433,16 @@ span {
 .menu__section:nth-of-type(1) figure {
   background-image: url(../images/varmedrikke.svg?145f4184537849d5b836bae220693367);
 }
-.menu__section:nth-of-type(2) figure {
+.menu__section:nth-of-type(3) figure {
   background-image: url(../images/koldedrikke.svg?8c3a7f931145a24a18d8101ea9edb588);
 }
-.menu__section:nth-of-type(3) figure {
+.menu__section:nth-of-type(4) figure {
   background-image: url(../images/varmeretter.svg?18e031ca2361c8e1413969b6715a2718);
 }
-.menu__section:nth-of-type(4) figure {
+.menu__section:nth-of-type(6) figure {
   background-image: url(../images/panini.svg?2ea99d312f1a064fd950f95889be7a17);
 }
-.menu__section:nth-of-type(5) figure {
+.menu__section:nth-of-type(7) figure {
   background-image: url(../images/soedesager.svg?757d356534c30cd091307aaf057efeea);
 }
 @media (min-width: 40em) {
@@ -1540,7 +1540,7 @@ span {
   }
 }
 .takeaway__menu p:last-of-type {
-  margin-top: 1.6rem;
+  margin-top: 2.4rem;
 }
 @media (min-width: 64em) {
   .takeaway__waste {
