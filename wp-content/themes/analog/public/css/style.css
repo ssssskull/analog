@@ -652,7 +652,7 @@ span {
   width: 26px;
   height: 3px;
   background-color: whitesmoke;
-  transition: all 0.2 ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .header__toggle span {
   position: relative;
@@ -1177,6 +1177,12 @@ span {
 @media (min-width: 64em) {
   .events {
     padding-top: 13rem;
+  }
+}
+@media (max-width: 63.9375em) {
+  .events__text {
+    max-width: 32ch;
+    margin: auto;
   }
 }
 .events__sticky {

@@ -183,7 +183,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                 </picture>
             </figure>
             <h4>Fællesyoga</h4>
-            <p>Styrk både krop og sind ved den fælles yoga i samarbejde med Yogistii.</p>
+            <p class="events__text">Styrk både krop og sind ved den fælles yoga i samarbejde med Yogistii.</p>
             </div>
                     <div class="events__elem2">
                     <figure>
@@ -199,7 +199,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                 </picture>
             </figure>
                         <h4>Fællesspisning</h4>
-                    <p>Spis med venner, du ikke kender endnu. Menuen byder på noget nyt hver gang, men er altid hjemmelavet.</p>
+                    <p class="events__text">Spis med venner, du ikke kender endnu. Menuen byder på noget nyt hver gang, men er altid hjemmelavet.</p>
                     </div>
                 </div>
                 <div class="events__col2">
@@ -216,7 +216,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                 </picture>
             </figure>
                          <h4>Koncerter</h4>
-                         <p>Oplev intimkoncerter i vores omrokerede kaffebar med lokale kunstnere.</p>
+                         <p class="events__text">Oplev intimkoncerter i vores omrokerede kaffebar med lokale kunstnere.</p>
                 </div>
         </section>
 </main>

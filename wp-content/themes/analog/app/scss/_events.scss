@@ -1,14 +1,18 @@
 .events {
   padding-top: 6rem;
 
-  p {
-    //TODO max width på ch
-  }
   @include breakpoint-up(medium) {
     padding-top: 8rem;
   }
   @include breakpoint-up(large) {
     padding-top: 13rem;
+  }
+
+  &__text {
+    @include breakpoint-down(medium) {
+      max-width: 32ch;
+      margin: auto;
+    }
   }
 
   &__sticky {
