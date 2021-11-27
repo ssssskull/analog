@@ -1,14 +1,78 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Analog",
+  "image": "www.todo.com",
+  "@id": "",
+  "url": "https://analogkaffebar.dk",
+  "telephone": "+45 51 51 48 40",
+  "priceRange": "$",
+  "menu": "https://analogkaffebar.dk/menu",
+  "servesCuisine": "Kaffe",
+  "acceptsReservations": "true",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Albanigade 54c",
+    "addressLocality": "Odense",
+    "postalCode": "5000",
+    "addressCountry": "DK"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 55.3930661,
+    "longitude": 10.3943626
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "08:00",
+    "closes": "17:30"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "09:00",
+    "closes": "15:00"
+  }],
+  "sameAs": [
+    "https://www.instagram.com/analog_kaffebar/",
+    "https://www.facebook.com/analogkaffebar"
+  ]
+}
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="preload" as="font" href="<?php echo get_template_directory_uri();?>/public/fonts/CalibreBlack.woff2" type="font/woff" crossorigin="anonymous">
   <link rel="preload" as="font" href="<?php echo get_template_directory_uri();?>/public/fonts/CalibreBold.woff2" type="font/woff" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-  <title><?php echo get_bloginfo('name'); ?></title>
+  <title><?php
+  if (is_page('menukort') || is_page('find-os')) {
+      echo the_title(). " / Analog kaffebar";
+  } else {
+        echo get_bloginfo();
+  }?></title>
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri();?>/public/images/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri();?>/public/images/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/public/images/icons/favicon-16x16.png">
+<link rel="manifest" href="<?php echo get_template_directory_uri();?>/public/images/icons/site.webmanifest">
+<link rel="mask-icon" href="<?php echo get_template_directory_uri();?>/public/images/icons/safari-pinned-tab.svg" color="#1d1917">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri();?>/public/images/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#1d1917">
+<meta name="msapplication-config" content="<?php echo get_template_directory_uri();?>/public/images/icons/browserconfig.xml">
+<meta name="theme-color" content="#1d1917">
+
+
 <?php wp_head();
 ?>
 </head>

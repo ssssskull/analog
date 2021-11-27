@@ -8,7 +8,7 @@ get_header();?>
 og laver lækre kaffe, Sandwiches og salater</h1>
                 <p class="hero__subheading">Kom endelig forbi og nyd den afslappede stemning og atmosfære.</p>
             </div>
-            <a href="#about" class="hero__indicator">
+            <a href="#about" class="hero__indicator" title="Tryk for at scrolle længere ned på sitet">
                 <svg width="32" height="59" viewBox="0 0 32 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="1" y="1.01929" width="30" height="56" rx="15" stroke="#D3A075" stroke-width="2"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M9.32812 19.3937L16.2031 26.2687H17.1752L24.0503 19.3937L23.0781 18.4216L17.376 24.1223V9.76868H16.001V24.1237L10.3003 18.4202L9.32812 19.3937Z" fill="#D3A075"/>
@@ -24,7 +24,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
         </div>
         <div class="about__row2">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam sint, quod natus quibusdam magnam dignissimos.</p>
-            <a href="#" class="btn btn--primary" title="Start en samtale">Start en samtale</a>
+            <a href="find-os" class="btn btn--primary" title="Start en samtale">Start en samtale</a>
         </div>
         <figure>
                 <picture>

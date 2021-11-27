@@ -1492,9 +1492,9 @@ span {
   .menu__divider {
     display: block;
     grid-column: 7/8;
-    width: 3px;
+    width: 2px;
     height: 60%;
-    background-color: whitesmoke;
+    background-color: #d3a075;
     margin-top: 3rem;
   }
 }

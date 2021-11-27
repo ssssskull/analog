@@ -1,0 +1,20 @@
+{
+    "name": "Analog",
+    "short_name": "Analog",
+    "icons": [
+        {
+            "src": "/public/images/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/images/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#1d1917",
+    "background_color": "#1d1917",
+    "start_url": "danielpapp.me/sandbox/3semopgave",
+    "display": "standalone"
+}

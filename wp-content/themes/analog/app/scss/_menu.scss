@@ -93,9 +93,9 @@
     @include breakpoint-up(large) {
       display: block;
       grid-column: 7/8;
-      width: 3px;
+      width: 2px;
       height: 60%;
-      background-color: $clr-p;
+      background-color: $clr-heading;
       margin-top: 3rem;
     }
   }
