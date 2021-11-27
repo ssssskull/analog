@@ -20,7 +20,7 @@ get_header();?>
             <h2>Menukort</h2>
             <div class="menu__section">
                 <div class="menu__titlerow">
-                    <h4>Kaffe og varme drikke</h4>
+                    <h4>Varme drikke</h4>
                     <figure></figure>
                 </div>
                  <?php
@@ -45,6 +45,25 @@ get_header();?>
                     </div>
                 <?php endwhile; wp_reset_query(); ?>
             </div>
+            <div class="menu__divider"></div>
+            <div class="menu__section">
+                <div class="menu__titlerow">
+                    <h4>Kolde drikke</h4>
+                    <figure></figure>
+                </div>
+                <?php
+                $loop = new WP_Query( array(
+                    'post_type' => 'madvare',
+                    'posts_per_page' => -1
+                )
+                );?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post();?>
+                    <div class="menu__row">
+                        <p><?php echo get_the_title();?></p>
+                        <p><?php the_field('pris'); ?>,-</p>
+                    </div>
+                <?php endwhile; wp_reset_query(); ?>
+            </div>
             <div class="menu__section">
                 <div class="menu__titlerow">
                     <h4>Varme retter</h4>
@@ -63,9 +82,28 @@ get_header();?>
                     </div>
                 <?php endwhile; wp_reset_query(); ?>
             </div>
+            <div class="menu__divider"></div>
             <div class="menu__section">
                 <div class="menu__titlerow">
-                    <h4>Søde sager</h4>
+                    <h4>Sandwiches</h4>
+                    <figure></figure>
+                </div>
+                <?php
+                $loop = new WP_Query( array(
+                    'post_type' => 'madvare',
+                    'posts_per_page' => -1
+                )
+                );?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post();?>
+                    <div class="menu__row">
+                        <p><?php echo get_the_title();?></p>
+                        <p><?php the_field('pris'); ?>,-</p>
+                    </div>
+                <?php endwhile; wp_reset_query(); ?>
+            </div>
+            <div class="menu__section">
+                <div class="menu__titlerow">
+                    <h4>Mad og kage</h4>
                     <figure></figure>
                 </div>
                 <?php
@@ -95,10 +133,10 @@ get_header();?>
                             <source type="image/avif" srcset="
                             <?php echo get_template_directory_uri();?>/public/images/Analog-personale-380w.avif 380w,
                             <?php echo get_template_directory_uri();?>/public/images/Analog-personale-680w.avif 680w"
-                            sizes="(max-width: 377px) 100vw, 680px">
+                            sizes="(max-width: 377px) 100vw, 640px">
                             <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-personale-380w.webp 380w,
                             <?php echo get_template_directory_uri();?>/public/images/Analog-personale-680w.webp 680w"
-                            sizes="(max-width: 377px) 100vw, 680px">
+                            sizes="(max-width: 377px) 100vw, 640px">
                             <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-personale-680.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                         </picture>
                     </figure>

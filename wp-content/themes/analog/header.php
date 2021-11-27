@@ -16,8 +16,8 @@
 <header class="header">
     <nav>
         <div class="header__wrapper gridlayout container container--px">
-            <a href="#/" class="header__logo" title="Analog kaffebar"></a>
-            <a href="#/" class="header__toggle hide-for-desktop" id="btnHamburger" title="Navigation mobil">
+            <a href="<?php echo home_url(); ?>" class="header__logo" title="Analog kaffebar logo"></a>
+            <a href="#/" class="header__toggle hide-for-desktop" id="btnHamburger" title="Menu knap">
                 <span></span>
             </a>
             <?php wp_nav_menu(array( 'container'=> false, 'menu_class' => 'header__links hide-for-mobile','menu_id' => false));?>

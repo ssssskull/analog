@@ -30,7 +30,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                     sizes="(max-width: 377px) 100vw, 640px">
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
-                    sizes="(max-width: 377px) 100vw, 500px">
+                    sizes="(max-width: 377px) 100vw, 640px">
                     <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
@@ -48,7 +48,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                         sizes="(max-width: 377px) 100vw, 640px">
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
-                        sizes="(max-width: 377px) 100vw, 500px">
+                        sizes="(max-width: 377px) 100vw, 640px">
                         <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
@@ -60,7 +60,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                         sizes="(max-width: 377px) 100vw, 640px">
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
-                        sizes="(max-width: 377px) 100vw, 500px">
+                        sizes="(max-width: 377px) 100vw, 640px">
                         <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
@@ -72,7 +72,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                         sizes="(max-width: 377px) 100vw, 640px">
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
-                        sizes="(max-width: 377px) 100vw, 500px">
+                        sizes="(max-width: 377px) 100vw, 640px">
                         <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
@@ -84,7 +84,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                         sizes="(max-width: 377px) 100vw, 640px">
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
-                        sizes="(max-width: 377px) 100vw, 500px">
+                        sizes="(max-width: 377px) 100vw, 640px">
                         <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
@@ -96,7 +96,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                         sizes="(max-width: 377px) 100vw, 640px">
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
-                        sizes="(max-width: 377px) 100vw, 500px">
+                        sizes="(max-width: 377px) 100vw, 640px">
                         <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
@@ -108,7 +108,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                         sizes="(max-width: 377px) 100vw, 640px">
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640w.webp 640w"
-                        sizes="(max-width: 377px) 100vw, 500px">
+                        sizes="(max-width: 377px) 100vw, 640px">
                         <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-toast-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
@@ -120,7 +120,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                         sizes="(max-width: 377px) 100vw, 640px">
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
-                        sizes="(max-width: 377px) 100vw, 500px">
+                        sizes="(max-width: 377px) 100vw, 640px">
                         <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
@@ -132,7 +132,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                         sizes="(max-width: 377px) 100vw, 640px">
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
-                        sizes="(max-width: 377px) 100vw, 500px">
+                        sizes="(max-width: 377px) 100vw, 640px">
                         <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
@@ -159,7 +159,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                     sizes="(max-width: 377px) 100vw, 640px">
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
-                    sizes="(max-width: 377px) 100vw, 500px">
+                    sizes="(max-width: 377px) 100vw, 640px">
                     <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
         </figure>
@@ -178,7 +178,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                     sizes="(max-width: 377px) 100vw, 640px">
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
-                    sizes="(max-width: 377px) 100vw, 500px">
+                    sizes="(max-width: 377px) 100vw, 640px">
                     <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
@@ -194,7 +194,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                     sizes="(max-width: 377px) 100vw, 640px">
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
-                    sizes="(max-width: 377px) 100vw, 500px">
+                    sizes="(max-width: 377px) 100vw, 640px">
                     <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
@@ -211,7 +211,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                     sizes="(max-width: 377px) 100vw, 640px">
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640w.webp 640w"
-                    sizes="(max-width: 377px) 100vw, 500px">
+                    sizes="(max-width: 377px) 100vw, 640px">
                     <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-galleri-kaffe-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>

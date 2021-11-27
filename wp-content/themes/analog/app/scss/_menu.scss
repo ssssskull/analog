@@ -20,23 +20,57 @@
   &__titlerow {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2.4rem;
+    align-items: center;
+    margin-bottom: 1.6rem;
+
+    h4 {
+      margin-bottom: unset;
+    }
 
     figure {
       display: block;
-      background: lightskyblue;
+      background-repeat: no-repeat;
+      background-position: center;
       width: 50px;
-      height: auto;
+      height: 50px;
+
+      @include breakpoint-up(large) {
+        width: 70px;
+        height: 70px;
+      }
     }
   }
 
   &__section {
-    @include breakpoint-up(medium) {
-      grid-column: 2/9;
+    &:nth-of-type(1) {
+      figure {
+        background-image: url("../images/svg/varmedrikke.svg");
+      }
     }
-    @include breakpoint-up(large) {
+    &:nth-of-type(2) {
+      figure {
+        background-image: url("../images/svg/koldedrikke.svg");
+      }
+    }
+    &:nth-of-type(3) {
+      figure {
+        background-image: url("../images/svg/varmeretter.svg");
+      }
+    }
+    &:nth-of-type(4) {
+      figure {
+        background-image: url("../images/svg/panini.svg");
+      }
+    }
+    &:nth-of-type(5) {
+      figure {
+        background-image: url("../images/svg/soedesager.svg");
+      }
+    }
+    @include breakpoint-up(medium) {
       grid-column: 2/6;
-      &:nth-of-type(3) {
+      &:nth-of-type(3),
+      &:nth-of-type(6) {
         grid-column: 8/12;
       }
     }
@@ -48,9 +82,22 @@
       }
     }
   }
+
   &__row {
     display: flex;
     justify-content: space-between;
+  }
+
+  &__divider {
+    display: none;
+    @include breakpoint-up(large) {
+      display: block;
+      grid-column: 7/8;
+      width: 3px;
+      height: 60%;
+      background-color: $clr-p;
+      margin-top: 3rem;
+    }
   }
 }
 //TODO unset h4 margin

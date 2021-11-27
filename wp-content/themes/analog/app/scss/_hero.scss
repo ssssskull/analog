@@ -54,7 +54,10 @@
   }
 
   &--menu {
-    height: 70vh;
+    height: 45vh;
+    @include breakpoint-up(large) {
+      height: 65vh;
+    }
   }
   &__content {
     color: $clr-p;

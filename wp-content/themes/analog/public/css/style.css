@@ -841,7 +841,12 @@ span {
   background: rgba(37, 22, 14, 0.74);
 }
 .hero--menu {
-  height: 70vh;
+  height: 45vh;
+}
+@media (min-width: 64em) {
+  .hero--menu {
+    height: 65vh;
+  }
 }
 .hero__content {
   color: whitesmoke;
@@ -900,6 +905,11 @@ span {
   .assortment__content {
     grid-column: 2/7;
     margin-bottom: unset;
+  }
+}
+@media (max-width: 63.9375em) {
+  .assortment__content h2 {
+    text-align: center;
   }
 }
 .assortment__illustration {
@@ -1395,24 +1405,45 @@ span {
 .menu__titlerow {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2.4rem;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.menu__titlerow h4 {
+  margin-bottom: unset;
 }
 .menu__titlerow figure {
   display: block;
-  background: lightskyblue;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 50px;
-  height: auto;
+  height: 50px;
+}
+@media (min-width: 64em) {
+  .menu__titlerow figure {
+    width: 70px;
+    height: 70px;
+  }
+}
+.menu__section:nth-of-type(1) figure {
+  background-image: url(../images/varmedrikke.svg?145f4184537849d5b836bae220693367);
+}
+.menu__section:nth-of-type(2) figure {
+  background-image: url(../images/koldedrikke.svg?8c3a7f931145a24a18d8101ea9edb588);
+}
+.menu__section:nth-of-type(3) figure {
+  background-image: url(../images/varmeretter.svg?18e031ca2361c8e1413969b6715a2718);
+}
+.menu__section:nth-of-type(4) figure {
+  background-image: url(../images/panini.svg?2ea99d312f1a064fd950f95889be7a17);
+}
+.menu__section:nth-of-type(5) figure {
+  background-image: url(../images/soedesager.svg?757d356534c30cd091307aaf057efeea);
 }
 @media (min-width: 40em) {
   .menu__section {
-    grid-column: 2/9;
-  }
-}
-@media (min-width: 64em) {
-  .menu__section {
     grid-column: 2/6;
   }
-  .menu__section:nth-of-type(3) {
+  .menu__section:nth-of-type(3), .menu__section:nth-of-type(6) {
     grid-column: 8/12;
   }
 }
@@ -1427,6 +1458,19 @@ span {
 .menu__row {
   display: flex;
   justify-content: space-between;
+}
+.menu__divider {
+  display: none;
+}
+@media (min-width: 64em) {
+  .menu__divider {
+    display: block;
+    grid-column: 7/8;
+    width: 3px;
+    height: 60%;
+    background-color: whitesmoke;
+    margin-top: 3rem;
+  }
 }
 
 .takeaway__intro {

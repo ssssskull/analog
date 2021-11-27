@@ -8,12 +8,19 @@
   &__content {
     align-self: center;
     margin-bottom: 3rem;
+
     @include breakpoint-up(medium) {
       margin-bottom: 4rem;
     }
     @include breakpoint-up(large) {
       grid-column: 2/7;
       margin-bottom: unset;
+    }
+
+    h2 {
+      @include breakpoint-down(medium) {
+        text-align: center;
+      }
     }
   }
 
