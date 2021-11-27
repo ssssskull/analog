@@ -143,20 +143,30 @@ span {
 
 // Buttons
 .btn {
+  display: block;
+  width: max-content;
   text-decoration: none;
-  padding: 0.8rem 1.2rem;
+  padding: 1.2rem 1.6rem;
   outline: none;
   will-change: background color;
   transition: all 0.2s ease-in-out;
   font-size: $text-base-fallback;
   font-size: $text-base;
   justify-self: center;
+  border-radius: 4px;
 
+  &--primary {
+    background: #1967d2;
+    color: $clr-p;
+
+    &:hover {
+      background: #215194;
+    }
+  }
   &--secondary {
     color: #8ab4f8;
     background: transparent;
     border: none;
-    border-radius: 4px;
 
     svg {
       width: 17px;
@@ -175,11 +185,13 @@ span {
     }
   }
 }
+
 // Sections
 .dark-section {
   background-color: $clr-section-dark;
   color: $clr-p;
 }
+
 // Animations
 @keyframes arrow-down {
   0% {

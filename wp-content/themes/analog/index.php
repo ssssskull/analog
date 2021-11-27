@@ -18,9 +18,13 @@ og laver lækre kaffe, Sandwiches og salater</h1>
 </section>
 <main>
     <section id="about" class="about container container--py container--px gridlayout">
-        <div class="about__content">
-            <h2>Om Analog</h2>
+        <div class="about__row1">
+            <h2>Kaffebaren på Albanigade</h2>
             <p>Hos Analog tror vi på kraften af nærvær, hygge og gode samtaler – alt sammen over en lækker kop kaffe eller en hjemmebagt bolle. Derfor byder vi på kvalitetskaffe, -mad og -oplevelser i hjertet af Albanikvarteret.</p>
+        </div>
+        <div class="about__row2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam sint, quod natus quibusdam magnam dignissimos.</p>
+            <a href="#" class="btn btn--primary" title="Start en samtale">Start en samtale</a>
         </div>
         <figure>
                 <picture>
