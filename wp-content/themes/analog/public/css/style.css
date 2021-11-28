@@ -543,10 +543,9 @@ span {
 
 .header {
   position: fixed;
-  z-index: 1;
   width: 100%;
   will-change: background;
-  z-index: 10;
+  z-index: 10000;
 }
 @media (min-width: 64em) {
   .header {
@@ -848,7 +847,7 @@ span {
   background: rgba(37, 22, 14, 0.74);
 }
 .hero--menu {
-  height: 45vh;
+  height: 55vh;
 }
 @media (min-width: 64em) {
   .hero--menu {

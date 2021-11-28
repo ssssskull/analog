@@ -4,6 +4,7 @@ get_header();?>
     <div class="hero__container container">
             <div class="hero__content container--px">
                 <h1 class="hero__title">Find os</h1>
+                <p class="hero__subheading">Man kan finde vores kaffebar på hjørnet af albanigade.</p>
             </div>
     </div>
 </section>
