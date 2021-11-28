@@ -38,6 +38,34 @@
                 "operator": "==",
                 "value": "kaffe"
             }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "takeaway"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "soedesager"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "koldedrikke"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "sandwiches"
+            }
         ]
     ],
     "menu_order": 0,
@@ -63,5 +91,5 @@
     ],
     "active": true,
     "description": "Hvad koster varen?",
-    "modified": 1637834992
+    "modified": 1638100457
 }

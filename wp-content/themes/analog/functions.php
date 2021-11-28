@@ -49,9 +49,9 @@ function cptui_register_my_cpts_kaffe() {
 	 */
 
 	$labels = [
-		"name" => __( "Kaffe og varme drikke", "custom-post-type-ui" ),
+		"name" => __( "Varme drikke", "custom-post-type-ui" ),
 		"singular_name" => __( "kaffe", "custom-post-type-ui" ),
-		"menu_name" => __( "Kaffe og varme drikke", "custom-post-type-ui" ),
+		"menu_name" => __( "Varme drikke", "custom-post-type-ui" ),
 	];
 
 	$args = [

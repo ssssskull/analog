@@ -53,7 +53,7 @@ get_header();?>
                 </div>
                 <?php
                 $loop = new WP_Query( array(
-                    'post_type' => 'madvare',
+                    'post_type' => 'koldedrikke',
                     'posts_per_page' => -1
                 )
                 );?>
@@ -90,7 +90,7 @@ get_header();?>
                 </div>
                 <?php
                 $loop = new WP_Query( array(
-                    'post_type' => 'madvare',
+                    'post_type' => 'sandwiches',
                     'posts_per_page' => -1
                 )
                 );?>
@@ -108,11 +108,10 @@ get_header();?>
                 </div>
                 <?php
                 $loop = new WP_Query( array(
-                    'post_type' => 'madvare',
+                    'post_type' => 'soedesager',
                     'posts_per_page' => -1
-                )
+                    )
                 );?>
-                <!-- TODO add row for each item -->
                 <?php while ( $loop->have_posts() ) : $loop->the_post();?>
                     <div class="menu__row">
                         <p><?php echo get_the_title();?></p>
@@ -142,12 +141,15 @@ get_header();?>
                     </figure>
                     <div class="takeaway__menu">
                         <h3>Take away menu</h3>
-                        <p>Mørbradgryde 75,-</p>
-                        <p>Boller i karry 65,-</p>
-                        <p>Thaikylling 75,-</p>
-                        <p>Kødsovs 65,-</p>
-                        <p>Dhal 60,-</p>
-                        <p>Diverse supper 50,-</p>
+                         <?php
+                            $loop = new WP_Query( array(
+                                'post_type' => 'takeaway',
+                                'posts_per_page' => -1
+                            )
+                            );?>
+                            <?php while ( $loop->have_posts() ) : $loop->the_post();?>
+                                <p><?php echo get_the_title() . " ";?><?php echo the_field("pris") . ",-";?></p>
+                            <?php endwhile; wp_reset_query(); ?>
                         <p>Til hver ret medfølger renten ris, pasta eller en bolle. Sæsonvariation og kokkens humør afgør, hvilke retter vi har på lager ud over de ovenstående retter. Retterne købes på frost, så du kan tage dem direkte med hjem og varme op.</p>
                     </div>
                     <div class="takeaway__waste">
