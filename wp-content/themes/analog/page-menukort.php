@@ -15,6 +15,10 @@ get_header();?>
             <p>Friskbrygget kaffe og te af enhver slags er kun en del af vores menukort. Vi laver også aftensmad ud af huset og hjemmebag for enhver smag – allerhelst med lokale råvarer. Derfor kan du være sikker på, at din kaffe, frokost eller aftensmad hos os støtter fællesskabet og lokalsamfundet i Odense.</p>
         </div>
         <figure class="assortment__illustration"></figure>
+        <div class="assortment__cta">
+            <a href="#" class="btn btn--primary">Se menukort</a>
+            <a href="#" class="btn btn--tertiary">Takeaway</a>
+        </div>
     </section>
     <section class="dark-section">
         <div class="menu container container--px container--py gridlayout">

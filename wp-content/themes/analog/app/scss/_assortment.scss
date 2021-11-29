@@ -1,13 +1,34 @@
 .assortment {
+  align-items: center;
   > * {
     grid-column: 1/5;
     @include breakpoint-up(medium) {
       grid-column: 2/12;
     }
   }
+
+  &__cta {
+    margin: 3rem 0 0 0;
+    column-gap: 2rem;
+    display: flex;
+    align-self: start;
+    justify-content: center;
+
+    @include breakpoint-up(medium) {
+      margin: 4rem 0 0 0;
+    }
+    @include breakpoint-up(large) {
+      justify-content: start;
+      justify-self: start;
+      grid-row: 2/3;
+      margin: 2rem 0 0 0;
+    }
+  }
+
   &__content {
-    align-self: center;
+    align-self: end;
     margin-bottom: 3rem;
+    grid-row: 1/2;
 
     @include breakpoint-up(medium) {
       margin-bottom: 4rem;
@@ -28,6 +49,7 @@
     background: lightsalmon;
     height: 400px;
     @include breakpoint-up(large) {
+      grid-row: 1/3;
       grid-column: 9/12;
     }
   }

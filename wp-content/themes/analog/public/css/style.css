@@ -292,19 +292,30 @@ span {
   text-decoration: none;
   padding: 1.2rem 1.6rem;
   outline: none;
-  will-change: background color;
+  will-change: background color border;
   transition: all 0.2s ease-in-out;
   font-size: 16px;
   font-size: 1.6rem;
   justify-self: center;
   border-radius: 4px;
+  border: 2px solid transparent;
 }
 .btn--primary {
-  background: #1967d2;
+  background: #cc783c;
   color: whitesmoke;
 }
 .btn--primary:hover {
-  background: #215194;
+  background: #804a26;
+}
+.btn--tertiary {
+  background: transparent;
+  border: 2px solid #cc783c;
+  color: #cc783c;
+}
+.btn--tertiary:hover {
+  border-color: #804a26;
+  color: #804a26;
+  background: #804a260d;
 }
 .btn--secondary {
   color: #8ab4f8;
@@ -890,6 +901,9 @@ span {
           animation: arrow-down 1.3s ease-in-out infinite;
 }
 
+.assortment {
+  align-items: center;
+}
 .assortment > * {
   grid-column: 1/5;
 }
@@ -898,9 +912,31 @@ span {
     grid-column: 2/12;
   }
 }
+.assortment__cta {
+  margin: 3rem 0 0 0;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  display: flex;
+  align-self: start;
+  justify-content: center;
+}
+@media (min-width: 40em) {
+  .assortment__cta {
+    margin: 4rem 0 0 0;
+  }
+}
+@media (min-width: 64em) {
+  .assortment__cta {
+    justify-content: start;
+    justify-self: start;
+    grid-row: 2/3;
+    margin: 2rem 0 0 0;
+  }
+}
 .assortment__content {
-  align-self: center;
+  align-self: end;
   margin-bottom: 3rem;
+  grid-row: 1/2;
 }
 @media (min-width: 40em) {
   .assortment__content {
@@ -924,6 +960,7 @@ span {
 }
 @media (min-width: 64em) {
   .assortment__illustration {
+    grid-row: 1/3;
     grid-column: 9/12;
   }
 }
@@ -1369,7 +1406,7 @@ span {
   margin-right: 2rem;
 }
 .footer__col2 a:first-of-type::before {
-  background-image: url(../images/facebook-dark.svg?2ffcab1a89d326e11c9275e455fd9cab);
+  background-image: url(../images/facebook-dark.svg?4c8b09668f485753ac9fb19f995a1ac3);
 }
 .footer__col2 a:last-of-type::before {
   background-image: url(../images/instagram-icon-dark.svg?6afd5fae6f69af208c43df8961fc4716);
@@ -1660,13 +1697,13 @@ span {
   }
 }
 .find-us__contact a:first-of-type::before {
-  background-image: url(../images/pin-icon.svg?5c0273b16c181ae7277b6ca8e43bb4f2);
+  background-image: url(../images/pin-icon.svg?dd7f937b82bec3c27ed2165b1be25605);
 }
 .find-us__contact a:nth-of-type(2)::before {
-  background-image: url(../images/phone-icon.svg?512eda21246d2acd1a9b7de5bea31445);
+  background-image: url(../images/phone-icon.svg?4ef498f47288031a85998a4bf0671725);
 }
 .find-us__contact a:last-of-type::before {
-  background-image: url(../images/mail-icon.svg?4bf3e56d9cdd6e3a9c2583fac4a328f9);
+  background-image: url(../images/mail-icon.svg?a1e0e9cbb4c1a1dad6cb422fafd37c0c);
 }
 
 .location > * {
