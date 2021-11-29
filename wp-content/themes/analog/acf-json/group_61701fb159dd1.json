@@ -64,7 +64,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "sandwiches"
+                "value": "panini"
             }
         ]
     ],
@@ -91,5 +91,5 @@
     ],
     "active": true,
     "description": "Hvad koster varen?",
-    "modified": 1638100457
+    "modified": 1638176505
 }

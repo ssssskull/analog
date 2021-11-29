@@ -23,7 +23,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
             <p>Hos Analog tror vi på kraften af nærvær, hygge og gode samtaler – alt sammen over en lækker kop kaffe eller en hjemmebagt bolle. Derfor byder vi på kvalitetskaffe, -mad og -oplevelser i hjertet af Albanikvarteret.</p>
         </div>
         <div class="about__row2">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam sint, quod natus quibusdam magnam dignissimos.</p>
+            <p>Vi vil altid gerne fortælle mere om det, vi tilbyder. Så send os gerne en besked eller kom ned og få en snak og en kaf’ ved siden af.</p>
             <a href="find-os" class="btn btn--primary" title="Start en samtale">Start en samtale</a>
         </div>
         <figure>

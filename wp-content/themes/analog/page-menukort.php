@@ -86,12 +86,12 @@ get_header();?>
             <div class="menu__divider"></div>
             <div class="menu__section">
                 <div class="menu__titlerow">
-                    <h4>Sandwiches</h4>
+                    <h4>Panini</h4>
                     <figure></figure>
                 </div>
                 <?php
                 $loop = new WP_Query( array(
-                    'post_type' => 'sandwiches',
+                    'post_type' => 'panini',
                     'posts_per_page' => -1
                 )
                 );?>
