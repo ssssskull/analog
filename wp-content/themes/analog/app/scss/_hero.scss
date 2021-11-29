@@ -53,6 +53,9 @@
     background: hsla(21, 45%, 10%, 74%);
   }
 
+  &--notfound {
+    height: 100vh;
+  }
   &--menu {
     height: 55vh;
     @include breakpoint-up(large) {

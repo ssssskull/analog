@@ -16,12 +16,13 @@
 
     @include breakpoint-up(medium) {
       margin: 4rem 0 0 0;
+      justify-content: start;
     }
     @include breakpoint-up(large) {
-      justify-content: start;
       justify-self: start;
       grid-row: 2/3;
       margin: 2rem 0 0 0;
+      column-gap: 3rem;
     }
   }
 
