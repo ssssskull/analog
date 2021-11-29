@@ -8,6 +8,10 @@
     position: absolute;
   }
 
+  &--notfound {
+    position: fixed;
+  }
+
   &__wrapper {
     display: grid;
     justify-content: space-between;

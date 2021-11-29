@@ -24,7 +24,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
         </div>
         <div class="about__row2">
             <p>Vi vil altid gerne fortælle mere om det, vi tilbyder. Så send os gerne en besked eller kom ned og få en snak og en kaf’ ved siden af.</p>
-            <a href="find-os" class="btn btn--primary" title="Start en samtale">Start en samtale</a>
+            <a href="find-os" class="btn btn--primary" title="Find os">Find os</a>
         </div>
         <figure>
                 <picture>

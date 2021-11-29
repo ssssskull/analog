@@ -563,6 +563,9 @@ span {
     position: absolute;
   }
 }
+.header--notfound {
+  position: fixed;
+}
 .header__wrapper {
   display: grid;
   justify-content: space-between;
@@ -858,7 +861,7 @@ span {
   background: rgba(37, 22, 14, 0.74);
 }
 .hero--notfound {
-  height: 100vh;
+  height: 100%;
 }
 .hero--menu {
   height: 55vh;

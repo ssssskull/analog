@@ -71,13 +71,14 @@
 <meta name="msapplication-TileColor" content="#1d1917">
 <meta name="msapplication-config" content="<?php echo get_template_directory_uri();?>/public/images/icons/browserconfig.xml">
 <meta name="theme-color" content="#1d1917">
-
-
 <?php wp_head();
 ?>
 </head>
 <body>
-<header class="header">
+<header class="header <?php
+  if (is_404()) {
+      echo "header--notfound";
+  }?>">
     <nav>
         <div class="header__wrapper gridlayout container container--px">
             <a href="<?php echo home_url(); ?>" class="header__logo" title="Analog kaffebar logo"></a>
