@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="da" <?php
+  if (is_404()) {
+      echo "class='notfound'";
+  }?>>
 <head>
     <script type="application/ld+json">
 {
@@ -75,10 +78,7 @@
 ?>
 </head>
 <body>
-<header class="header <?php
-  if (is_404()) {
-      echo "header--notfound";
-  }?>">
+<header class="header">
     <nav>
         <div class="header__wrapper gridlayout container container--px">
             <a href="<?php echo home_url(); ?>" class="header__logo" title="Analog kaffebar logo"></a>

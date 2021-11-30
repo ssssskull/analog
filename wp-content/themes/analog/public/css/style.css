@@ -563,9 +563,6 @@ span {
     position: absolute;
   }
 }
-.header--notfound {
-  position: fixed;
-}
 .header__wrapper {
   display: grid;
   justify-content: space-between;
@@ -859,9 +856,6 @@ span {
   width: 100%;
   height: 100%;
   background: rgba(37, 22, 14, 0.74);
-}
-.hero--notfound {
-  height: 100%;
 }
 .hero--menu {
   height: 55vh;
@@ -1753,25 +1747,15 @@ span {
 }
 
 .notfound {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
+  height: 100%;
 }
-@media (min-width: 64em) {
-  .notfound {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+.notfound .hero,
+.notfound body {
+  height: 100%;
 }
-.notfound__content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  row-gap: 1rem;
+.notfound .header {
+  position: fixed;
 }
-.notfound__content > *:last-child {
-  margin-top: 1rem;
-}
-.notfound__content h1 {
-  color: whitesmoke;
+.notfound .btn {
+  margin: 3rem auto 0 auto;
 }

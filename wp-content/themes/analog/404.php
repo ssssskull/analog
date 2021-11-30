@@ -1,6 +1,6 @@
 <?php
 get_header();?>
-<section class="hero hero--notfound">
+<section class="hero">
     <div class="hero__container container">
             <div class="hero__content container--px">
                 <h1 class="hero__title">Oh nejj....</h1>
