@@ -1,10 +1,12 @@
 <?php
-get_header();?>
+/**
+ * Template Name: Menu
+*/get_header();?>
 <section class="hero hero--menu">
     <div class="hero__container container">
             <div class="hero__content container--px">
                 <h1 class="hero__title">Menu</h1>
-                <p class="hero__subheading">Vi har et udvalg af nybagte boller, lækre sandwiches og salater. Vi tilbyder også take-away retter.</p>
+                <p class="hero__subheading">Her finder du vores udvalg af varme og kolde drikke, hjemmelavede retter, søde sager og take away.</p>
             </div>
     </div>
 </section>
@@ -16,11 +18,11 @@ get_header();?>
         </div>
         <figure class="assortment__illustration"></figure>
         <div class="assortment__cta">
-            <a href="#" class="btn btn--primary">Se menukort</a>
-            <a href="#" class="btn btn--tertiary">Takeaway</a>
+            <a href="#menu" class="btn btn--primary" data-btn="menu">Se menukort</a>
+            <a href="#takeaway" class="btn btn--tertiary" data-btn="takeaway">Takeaway</a>
         </div>
     </section>
-    <section class="dark-section">
+    <section class="dark-section" data-target="menu" id="menu">
         <div class="menu container container--px container--py gridlayout">
             <h2>Menukort</h2>
             <div class="menu__section">
@@ -126,7 +128,7 @@ get_header();?>
             </div>
         </div>
     </section>
-    <section class="takeaway container container--px container--py ">
+    <section class="takeaway container container--px container--py" data-target="takeaway" id="takeaway">
         <div class="takeaway__intro gridlayout">
             <h2>Take away med god samvittighed</h2>
             <p>Udover vores faste menukort laver vi også hjemmelavet mad hver uge som kan tages med hjem.</p>

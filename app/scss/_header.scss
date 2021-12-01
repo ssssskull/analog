@@ -138,10 +138,11 @@
 
   &__menuwrapper {
     height: calc(100vh - 80px);
-    background: -moz-linear-gradient(
-      top,
-      rgba(29, 25, 23, 0.98),
-      rgb(29, 25, 23)
+    background: rgb(29, 25, 23);
+    background: linear-gradient(
+      90deg,
+      rgba(29, 25, 23, 0.98) 50%,
+      rgba(29, 25, 23, 1) 100%
     );
     position: absolute;
     width: 100%;

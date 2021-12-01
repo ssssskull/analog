@@ -6,8 +6,8 @@ get_header();?>
 <section class="hero">
     <div class="hero__container container">
             <div class="hero__content container--px">
-                <h1 class="hero__title">Vi bager boller
-og laver lækre kaffe, Sandwiches og salater</h1>
+                <h1 class="hero__title">Vi bager <span>boller</span>
+og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</span></h1>
                 <p class="hero__subheading">Kom endelig forbi og nyd den afslappede stemning og atmosfære.</p>
             </div>
             <a href="#about" class="hero__indicator" title="Tryk for at scrolle længere ned på sitet">
@@ -25,8 +25,8 @@ og laver lækre kaffe, Sandwiches og salater</h1>
             <p>Hos Analog tror vi på kraften af nærvær, hygge og gode samtaler – alt sammen over en lækker kop kaffe eller en hjemmebagt bolle. Derfor byder vi på kvalitetskaffe, -mad og -oplevelser i hjertet af Albanikvarteret.</p>
         </div>
         <div class="about__row2">
-            <p>Vi vil altid gerne fortælle mere om det, vi tilbyder. Så send os gerne en besked eller kom ned og få en snak og en kaf’ ved siden af.</p>
-            <a href="find-os" class="btn btn--primary" title="Find os">Find os</a>
+            <p>Vi vil altid gerne fortælle mere om det, vi tilbyder. Så send os gerne en besked eller kom ned og få en snak og en kop kaf’ ved siden af.</p>
+            <a href="find-os#location" class="btn btn--primary" title="Find os">Find os</a>
         </div>
         <figure>
                 <picture>
@@ -144,7 +144,7 @@ og laver lækre kaffe, Sandwiches og salater</h1>
                 </figure>
             </div>
             <h3>To stay, to go eller som take-away?</h3>
-            <a href="menu" class="btn btn--secondary">Se vores menukort<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#8ab4f8"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></a>
+            <a href="menu#menu" class="btn btn--secondary">Se vores menukort<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#8ab4f8"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></a>
         </div>
     </section>
     <section class="more container container--py container--px gridlayout">
@@ -245,8 +245,8 @@ og laver lækre kaffe, Sandwiches og salater</h1>
             <h3>Kontakt</h3>
             <p>+45 51 51 48 40</p>
             <p>analogkaffebar@gmail.com</p>
-            <a href="https://www.facebook.com/analogkaffebar">analogkaffebar</a>
-            <a href="https://www.instagram.com/analog_kaffebar">analog_kaffebar</a>
+            <a href="https://www.facebook.com/analogkaffebar" target="_blank">analogkaffebar</a>
+            <a href="https://www.instagram.com/analog_kaffebar" target="_blank">analog_kaffebar</a>
         </div>
         <div class="footer__col3">
             <h3>Genveje</h3>

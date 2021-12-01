@@ -7,6 +7,7 @@ const body = document.querySelector("body");
 const btnHamburger = document.querySelector("#btnHamburger");
 const headerMenu = document.querySelector(".header__menuwrapper");
 const scrollIndicator = document.querySelector(".hero__indicator");
+const buttons = document.querySelector(`.assortment__cta`);
 
 btnHamburger.addEventListener("click", function () {
   if (header.classList.contains("open")) {
@@ -49,6 +50,21 @@ if (document.body.contains(scrollIndicator)) {
   });
 }
 
+if (document.body.contains(buttons)) {
+  buttons.addEventListener("click", function (e) {
+    e.preventDefault();
+    const buttonsClick = document.querySelectorAll(`a[data-btn]`);
+    if (!buttonsClick) return false;
+
+    const targetScroll = e.target.dataset.btn;
+    document
+      .querySelector(`section[data-target="${targetScroll}"]`)
+      .scrollIntoView({
+        behavior: "smooth",
+      });
+  });
+}
+
 if (
   window.getComputedStyle(btnHamburger).getPropertyValue("display") === "grid"
 ) {
@@ -77,7 +93,7 @@ if (
 if (
   !path.includes("find-os") &&
   !path.includes("404") &&
-  !path.includes("menukort")
+  !path.includes("menu")
 ) {
   const videoModal = document.createElement("div");
   videoModal.className = "video-modal";
