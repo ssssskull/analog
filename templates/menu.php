@@ -16,7 +16,18 @@
             <h2>Vores sortiment</h2>
             <p>Friskbrygget kaffe og te af enhver slags er kun en del af vores menukort. Vi laver også aftensmad ud af huset og hjemmebag for enhver smag – allerhelst med lokale råvarer. Derfor kan du være sikker på, at din kaffe, frokost eller aftensmad hos os støtter fællesskabet og lokalsamfundet i Odense.</p>
         </div>
-        <figure class="assortment__illustration"></figure>
+        <figure class="assortment__illustration">
+            <picture>
+                    <source type="image/avif" srcset="
+                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-380w.avif 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-640w.avif 640w"
+                    sizes="(max-width: 377px) 100vw, 640px">
+                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-380w.webp 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-640w.webp 640w"
+                    sizes="(max-width: 377px) 100vw, 640px">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                </picture>
+        </figure>
         <div class="assortment__cta">
             <a href="#menu" class="btn btn--primary" data-btn="menu">Se menukort</a>
             <a href="#takeaway" class="btn btn--tertiary" data-btn="takeaway">Takeaway</a>
@@ -137,13 +148,13 @@
             <figure class="takeaway__image">
                         <picture>
                             <source type="image/avif" srcset="
-                            <?php echo get_template_directory_uri();?>/public/images/Analog-personale-380w.avif 380w,
-                            <?php echo get_template_directory_uri();?>/public/images/Analog-personale-680w.avif 680w"
+                            <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-380w.avif 380w,
+                            <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-640w.avif 640w"
                             sizes="(max-width: 377px) 100vw, 640px">
-                            <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-personale-380w.webp 380w,
-                            <?php echo get_template_directory_uri();?>/public/images/Analog-personale-680w.webp 680w"
+                            <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-380w.webp 380w,
+                            <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-640w.webp 640w"
                             sizes="(max-width: 377px) 100vw, 640px">
-                            <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-personale-680.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                            <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                         </picture>
                     </figure>
                     <div class="takeaway__menu">

@@ -35,8 +35,8 @@
     overflow: hidden;
 
     &::before {
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
       content: "";
       position: absolute;
       z-index: 1;
@@ -59,7 +59,7 @@
         position: absolute;
         height: 100%;
         width: 100%;
-        background-color: hsla(0, 0%, 0%, 0.333);
+        background-color: hsla(0, 0%, 0%, 0.45);
         cursor: pointer;
       }
     }
@@ -80,11 +80,6 @@
     grid-column: 1/5;
     margin-bottom: 3rem;
 
-    @include breakpoint-down(medium) {
-      h3 {
-        text-align: center;
-      }
-    }
     @include breakpoint-up(medium) {
       grid-column: 2/12;
       margin-bottom: 4rem;
