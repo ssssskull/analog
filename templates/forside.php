@@ -154,7 +154,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
             <figure></figure>
         </div>
             <div class="more__content">
-                <h3>Vores historie</h3>
+                <h3>Hør hvem vi er</h3>
                 <p>Fra håndværker og gymnasielærer til ejere af en kaffebar – sådan startede to mænd, som elsker mad og kaffe. Det blev til Analog kaffebar, og hos os er der plads til alle – hvad end du kommer fra lidt længere nede af gaden eller det fjerneste verdenshjørne.</p>
             </div>
         <figure id="video-listener">

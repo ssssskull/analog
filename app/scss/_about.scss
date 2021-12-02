@@ -21,6 +21,9 @@
     align-self: end;
     @include breakpoint-down(medium) {
       margin-bottom: 3rem;
+      h2 {
+        text-align: center;
+      }
     }
   }
 
