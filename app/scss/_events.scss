@@ -31,12 +31,24 @@
       padding-top: 3rem;
     }
 
-    h3 {
+    div {
       position: sticky;
       top: 35vh;
       margin-bottom: unset;
+      a {
+        background-color: $clr-facebook;
+        &:hover {
+          background-color: $clr-facebook-dark;
+        }
+
+        @include breakpoint-down(medium) {
+          margin: auto;
+        }
+      }
       @include breakpoint-up(large) {
-        max-width: 16ch;
+        h3 {
+          max-width: 16ch;
+        }
       }
     }
   }

@@ -86,6 +86,9 @@
   &__row {
     display: flex;
     justify-content: space-between;
+    @include breakpoint-down(medium) {
+      column-gap: 2rem;
+    }
   }
 
   &__divider {

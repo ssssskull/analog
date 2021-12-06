@@ -6,7 +6,7 @@
     <div class="hero__container container">
             <div class="hero__content container--px">
                 <h1 class="hero__title">Menu</h1>
-                <p class="hero__subheading">Her finder du vores udvalg af varme og kolde drikke, hjemmelavede retter, søde sager og take away.</p>
+                <p class="hero__subheading">Måske Odenses hyggeligste kaffebar med kaffe brygget som et kram og mad lavet på kærlighed.</p>
             </div>
     </div>
 </section>

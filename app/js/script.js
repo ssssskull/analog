@@ -29,7 +29,9 @@ btnHamburger.addEventListener("click", function () {
 
 let path = window.location.pathname;
 if (path.includes("find-os")) {
-  const map = L.map("map").setView([55.3930661, 10.3943626], 16);
+  const map = L.map("map", {
+    scrollWheelZoom: false,
+  }).setView([55.3930661, 10.3943626], 17);
 
   L.tileLayer(
     "https://maps.geoapify.com/v1/tile/osm-bright/{z}/{x}/{y}.png?apiKey=1ae607e81bdf4511aa65fdb2c807ab07"
@@ -48,6 +50,15 @@ if (document.body.contains(scrollIndicator)) {
 
     targetScroll.scrollIntoView({ behavior: "smooth" });
   });
+
+  document
+    .querySelector(".about__row2 a")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      const targetScroll2 = document.querySelector("#more");
+
+      targetScroll2.scrollIntoView({ behavior: "smooth" });
+    });
 }
 
 if (document.body.contains(buttons)) {

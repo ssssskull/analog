@@ -21,12 +21,12 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
 <main>
     <section id="about" class="about container container--py container--px gridlayout">
         <div class="about__row1">
-            <h2>Kaffebaren på Albanigade</h2>
+            <h2>Kvarterets café på Albanigade</h2>
             <p>Hos Analog tror vi på kraften af nærvær, hygge og gode samtaler – alt sammen over en lækker kop kaffe eller en hjemmebagt bolle. Derfor byder vi på kvalitetskaffe, -mad og -oplevelser i hjertet af Albanikvarteret.</p>
         </div>
         <div class="about__row2">
-            <p>Vi vil altid gerne fortælle mere om det, vi tilbyder. Så send os gerne en besked eller kom ned og få en snak og en kop kaf’ ved siden af.</p>
-            <a href="find-os#location" class="btn btn--primary" title="Find os">Find os</a>
+            <p>Vi vil altid gerne fortælle mere om det, vi tilbyder. Så tjek gerne vores events ud eller kom ned og få en snak og en kop kaf’ ved siden af.</p>
+            <a href="#more" class="btn btn--primary" title="Lær os at kende">Se hvem vi er</a>
         </div>
         <figure>
                 <picture>
@@ -147,7 +147,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
             <a href="menu#menu" class="btn btn--secondary">Se vores menukort<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#8ab4f8"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></a>
         </div>
     </section>
-    <section class="more container container--py container--px gridlayout">
+    <section class="more container container--py container--px gridlayout" id="more">
         <h2 class="more__heading">Mere end en almindelig kaffebar</h2>
         <p class="more__description">På trods af navnet tilbyder vi mere end blot kaffe hos Analog. Vi tilbyder også historie, hygge og forskellige events i samarbejde med lokale kunstnere.</p>
         <div class="more__divider hide-for-desktop">
@@ -172,7 +172,10 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
     </section>
     <section class="events container container--py container--px gridlayout">
         <div class="events__sticky">
-            <h3>Vær med til <span>events</span> og opdag lokale <span>kunstnere</span></h3>
+        <div>
+            <h3>Vær med til lokale events og koncerter</h3>
+            <a href="https://www.facebook.com/analogkaffebar/events/" target="_blank" class="btn btn--primary" title="Se vores events på Facebook">Se på Facebook</a>
+        </div>
         </div>
         <div class="events__col1">
             <div class="events__elem1">
