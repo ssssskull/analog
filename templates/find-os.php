@@ -65,7 +65,7 @@ get_header();?>
             <h3>Kontakt</h3>
             <p>+45 51 51 48 40</p>
             <p>analogkaffebar@gmail.com</p>
-            <a href="https://www.facebook.com/analogkaffebar"  rel="noopener" target="_blank" title="Link til Analog kaffebarens Facebook">analogkaffebar</a>
+            <a href="https://www.facebook.com/analogkaffebar" rel="noopener" target="_blank" title="Link til Analog kaffebarens Facebook">analogkaffebar</a>
             <a href="https://www.instagram.com/analog_kaffebar" rel="noopener" target="_blank" title="Link til Analog kaffebarens Instagram">analog_kaffebar</a>
         </div>
         <div class="footer__col3">

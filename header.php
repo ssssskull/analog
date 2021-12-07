@@ -101,7 +101,7 @@
         <div class="header__menuwrapper">
             <?php wp_nav_menu(array( 'container'=> false, 'menu_class' => 'header__menu hide-for-desktop', 'menu_id' => false));?>
             <div class="header__somemenu">
-                <a href="https://www.facebook.com/analogkaffebar/" rel="noopener" target="_blank"  title="Link til Analog kaffebars Facebook"><img src="<?php echo get_template_directory_uri();?>/public/images/facebook-icon.svg" alt="Link til Analog kaffebars Facebook" loading="lazy"></a><a href="https://www.instagram.com/analog_kaffebar/" rel="noopener" target="_blank" title="Link til Analog kaffebars Instagram"><img src="<?php echo get_template_directory_uri();?>/public/images/instagram-icon.svg" alt="Link til Analog kaffebars Instagram" loading="lazy"></a>
+                <a href="https://www.facebook.com/analogkaffebar/" rel="noopener" target="_blank"  title="Link til Analog kaffebars Facebook"><img src="<?php echo get_template_directory_uri();?>/public/images/facebook-icon.svg" height="30" width="30" alt="Link til Analog kaffebars Facebook" loading="lazy"></a><a href="https://www.instagram.com/analog_kaffebar/" rel="noopener" target="_blank" title="Link til Analog kaffebars Instagram"><img src="<?php echo get_template_directory_uri();?>/public/images/instagram-icon.svg" alt="Link til Analog kaffebars Instagram" loading="lazy" height="30" width="30"></a>
             </div>
         </div>
 </header>
