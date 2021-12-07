@@ -1,0 +1,65 @@
+@use "../abstracts/colors" as color;
+@use "../abstracts/mixins" as *;
+.video-modal {
+  position: fixed;
+  width: 0;
+  height: 300px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  z-index: 20;
+  transition: all 0.2s ease;
+  visibility: hidden;
+  overflow: hidden;
+  @include breakpoint-up(medium) {
+    height: 400px;
+  }
+  @include breakpoint-up(medium) {
+    height: 500px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease;
+  }
+}
+
+.modal-visible {
+  visibility: visible;
+  width: 90%;
+
+  @include breakpoint-up(large) {
+    width: 900px;
+  }
+}
+
+.video-overlay {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  left: 0;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.overlay-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.video-close {
+  background: color.$clr-p;
+  animation: closeVideoTlf 0.5s forwards;
+  @include breakpoint-up(medium) {
+    animation: closeVideoTablet 0.5s forwards;
+  }
+  @include breakpoint-up(large) {
+    animation: closeVideo 0.5s forwards;
+  }
+}

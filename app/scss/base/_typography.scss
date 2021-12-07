@@ -1,0 +1,123 @@
+@use "../abstracts/fonts" as font;
+@use "../abstracts/mixins" as *;
+$text-base-fallback: 16px;
+$text-base: 1.6rem;
+$text-lg-fallback: 18px;
+$text-lg: 1.8rem;
+$text-xl-fallback: 20px;
+$text-xl: 2rem;
+$text-2xl-fallback: 24px;
+$text-2xl: 2.4rem;
+$text-3xl-fallback: 30px;
+$text-3xl: 3rem;
+$text-4xl-fallback: 34px;
+$text-4xl: 3.4rem;
+$text-5xl-fallback: 42px;
+$text-5xl: 4.2rem;
+$text-6xl-fallback: 80px;
+$text-6xl: 8rem;
+html,
+body,
+div,
+span,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+blockquote,
+pre,
+code,
+input,
+textarea,
+button,
+label,
+fieldset,
+table,
+tr,
+th,
+td,
+article {
+  font-family: font.$primary;
+  font-size: 1rem;
+}
+h1 {
+  font-family: font.$heading;
+}
+p,
+.footer__links a,
+.footer__col2 a,
+.find-us__contact a {
+  line-height: 24px;
+  font-size: $text-base-fallback;
+  font-size: $text-base;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 900;
+}
+h1 {
+  font-family: "Calibre", "Roboto", Helvetica, Arial, sans-serif;
+  font-size: $text-5xl-fallback;
+  font-size: $text-5xl;
+  text-transform: uppercase;
+  line-height: 44px;
+  text-align: center;
+  color: $clr-p;
+  margin-bottom: 1.6rem;
+
+  @include breakpoint-up(large) {
+    font-size: $text-6xl-fallback;
+    font-size: $text-6xl;
+    line-height: 68px;
+  }
+}
+
+h2 {
+  font-size: $text-3xl-fallback;
+  font-size: $text-3xl;
+  line-height: 36px;
+  //max-width: 30ch;
+  margin-bottom: 1.6rem;
+
+  @include breakpoint-up(medium) {
+    line-height: 52px;
+  }
+
+  @include breakpoint-up(large) {
+    font-size: $text-5xl-fallback;
+    font-size: $text-5xl;
+  }
+}
+h3 {
+  font-size: $text-2xl-fallback;
+  font-size: $text-2xl;
+  line-height: 28px;
+  margin-bottom: 1.2rem;
+
+  @include breakpoint-up(large) {
+    font-size: $text-4xl-fallback;
+    font-size: $text-4xl;
+    line-height: 44px;
+  }
+}
+
+h4 {
+  font-size: $text-xl-fallback;
+  font-size: $text-xl;
+  line-height: 24px;
+  margin-bottom: 1.6rem;
+
+  @include breakpoint-up(large) {
+    font-size: $text-2xl-fallback;
+    font-size: $text-2xl;
+    line-height: 28px;
+  }
+}
+span {
+  color: $clr-heading;
+}

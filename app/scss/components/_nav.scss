@@ -1,0 +1,293 @@
+@use "../base/typography" as *;
+@use "../abstracts/colors" as color;
+@use "../abstracts/mixins" as *;
+.header {
+  position: fixed;
+  width: 100%;
+  will-change: background;
+  z-index: 10000;
+
+  @include breakpoint-up(large) {
+    position: absolute;
+  }
+
+  &__wrapper {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1/5;
+    @include breakpoint-up(medium) {
+      grid-column: 2/12;
+    }
+  }
+
+  nav {
+    transition: all 0.2s ease-in-out;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    @include breakpoint-up(large) {
+      padding-top: 7rem;
+      padding-bottom: 7rem;
+    }
+  }
+
+  &__logo {
+    grid-column: 1/2;
+    display: block;
+    width: 160px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-image: url("../images/svg/analog-icon.svg");
+
+    @include breakpoint-up(medium) {
+      grid-column: 2/4;
+    }
+    @include breakpoint-up(large) {
+      width: 142px;
+      height: 44px;
+    }
+  }
+
+  &__some {
+    display: flex;
+    grid-column: 10/12;
+    column-gap: 3rem;
+    justify-self: end;
+
+    @include breakpoint-up(xlarge) {
+      grid-column: 11/12;
+      column-gap: unset;
+      justify-content: space-between;
+      justify-self: unset;
+    }
+    a {
+      display: block;
+      width: 30px;
+      height: 30px;
+      opacity: 0.9;
+      @include breakpoint-up(xlarge) {
+        padding: unset;
+      }
+    }
+
+    //TODO remove after you set svg in
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .some-icon {
+      path {
+        will-change: fill;
+        fill: color.$clr-p;
+        transition: all 0.1s ease-in-out;
+      }
+
+      &:hover {
+        path {
+          fill: color.$clr-heading;
+        }
+      }
+
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__toggle {
+    grid-column: 4/5;
+    display: grid;
+    place-content: center;
+    height: 24px;
+    justify-content: end;
+    align-items: center;
+    justify-self: end;
+
+    @include breakpoint-up(medium) {
+      grid-column: 10/12;
+    }
+
+    span,
+    > span::before,
+    > span::after {
+      display: block;
+      width: 26px;
+      height: 3px;
+      background-color: color.$clr-p;
+      transition: all 0.2s ease-in-out;
+    }
+    span {
+      position: relative;
+      will-change: opacity;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        will-change: transform;
+      }
+      &::before {
+        top: -8px;
+      }
+
+      &::after {
+        top: 8px;
+      }
+    }
+  }
+
+  &__menuwrapper {
+    height: calc(100vh - 80px);
+    background: rgb(29, 25, 23);
+    background: linear-gradient(
+      90deg,
+      rgba(29, 25, 23, 0.98) 50%,
+      rgba(29, 25, 23, 1) 100%
+    );
+    position: absolute;
+    width: 100%;
+    will-change: opacity;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+    padding-top: 4rem;
+
+    @include breakpoint-up(medium) {
+      height: calc(100vh - 116px);
+      padding-top: 8rem;
+    }
+  }
+
+  &__somemenu {
+    display: flex;
+    width: max-content;
+    column-gap: 1rem;
+    margin: 6rem auto 0 auto;
+    a {
+      display: block;
+      padding: 1rem;
+
+      img {
+        width: 35px;
+        height: auto;
+      }
+    }
+  }
+
+  &__menu {
+    display: grid;
+    align-content: start;
+
+    li {
+      text-align: center;
+
+      a {
+        display: inline-block;
+        text-align: center;
+        font-size: $text-lg-fallback;
+        font-size: $text-lg;
+        text-decoration: none;
+        margin: 1.4rem 0;
+        padding: 1rem;
+        position: relative;
+      }
+    }
+  }
+
+  &__links {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column: 4/10;
+    justify-self: center;
+
+    li {
+      a {
+        text-decoration: none;
+        padding-bottom: 1rem;
+        transition: border-bottom 0.1s ease-in-out;
+        font-size: $text-base-fallback;
+        font-size: $text-base;
+      }
+
+      &:not(:last-of-type) {
+        margin-right: 7rem;
+
+        @include breakpoint-up(xlarge) {
+          margin-right: 9rem;
+        }
+      }
+    }
+  }
+
+  // Hamburger Open Styles
+  &.open {
+    .header__menuwrapper {
+      pointer-events: all;
+    }
+    .header__toggle {
+      > span {
+        background-color: transparent;
+      }
+
+      > span::before {
+        transform: rotate(45deg);
+        top: 0;
+      }
+
+      > span::after {
+        transform: rotate(-45deg);
+        top: 0;
+      }
+    }
+  }
+}
+.hide-for-mobile {
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @include breakpoint-up(large) {
+    display: none;
+  }
+}
+.menu-item {
+  a {
+    color: color.$clr-p;
+  }
+}
+.current-menu-item {
+  a {
+    color: color.$clr-heading;
+    font-weight: bold;
+  }
+}
+@include breakpoint-up(large) {
+  .menu-item {
+    a {
+      border-bottom: 2px solid transparent;
+
+      .active,
+      &:hover,
+      &:focus {
+        border-bottom: 2px solid color.$clr-heading;
+        color: color.$clr-heading;
+      }
+    }
+  }
+
+  .current_page_item {
+    a {
+      border-bottom: 2px solid color.$clr-heading;
+    }
+  }
+}
+
+.current_page_item {
+  a {
+    color: color.$clr-heading;
+    font-weight: bold;
+  }
+}

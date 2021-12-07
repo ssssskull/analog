@@ -1,0 +1,57 @@
+@use "../base/typography" as *;
+@use "../abstracts/colors" as color;
+.btn {
+  display: block;
+  width: max-content;
+  text-decoration: none;
+  padding: 1.2rem 1.6rem;
+  outline: none;
+  will-change: background color border;
+  transition: all 0.2s ease-in-out;
+  font-size: $text-base-fallback;
+  font-size: $text-base;
+  justify-self: center;
+  border-radius: 4px;
+  border: 2px solid transparent;
+
+  &--primary {
+    background: #cc783c;
+    color: color.$clr-p;
+
+    &:hover {
+      background: #804a26;
+    }
+  }
+  &--tertiary {
+    background: transparent;
+    border: 2px solid #cc783c;
+    color: #cc783c;
+
+    &:hover {
+      border-color: #804a26;
+      color: #804a26;
+      background: #804a260d;
+    }
+  }
+  &--secondary {
+    color: #8ab4f8;
+    background: transparent;
+    border: none;
+
+    svg {
+      width: 17px;
+      height: 17px;
+      vertical-align: middle;
+      margin-left: 0.5rem;
+    }
+
+    &:hover {
+      color: color.$clr-p;
+      background: rgba(66, 63, 63, 0.8);
+
+      svg {
+        fill: color.$clr-p;
+      }
+    }
+  }
+}
