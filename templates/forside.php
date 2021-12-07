@@ -10,7 +10,7 @@ get_header();?>
 og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</span></h1>
                 <p class="hero__subheading">Kom endelig forbi og nyd den afslappede stemning og atmosfære.</p>
             </div>
-            <a href="#about" class="hero__indicator" title="Tryk for at scrolle længere ned på sitet">
+            <a href="#about" class="hero__indicator" title="Knap til at scrolle længere ned på sitet">
                 <svg width="32" height="59" viewBox="0 0 32 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="1" y="1.01929" width="30" height="56" rx="15" stroke="#D3A075" stroke-width="2"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M9.32812 19.3937L16.2031 26.2687H17.1752L24.0503 19.3937L23.0781 18.4216L17.376 24.1223V9.76868H16.001V24.1237L10.3003 18.4202L9.32812 19.3937Z" fill="#D3A075"/>
@@ -26,7 +26,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
         </div>
         <div class="about__row2">
             <p>Vi vil altid gerne fortælle mere om det, vi tilbyder. Så tjek gerne vores events ud eller kom ned og få en snak og en kop kaf’ ved siden af.</p>
-            <a href="#more" class="btn btn--primary" title="Lær os at kende">Se hvem vi er</a>
+            <a href="#more" class="btn btn--primary" title="Knap til at scrolle til lær os at kende sektionen">Se hvem vi er</a>
         </div>
         <figure>
                 <picture>
@@ -37,7 +37,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-640.jpg" alt="Billede af Analog kaffebaren der vise nogle hjemmelavede boller og kaffe" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
     </section>
@@ -144,7 +144,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                 </figure>
             </div>
             <h3>To stay, to go eller som take-away?</h3>
-            <a href="menu#menu" class="btn btn--secondary">Se vores menukort<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#8ab4f8"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></a>
+            <a href="menu#menu" class="btn btn--secondary" title="Knap til menukortet">Se vores menukort<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#8ab4f8"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></a>
         </div>
     </section>
     <section class="more container container--py container--px gridlayout" id="more">
@@ -166,7 +166,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-video-thumb-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-video-thumb-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-video-thumb-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-video-thumb-640.jpg" alt="Klik for at se en video om hvem Analog er" loading="lazy" decoding="async" height="332">
                 </picture>
         </figure>
     </section>
@@ -174,7 +174,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
         <div class="events__sticky">
         <div>
             <h3>Vær med til lokale events og koncerter</h3>
-            <a href="https://www.facebook.com/analogkaffebar/events/" target="_blank" class="btn btn--primary" title="Se vores events på Facebook">Se på Facebook</a>
+            <a href="https://www.facebook.com/analogkaffebar/events/" rel="noopener" target="_blank" class="btn btn--primary" title="Knap til at se Analogs begivenheder på Facebook">Se på Facebook</a>
         </div>
         </div>
         <div class="events__col1">
@@ -188,7 +188,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-yoga-placeholder-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-yoga-placeholder-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-yoga-placeholder-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-yoga-placeholder-640.jpg" alt="Billede af folk der dyrker fællesyoga og hygger sammen" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
             <h4>Fællesyoga</h4>
@@ -204,7 +204,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-koncerter-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-koncerter-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-koncerter-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-koncerter-640.jpg" alt="Billede af en koncert hos Analog, hvor Esben Svane spiller guitar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
                         <h4>Koncerter</h4>
@@ -221,7 +221,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-eattogether-placeholder-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-eattogether-placeholder-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-eattogether-placeholder-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-eattogether-placeholder-640.jpg" alt="Billede af folk der hygger og spiser sammen på Analog" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
                          <h4>Fællesspisning</h4>
@@ -248,8 +248,8 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
             <h3>Kontakt</h3>
             <p>+45 51 51 48 40</p>
             <p>analogkaffebar@gmail.com</p>
-            <a href="https://www.facebook.com/analogkaffebar" target="_blank">analogkaffebar</a>
-            <a href="https://www.instagram.com/analog_kaffebar" target="_blank">analog_kaffebar</a>
+            <a href="https://www.facebook.com/analogkaffebar" rel="noopener" target="_blank" title="Link til Analog kaffebarens Facebook">analogkaffebar</a>
+            <a href="https://www.instagram.com/analog_kaffebar"rel="noopener" target="_blank" title="Link til Analog kaffebarens Instagram">analog_kaffebar</a>
         </div>
         <div class="footer__col3">
             <h3>Genveje</h3>

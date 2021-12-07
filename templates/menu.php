@@ -1,7 +1,8 @@
 <?php
 /**
  * Template Name: Menu
-*/get_header();?>
+*/
+get_header();?>
 <section class="hero hero--menu">
     <div class="hero__container container">
             <div class="hero__content container--px">
@@ -25,7 +26,7 @@
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-640.jpg" alt="Billede af hjemmelavet kage og kaffe" loading="lazy" decoding="async" height="332">
                 </picture>
         </figure>
         <div class="assortment__cta">
@@ -154,7 +155,7 @@
                             <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-380w.webp 380w,
                             <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-640w.webp 640w"
                             sizes="(max-width: 377px) 100vw, 640px">
-                            <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                            <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-640.jpg" alt="Billede af en takeaway sandwich" loading="lazy" decoding="async" height="332">
                         </picture>
                     </figure>
                     <div class="takeaway__menu">
@@ -168,7 +169,7 @@
                             <?php while ( $loop->have_posts() ) : $loop->the_post();?>
                                 <p><?php echo get_the_title() . " ";?><?php echo the_field("pris") . ",-";?></p>
                             <?php endwhile; wp_reset_query(); ?>
-                        <p>Til hver ret medfølger renten ris, pasta eller en bolle. Sæsonvariation og kokkens humør afgør, hvilke retter vi har på lager ud over de ovenstående retter. Retterne købes på frost, så du kan tage dem direkte med hjem og varme op.</p>
+                        <p>Sæsonvariation og kokkens humør afgør, hvilke retter vi har på lager ud over de ovenstående retter. Retterne købes på frost, så du kan tage dem direkte med hjem og varme op.</p>
                     </div>
                     <div class="takeaway__waste">
                         <h3>Så tæt som muligt på 0% madspild</h3>
@@ -196,8 +197,8 @@
             <h3>Kontakt</h3>
             <p>+45 51 51 48 40</p>
             <p>analogkaffebar@gmail.com</p>
-            <a href="https://www.facebook.com/analogkaffebar" target="_blank">analogkaffebar</a>
-            <a href="https://www.instagram.com/analog_kaffebar" target="_blank">analog_kaffebar</a>
+            <a href="https://www.facebook.com/analogkaffebar" rel="noopener" target="_blank" title="Link til Analog kaffebarens Facebook">analogkaffebar</a>
+            <a href="https://www.instagram.com/analog_kaffebar" rel="noopener" target="_blank" title="Link til Analog kaffebarens Instagram">analog_kaffebar</a>
         </div>
         <div class="footer__col3">
             <h3>Genveje</h3>
