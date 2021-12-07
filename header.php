@@ -64,6 +64,7 @@
   } else {
         echo get_bloginfo();
   }?></title>
+  <meta name="description" content="Hos Analog tror vi på kraften af nærvær, hygge og gode samtaler – alt sammen over en lækker kop kaffe eller en hjemmebagt bolle."/>
 <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri();?>/public/images/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri();?>/public/images/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri();?>/public/images/icons/favicon-16x16.png">
