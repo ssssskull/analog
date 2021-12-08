@@ -78,21 +78,25 @@
     }
 
     a {
-      margin-top: 1.6rem;
       width: max-content;
       //TODO before-image some icons
-      &::before {
-        display: inline-block;
-        vertical-align: middle;
-        content: " ";
-        background-size: 30px 30px;
-        background-position: center;
-        height: 30px;
-        width: 30px;
-        margin-right: 2rem;
+
+      &:nth-of-type(3),
+      &:last-of-type {
+        margin-top: 1.6rem;
+        &::before {
+          display: inline-block;
+          vertical-align: middle;
+          content: " ";
+          background-size: 30px 30px;
+          background-position: center;
+          height: 30px;
+          width: 30px;
+          margin-right: 2rem;
+        }
       }
 
-      &:first-of-type {
+      &:nth-of-type(3) {
         &::before {
           background-image: url("../images/svg/facebook-dark.svg");
         }

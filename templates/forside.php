@@ -49,97 +49,97 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                 <figure class="thin">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-1-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-1-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-1-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-1-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-1-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-2-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-2-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-2-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-2-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-2-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-2-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-2-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-2-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-2-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-2-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="thin">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-5-580w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-5-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-580w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-640w.avif 640w"
                         sizes="(max-width: 377px) 300vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-5-580w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-5-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-580w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-640w.webp 640w"
                         sizes="(max-width: 377px) 300vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-5-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-6-680w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-6-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-680w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-6-680w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-6-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-680w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-6-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-3-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-3-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-3-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-3-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-3-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-3-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-3-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-3-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-3-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-3-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-7-780w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-7-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-780w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-7-780w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-7-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-780w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-7-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="thin">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-4-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-4-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-4-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-4-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-4-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-4-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-4-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-4-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-4-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-4-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                                 <figure class="thin">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-8-380w.avif 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-8-640w.avif 640w"
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-8-380w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-8-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-8-380w.webp 380w,
-                        <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-8-640w.webp 640w"
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-8-380w.webp 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-8-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-gallery-placeholder-8-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-8-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
             </div>
@@ -182,13 +182,13 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                 <figure>
                     <picture>
                     <source type="image/avif" srcset="
-                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-yoga-placeholder-380w.avif 380w,
-                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-yoga-placeholder-640w.avif 640w"
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-yoga-380w.avif 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-yoga-640w.avif 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-yoga-placeholder-380w.webp 380w,
-                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-yoga-placeholder-640w.webp 640w"
+                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-yoga-380w.webp 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-yoga-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-yoga-placeholder-640.jpg" alt="Billede af folk der dyrker fællesyoga og hygger sammen" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-yoga-640.jpg" alt="Billede af folk der dyrker fællesyoga og hygger sammen" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
             <h4>Fællesyoga</h4>
@@ -215,13 +215,13 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                 <figure>
                     <picture>
                     <source type="image/avif" srcset="
-                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-eattogether-placeholder-380w.avif 380w,
-                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-eattogether-placeholder-640w.avif 640w"
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-eattogether-380w.avif 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-eattogether-640w.avif 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-eattogether-placeholder-380w.webp 380w,
-                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-eattogether-placeholder-640w.webp 640w"
+                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-eattogether-380w.webp 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-eattogether-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-eattogether-placeholder-640.jpg" alt="Billede af folk der hygger og spiser sammen på Analog" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-eattogether-640.jpg" alt="Billede af folk der hygger og spiser sammen på Analog" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
                          <h4>Fællesspisning</h4>
@@ -246,10 +246,10 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
         </div>
         <div class="footer__col2">
             <h3>Kontakt</h3>
-            <p>+45 51 51 48 40</p>
-            <p>analogkaffebar@gmail.com</p>
+            <a href="tel:+4551514840" title="Knap til at ringe til Analog kaffebaren">+45 51 51 48 40</a>
+            <a href="mailto:analogkaffebar@gmail.com?subject=Spørgsmål til Analog&body=Kære Analog," target="_blank" rel="noopener" title="Knap til at sende en mail til Analog kaffebaren">analogkaffebar@gmail.com</a>
             <a href="https://www.facebook.com/analogkaffebar" rel="noopener" target="_blank" title="Link til Analog kaffebarens Facebook">analogkaffebar</a>
-            <a href="https://www.instagram.com/analog_kaffebar"rel="noopener" target="_blank" title="Link til Analog kaffebarens Instagram">analog_kaffebar</a>
+            <a href="https://www.instagram.com/analog_kaffebar" rel="noopener" target="_blank" title="Link til Analog kaffebarens Instagram">analog_kaffebar</a>
         </div>
         <div class="footer__col3">
             <h3>Genveje</h3>

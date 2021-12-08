@@ -20,13 +20,13 @@ get_header();?>
         <figure class="assortment__illustration">
             <picture>
                     <source type="image/avif" srcset="
-                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-380w.avif 380w,
-                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-640w.avif 640w"
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-assortment-380w.avif 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-assortment-640w.avif 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-380w.webp 380w,
-                    <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-640w.webp 640w"
+                    <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-assortment-380w.webp 380w,
+                    <?php echo get_template_directory_uri();?>/public/images/Analog-assortment-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-assortment-placeholder-640.jpg" alt="Billede af hjemmelavet kage og kaffe" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-assortment-640.jpg" alt="Billede af hjemmelavet kage og kaffe" loading="lazy" decoding="async" height="332">
                 </picture>
         </figure>
         <div class="assortment__cta">
@@ -131,13 +131,13 @@ get_header();?>
             <figure class="takeaway__image">
                         <picture>
                             <source type="image/avif" srcset="
-                            <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-380w.avif 380w,
-                            <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-640w.avif 640w"
+                            <?php echo get_template_directory_uri();?>/public/images/Analog-takeaway-380w.avif 380w,
+                            <?php echo get_template_directory_uri();?>/public/images/Analog-takeaway-640w.avif 640w"
                             sizes="(max-width: 377px) 100vw, 640px">
-                            <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-380w.webp 380w,
-                            <?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-640w.webp 640w"
+                            <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-takeaway-380w.webp 380w,
+                            <?php echo get_template_directory_uri();?>/public/images/Analog-takeaway-640w.webp 640w"
                             sizes="(max-width: 377px) 100vw, 640px">
-                            <img src="<?php echo get_template_directory_uri();?>/public/images/placeholder/Analog-takeaway-placeholder-640.jpg" alt="Billede af en takeaway sandwich" loading="lazy" decoding="async" height="332">
+                            <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-takeaway-640.jpg" alt="Billede af en takeaway sandwich" loading="lazy" decoding="async" height="332">
                         </picture>
                     </figure>
                     <div class="takeaway__menu">
@@ -177,8 +177,8 @@ get_header();?>
         </div>
         <div class="footer__col2">
             <h3>Kontakt</h3>
-            <p>+45 51 51 48 40</p>
-            <p>analogkaffebar@gmail.com</p>
+            <a href="tel:+4551514840" title="Knap til at ringe til Analog kaffebaren">+45 51 51 48 40</a>
+            <a href="mailto:analogkaffebar@gmail.com?subject=Spørgsmål til Analog&body=Kære Analog," target="_blank" rel="noopener" title="Knap til at sende en mail til Analog kaffebaren">analogkaffebar@gmail.com</a>
             <a href="https://www.facebook.com/analogkaffebar" rel="noopener" target="_blank" title="Link til Analog kaffebarens Facebook">analogkaffebar</a>
             <a href="https://www.instagram.com/analog_kaffebar" rel="noopener" target="_blank" title="Link til Analog kaffebarens Instagram">analog_kaffebar</a>
         </div>

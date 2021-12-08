@@ -63,8 +63,8 @@ get_header();?>
         </div>
         <div class="footer__col2">
             <h3>Kontakt</h3>
-            <p>+45 51 51 48 40</p>
-            <p>analogkaffebar@gmail.com</p>
+            <a href="tel:+4551514840" title="Knap til at ringe til Analog kaffebaren">+45 51 51 48 40</a>
+            <a href="mailto:analogkaffebar@gmail.com?subject=Spørgsmål til Analog&body=Kære Analog," target="_blank" rel="noopener" title="Knap til at sende en mail til Analog kaffebaren">analogkaffebar@gmail.com</a>
             <a href="https://www.facebook.com/analogkaffebar" rel="noopener" target="_blank" title="Link til Analog kaffebarens Facebook">analogkaffebar</a>
             <a href="https://www.instagram.com/analog_kaffebar" rel="noopener" target="_blank" title="Link til Analog kaffebarens Instagram">analog_kaffebar</a>
         </div>
