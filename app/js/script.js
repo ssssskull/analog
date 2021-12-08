@@ -59,6 +59,39 @@ if (document.body.contains(scrollIndicator)) {
 
       targetScroll2.scrollIntoView({ behavior: "smooth" });
     });
+
+  // Video modal
+
+  const videoModal = document.createElement("div");
+  videoModal.className = "video-modal";
+  const videoOverlay = document.createElement("div");
+  videoOverlay.className = "video-overlay";
+  videoModal.insertAdjacentHTML(
+    "beforeend",
+    '<iframe src="https://www.youtube.com/embed/qwvxtBlzbO4?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3" width="560" height="315" frameborder="0"></iframe>'
+  );
+
+  document
+    .querySelector("#video-listener")
+    .addEventListener("click", function () {
+      body.insertAdjacentElement("beforeend", videoModal);
+      body.insertAdjacentElement("beforeend", videoOverlay);
+
+      videoOverlay.classList.add("overlay-visible");
+      setTimeout(function () {
+        videoModal.classList.add("modal-visible");
+      }, 100);
+    });
+
+  videoOverlay.addEventListener("click", function () {
+    setTimeout(function () {
+      videoModal.remove();
+      videoOverlay.remove();
+      videoModal.classList.remove("video-close");
+      videoModal.classList.remove("modal-visible");
+    }, 700);
+    videoModal.classList.add("video-close");
+  });
 }
 
 if (document.body.contains(buttons)) {
@@ -97,43 +130,4 @@ if (
   }, options);
 
   observer.observe(section);
-}
-
-// Video modal
-
-if (
-  !path.includes("find-os") &&
-  !path.includes("404") &&
-  !path.includes("menu")
-) {
-  const videoModal = document.createElement("div");
-  videoModal.className = "video-modal";
-  const videoOverlay = document.createElement("div");
-  videoOverlay.className = "video-overlay";
-  videoModal.insertAdjacentHTML(
-    "beforeend",
-    '<iframe src="https://www.youtube.com/embed/qwvxtBlzbO4?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3" width="560" height="315" frameborder="0"></iframe>'
-  );
-
-  document
-    .querySelector("#video-listener")
-    .addEventListener("click", function () {
-      body.insertAdjacentElement("beforeend", videoModal);
-      body.insertAdjacentElement("beforeend", videoOverlay);
-
-      videoOverlay.classList.add("overlay-visible");
-      setTimeout(function () {
-        videoModal.classList.add("modal-visible");
-      }, 100);
-    });
-
-  videoOverlay.addEventListener("click", function () {
-    setTimeout(function () {
-      videoModal.remove();
-      videoOverlay.remove();
-      videoModal.classList.remove("video-close");
-      videoModal.classList.remove("modal-visible");
-    }, 700);
-    videoModal.classList.add("video-close");
-  });
 }
