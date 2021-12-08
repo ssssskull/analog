@@ -6,6 +6,41 @@
     height: 100%;
   }
 
+  @supports (
+    background-image:
+      image-set(
+        url("../images/Analog-notfound-680w.avif") 1x,
+        url("../images/Analog-notfound-680w.webp") 1x
+      )
+  ) {
+    .hero {
+      background-image: image-set(
+        url("../images/Analog-notfound-680w.avif") 1x,
+        url("../images/Analog-notfound-680w.webp") 1x
+      );
+      @include breakpoint-up(large) {
+        background-image: image-set(
+          url("../images/Analog-notfound-1920w.avif") 1x,
+          url("../images/Analog-notfound-1920w.webp") 1x
+        );
+      }
+    }
+  }
+  @supports not (
+    background-image:
+      image-set(
+        url("../images/Analog-notfound-680w.avif") 1x,
+        url("../images/Analog-notfound-680w.webp") 1x
+      )
+  ) {
+    .hero {
+      background-image: url("../images/Analog-notfound-680w.jpg");
+      @include breakpoint-up(large) {
+        background-image: url("../images/Analog-notfound-1920w.jpg");
+      }
+    }
+  }
+
   .header {
     position: fixed;
   }

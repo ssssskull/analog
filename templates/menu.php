@@ -83,24 +83,6 @@ get_header();?>
                     </div>
                 <?php endwhile; wp_reset_query(); ?>
             </div>
-            <div class="menu__section">
-                <div class="menu__titlerow">
-                    <h4>Varme retter</h4>
-                    <figure></figure>
-                </div>
-                <?php
-                $loop = new WP_Query( array(
-                    'post_type' => 'madvare',
-                    'posts_per_page' => -1
-                )
-                );?>
-                <?php while ( $loop->have_posts() ) : $loop->the_post();?>
-                    <div class="menu__row">
-                        <p><?php echo get_the_title();?></p>
-                        <p><?php the_field('pris'); ?>,-</p>
-                    </div>
-                <?php endwhile; wp_reset_query(); ?>
-            </div>
             <div class="menu__divider"></div>
             <div class="menu__section">
                 <div class="menu__titlerow">
@@ -122,7 +104,7 @@ get_header();?>
             </div>
             <div class="menu__section">
                 <div class="menu__titlerow">
-                    <h4>Søde sager</h4>
+                    <h4>Hjemmebag</h4>
                     <figure></figure>
                 </div>
                 <?php
