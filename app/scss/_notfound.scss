@@ -6,6 +6,11 @@
     height: 100%;
   }
 
+  .hero__subheading {
+    margin: auto;
+    max-width: 70ch;
+  }
+
   @supports (
     background-image:
       image-set(
@@ -45,7 +50,10 @@
     position: fixed;
   }
 
-  .btn {
+  &__btns {
     margin: 3rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
   }
 }
