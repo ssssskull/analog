@@ -68,7 +68,7 @@ if (document.body.contains(scrollIndicator)) {
   videoOverlay.className = "video-overlay";
   videoModal.insertAdjacentHTML(
     "beforeend",
-    '<iframe src="https://www.youtube.com/embed/1kCe5UQSz1k?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3" width="560" height="315" frameborder="0"></iframe>'
+    '<iframe src="https://www.youtube.com/embed/1kCe5UQSz1k?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3" width="560" height="315" frameborder="0" allowfullscreen></iframe>'
   );
 
   document
