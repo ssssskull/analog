@@ -87,6 +87,7 @@ add_action( 'init', 'cptui_register_my_cpts_kaffe' );
 function my_scripts() {
     wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/public/css/style.css', false, '1.0', 'all' );
 	wp_enqueue_script("script", get_template_directory_uri() . '/public/js/script.js');
+	wp_enqueue_script("serviceWorker", get_template_directory_uri() . '/public/js/serviceWorker.js', '', '', true);
 	if (is_page('find-os')) {
 		wp_enqueue_style(
 			'leaflet-style', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
@@ -120,13 +121,4 @@ function mind_defer_scripts( $tag, $handle, $src ) {
     return $tag;
 }
 add_filter( 'script_loader_tag', 'mind_defer_scripts', 10, 3 );
-
-// CPT UI redirect
-add_action( 'template_redirect', 'redirect_cpt_singular_posts' );
-    function redirect_cpt_singular_posts() {
-      if ( is_singular('madvare') ) {
-        wp_redirect( home_url(), 302 );
-        exit;
-      }
-    }
 ?>

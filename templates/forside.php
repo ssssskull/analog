@@ -268,5 +268,6 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
         <div class="footer__long">
             <p>Analog kaffebar © 2019 – 2021 • Albanigade 54c, 5000 Odense C, Danmark • Tlf: +45 51 51 48 40 • CVR: xxxxxxxxx</p>
         </div>
+    </div>
 </footer>
 </body>
