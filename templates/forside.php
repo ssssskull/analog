@@ -37,7 +37,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-640.jpg" alt="Billede af Analog kaffebaren der vise nogle hjemmelavede boller og kaffe" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-kaffebar-640.jpg" alt="Hjemmelavede boller og kaffe" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
     </section>
@@ -55,7 +55,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-640.jpg" alt="Kardemommesnurrer med kaffe latte ved siden af" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
@@ -67,7 +67,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-2-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-2-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-2-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-2-640.jpg" alt="En hjemmelavet tunsandwich med hygge i baggrunden" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="thin">
@@ -79,7 +79,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-580w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-640w.webp 640w"
                         sizes="(max-width: 377px) 300vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-640.jpg" alt="Kardemommesnurrer og lemonade foran et brætspil" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
@@ -91,7 +91,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-680w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-640.jpg" alt="Analog indefra der viser en hyggelig stemning" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
@@ -103,7 +103,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-3-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-3-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-3-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-3-640.jpg" alt="En pige der drikker kaffe og spiser kardemommesnurrer" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
@@ -115,7 +115,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-780w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-640.jpg" alt="Venner der spiller brætspil og drikker kaffe" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="thin">
@@ -127,7 +127,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-4-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-4-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-4-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-4-640.jpg" alt="Kanelsnurrer på et mørkt bord" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                                 <figure class="thin">
@@ -139,7 +139,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-8-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-8-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-8-640.jpg" alt="Avatar" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-8-640.jpg" alt="En varm kop cappucino" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
             </div>
@@ -166,7 +166,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-video-thumb-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-video-thumb-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-video-thumb-640.jpg" alt="Klik for at se en video om hvem Analog er" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-video-thumb-640.jpg" alt="Knap til at se en video om hvem Analog er" loading="lazy" decoding="async" height="332">
                 </picture>
         </figure>
     </section>
@@ -188,7 +188,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-yoga-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-yoga-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-yoga-640.jpg" alt="Billede af folk der dyrker fællesyoga og hygger sammen" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-yoga-640.jpg" alt="Folk der dyrker fællesyoga og hygger sammen" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
             <h4>Fællesyoga</h4>
@@ -204,7 +204,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-koncerter-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-koncerter-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-koncerter-640.jpg" alt="Billede af en koncert hos Analog, hvor Esben Svane spiller guitar" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-koncerter-640.jpg" alt="En koncert hos Analog, hvor Esben Svane spiller guitar" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
                         <h4>Koncerter</h4>
@@ -221,7 +221,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                     <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-eattogether-380w.webp 380w,
                     <?php echo get_template_directory_uri();?>/public/images/Analog-eattogether-640w.webp 640w"
                     sizes="(max-width: 377px) 100vw, 640px">
-                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-eattogether-640.jpg" alt="Billede af folk der hygger og spiser sammen på Analog" loading="lazy" decoding="async" height="332">
+                    <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-eattogether-640.jpg" alt="Folk der hygger og spiser sammen på Analog" loading="lazy" decoding="async" height="332">
                 </picture>
             </figure>
                          <h4>Fællesspisning</h4>
