@@ -73,10 +73,10 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                 <figure class="thin">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-580w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-380w.avif 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-640w.avif 640w"
                         sizes="(max-width: 377px) 300vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-580w.webp 380w,
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-640w.webp 640w"
                         sizes="(max-width: 377px) 300vw, 640px">
                         <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-5-640.jpg" alt="Kardemommesnurrer og lemonade foran et brætspil" loading="lazy" decoding="async" height="332">
@@ -85,10 +85,10 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                 <figure class="large">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-680w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-380w.avif 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-680w.webp 380w,
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
                         <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-6-640.jpg" alt="Analog indefra der viser en hyggelig stemning" loading="lazy" decoding="async" height="332">
@@ -109,10 +109,10 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                 <figure class="large">
                     <picture>
                         <source type="image/avif" srcset="
-                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-780w.avif 380w,
+                        <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-380w.avif 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-640w.avif 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-780w.webp 380w,
+                        <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
                         <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-7-640.jpg" alt="Venner der spiller brætspil og drikker kaffe" loading="lazy" decoding="async" height="332">

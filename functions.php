@@ -83,11 +83,10 @@ function cptui_register_my_cpts_kaffe() {
 }
 
 add_action( 'init', 'cptui_register_my_cpts_kaffe' );
-add_action( 'wp_footer', function () { ?>
-
-    <script language="javascript" type="text/javascript">
+add_action( 'wp_head', function () { ?>
+    <script>
     if ("serviceWorker" in navigator) {
-		navigator.serviceWorker.register("/public/js/serviceWorker.js");
+		navigator.serviceWorker.register("/sandbox/3sem-eksamen/wp-content/themes/analog/public/js/serviceWorker.js");
 	}
     </script>
 <?php } );
