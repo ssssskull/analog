@@ -34,6 +34,13 @@
     aspect-ratio: 16 / 9;
     overflow: hidden;
 
+    &:hover {
+      &::before {
+        background-color: hsla(0, 0%, 0%, 0.35);
+        background-size: 24%;
+      }
+    }
+
     &::before {
       display: block;
       width: 100%;
@@ -46,6 +53,8 @@
       background-size: 22%;
       background-position: center;
       cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      will-change: background;
     }
 
     picture {
