@@ -7,6 +7,6 @@ importScripts(
 );
 
 workbox.routing.registerRoute(
-  ({ request }) => request.destination === "public/images",
+  ({ request }) => request.destination === "images",
   new workbox.strategies.NetworkFirst()
 );
