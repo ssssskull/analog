@@ -86,7 +86,7 @@ add_action( 'init', 'cptui_register_my_cpts_kaffe' );
 add_action( 'wp_head', function () { ?>
     <script>
     if ("serviceWorker" in navigator) {
-		navigator.serviceWorker.register("/sandbox/3sem-eksamen/wp-content/themes/analog/public/js/serviceWorker.js");
+		navigator.serviceWorker.register(<?php get_template_directory_uri() . ?>"/public/js/serviceWorker.js");
 	}
     </script>
 <?php } );
