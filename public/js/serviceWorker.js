@@ -3,6 +3,6 @@ importScripts(
 );
 
 workbox.routing.registerRoute(
-  ({ request }) => request.destination === "images",
+  new RegExp("/.*"),
   new workbox.strategies.NetworkFirst()
 );
