@@ -3,7 +3,7 @@
   "short_name": "Analog",
   "orientation": "portrait",
   "description": "På trods af navnet tilbyder vi mere end blot kaffe hos Analog. Vi tilbyder også historie, hygge og forskellige events i samarbejde med lokale kunstnere.",
-  "display": "minimal-ui",
+  "display": "standalone",
   "start_url": "https://danielpapp.me/sandbox/3sem-eksamen/",
   "theme_color": "#1d1917",
   "background_color": "#f5f5f5",
