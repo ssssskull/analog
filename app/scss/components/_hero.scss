@@ -1,19 +1,35 @@
+@use "../abstracts/mixins" as *;
+@use "../abstracts/colors" as color;
+@keyframes arrow-down {
+  0% {
+    transform: translate(0, -4px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, 22px);
+  }
+  100% {
+    transform: translate(0, 24px);
+    opacity: 0;
+  }
+}
 @supports (
   background-image:
     image-set(
-      url("../images/Analog-bg-680w.avif") 1x,
-      url("../images/Analog-bg-680w.webp") 1x
+      url("../../images/Analog-bg-680w.avif") 1x,
+      url("../../images/Analog-bg-680w.webp") 1x
     )
 ) {
   .hero {
     background-image: image-set(
-      url("../images/Analog-bg-680w.avif") 1x,
-      url("../images/Analog-bg-680w.webp") 1x
+      url("../../images/Analog-bg-680w.avif") 1x,
+      url("../../images/Analog-bg-680w.webp") 1x
     );
     @include breakpoint-up(large) {
       background-image: image-set(
-        url("../images/Analog-bg-1920w.avif") 1x,
-        url("../images/Analog-bg-1920w.webp") 1x
+        url("../../images/Analog-bg-1920w.avif") 1x,
+        url("../../images/Analog-bg-1920w.webp") 1x
       );
     }
   }
@@ -21,14 +37,14 @@
 @supports not (
   background-image:
     image-set(
-      url("../images/Analog-bg-680w.avif") 1x,
-      url("../images/Analog-bg-680w.webp") 1x
+      url("../../images/Analog-bg-680w.avif") 1x,
+      url("../../images/Analog-bg-680w.webp") 1x
     )
 ) {
   .hero {
-    background-image: url("../images/Analog-bg-680w.jpg");
+    background-image: url("../../images/Analog-bg-680w.jpg");
     @include breakpoint-up(large) {
-      background-image: url("../images/Analog-bg-1920w.jpg");
+      background-image: url("../../images/Analog-bg-1920w.jpg");
     }
   }
 }
@@ -55,7 +71,7 @@
     }
   }
   &__content {
-    color: $clr-p;
+    color: color.$clr-p;
     z-index: 0;
     text-align: center;
 

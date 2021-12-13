@@ -1,3 +1,5 @@
+@use "../abstracts/colors" as color;
+@use "../abstracts/mixins" as *;
 .menu {
   > * {
     grid-column: 1/5;
@@ -44,27 +46,27 @@
   &__section {
     &:nth-of-type(1) {
       figure {
-        background-image: url("../images/svg/varmedrikke.svg");
+        background-image: url("../../images/svg/varmedrikke.svg");
       }
     }
     &:nth-of-type(3) {
       figure {
-        background-image: url("../images/svg/koldedrikke.svg");
+        background-image: url("../../images/svg/koldedrikke.svg");
       }
     }
     &:nth-of-type(4) {
       figure {
-        background-image: url("../images/svg/varmeretter.svg");
+        background-image: url("../../images/svg/varmeretter.svg");
       }
     }
     &:nth-of-type(5) {
       figure {
-        background-image: url("../images/svg/panini.svg");
+        background-image: url("../../images/svg/panini.svg");
       }
     }
     &:nth-of-type(6) {
       figure {
-        background-image: url("../images/svg/soedesager.svg");
+        background-image: url("../../images/svg/soedesager.svg");
       }
     }
     @include breakpoint-up(medium) {
@@ -98,9 +100,8 @@
       grid-column: 7/8;
       width: 2px;
       height: 60%;
-      background-color: $clr-p;
+      background-color: color.$clr-p;
       margin-top: 3rem;
     }
   }
 }
-//TODO unset h4 margin

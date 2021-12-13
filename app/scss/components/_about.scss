@@ -1,5 +1,7 @@
+@use "../abstracts/mixins" as *;
+@use "../abstracts/colors" as color;
 .about {
-  color: #000;
+  color: color.$clr-p-dark;
   align-items: center;
 
   > * {

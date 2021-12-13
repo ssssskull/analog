@@ -1,3 +1,5 @@
+@use "../abstracts/colors" as color;
+@use "../abstracts/mixins" as *;
 .events {
   padding-top: 6rem;
 
@@ -36,9 +38,9 @@
       top: 35vh;
       margin-bottom: unset;
       a {
-        background-color: $clr-facebook;
+        background-color: color.$clr-facebook;
         &:hover {
-          background-color: $clr-facebook-dark;
+          background-color: color.$clr-facebook-dark;
         }
 
         @include breakpoint-down(medium) {

@@ -1,3 +1,11 @@
+@use "../abstracts/colors" as color;
+@use "../abstracts/mixins" as *;
+@use "../base/typography" as *;
+
+.nav-open,
+.nav-open-observer {
+  background: rgba(29, 25, 23, 0.98);
+}
 .header {
   position: fixed;
   width: 100%;
@@ -35,7 +43,7 @@
     width: 160px;
     height: 32px;
     background-repeat: no-repeat;
-    background-image: url("../images/svg/analog-icon.svg");
+    background-image: url("../../images/svg/analog-icon.svg");
     //TODO opdater logo til den nye
 
     @include breakpoint-up(medium) {
@@ -79,13 +87,13 @@
     .some-icon {
       path {
         will-change: fill;
-        fill: $clr-p;
+        fill: color.$clr-p;
         transition: all 0.1s ease-in-out;
       }
 
       &:hover {
         path {
-          fill: $clr-heading;
+          fill: color.$clr-heading;
         }
       }
 
@@ -113,7 +121,7 @@
       display: block;
       width: 26px;
       height: 3px;
-      background-color: $clr-p;
+      background-color: color.$clr-p;
       transition: all 0.2s ease-in-out;
     }
     span {
@@ -254,12 +262,12 @@
 }
 .menu-item {
   a {
-    color: $clr-p;
+    color: color.$clr-p;
   }
 }
 .current-menu-item {
   a {
-    color: $clr-heading;
+    color: color.$clr-heading;
     font-weight: bold;
   }
 }
@@ -271,22 +279,22 @@
       .active,
       &:hover,
       &:focus {
-        border-bottom: 2px solid $clr-heading;
-        color: $clr-heading;
+        border-bottom: 2px solid color.$clr-heading;
+        color: color.$clr-heading;
       }
     }
   }
 
   .current_page_item {
     a {
-      border-bottom: 2px solid $clr-heading;
+      border-bottom: 2px solid color.$clr-heading;
     }
   }
 }
 
 .current_page_item {
   a {
-    color: $clr-heading;
+    color: color.$clr-heading;
     font-weight: bold;
   }
 }

@@ -1,26 +1,28 @@
+@use "../abstracts/colors" as color;
+@use "../abstracts/mixins" as *;
 @supports (
   background-image:
     image-set(
-      url("../images/Analog-footer-background-680w.avif") 1x,
-      url("../images/Analog-footer-background-680w.webp") 1x
+      url("../../images/Analog-footer-background-680w.avif") 1x,
+      url("../../images/Analog-footer-background-680w.webp") 1x
     )
 ) {
   .footer {
     background-image: image-set(
-      url("../images/Analog-footer-background-680w.avif") 1x,
-      url("../images/Analog-footer-background-680w.webp") 1x
+      url("../../images/Analog-footer-background-680w.avif") 1x,
+      url("../../images/Analog-footer-background-680w.webp") 1x
     );
   }
 }
 @supports not (
   background-image:
     image-set(
-      url("../images/Analog-footer-background-680w.avif") 1x,
-      url("../images/Analog-footer-background-680w.webp") 1x
+      url("../../images/Analog-footer-background-680w.avif") 1x,
+      url("../../images/Analog-footer-background-680w.webp") 1x
     )
 ) {
   .footer {
-    background-image: url("../images/Analog-footer-background-680w.jpeg");
+    background-image: url("../../images/Analog-footer-background-680w.jpeg");
   }
 }
 .footer {
@@ -29,7 +31,7 @@
 
   a {
     display: block;
-    color: $clr-p-dark;
+    color: color.$clr-p-dark;
     text-decoration: none;
   }
 
@@ -98,12 +100,12 @@
 
       &:nth-of-type(3) {
         &::before {
-          background-image: url("../images/svg/facebook-dark.svg");
+          background-image: url("../../images/svg/facebook-dark.svg");
         }
       }
       &:last-of-type {
         &::before {
-          background-image: url("../images/svg/instagram-icon-dark.svg");
+          background-image: url("../../images/svg/instagram-icon-dark.svg");
         }
       }
 

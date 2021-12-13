@@ -1,0 +1,13 @@
+@use "../abstracts/colors" as color;
+@viewport {
+  orientation: portrait;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+.dark-section {
+  background-color: color.$clr-section-dark;
+  color: color.$clr-p;
+}
