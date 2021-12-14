@@ -1,1 +1,12 @@
+@use "base/reset";
+@use "base/grid";
 @use "components";
+@use "abstracts/colors" as color;
+
+@viewport {
+  orientation: portrait;
+}
+.dark-section {
+  background-color: color.$clr-section-dark;
+  color: color.$clr-p;
+}
