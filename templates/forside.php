@@ -55,7 +55,7 @@ og laver lækker <span>kaffe</span>, <span>Sandwiches</span> og <span>salater</s
                         <source type="image/webp" srcset="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-380w.webp 380w,
                         <?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-640w.webp 640w"
                         sizes="(max-width: 377px) 100vw, 640px">
-                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-640.jpg" alt="Kardemommesnurrer med kaffe latte ved siden af" loading="lazy" decoding="async" height="332">
+                        <img src="<?php echo get_template_directory_uri();?>/public/images/Analog-gallery-1-640.jpg" alt="Kaffe med et flot hjerte mønster" loading="lazy" decoding="async" height="332">
                     </picture>
                 </figure>
                 <figure class="large">
