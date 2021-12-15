@@ -1,4 +1,6 @@
 {
-    "/js/script.js": "/js/script.js",
-    "/css/style.css": "/css/style.css"
+    "/js/script.js": "/js/script.js?id=c1c458687bfc579ff98e",
+    "/css/style.css": "/css/style.css?id=7b6ea2df3878646d9b87",
+    "/css/style.min.css": "/css/style.min.css?id=7b6ea2df3878646d9b87",
+    "/js/script.min.js": "/js/script.min.js?id=c1c458687bfc579ff98e"
 }
