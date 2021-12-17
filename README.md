@@ -1,6 +1,6 @@
 # Analog kaffebar projekt
 
-3. semester projekt på UCL Multimediesigner linjen
+3. semester projekt på UCL Multimediedesigner linjen
 
 ## Participerende
 
@@ -18,5 +18,5 @@
 
 ```html
 Put yourself at the top of your to-do list every single day and the rest will
-fall into place
+fall into place.
 ```
